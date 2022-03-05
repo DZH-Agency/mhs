@@ -1,0 +1,25 @@
+@import "theme";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $main-white;
+  font-family: Urbanist, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  -webkit-appearance: none;
+  border: none;
+  background: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+strong {
+  color: $pink;
+}

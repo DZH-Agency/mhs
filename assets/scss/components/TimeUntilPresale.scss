@@ -1,0 +1,48 @@
+@import "../theme";
+
+.presale-wrapper {
+  padding: 100px 0;
+
+  @media (max-width: 1200px) {
+    padding: 50px 0;
+  }
+}
+
+.presale {
+
+  &-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:last-child {
+      margin-top: 50px;
+
+      @media (max-width: 1200px) {
+        margin-top: 25px;
+      }
+    }
+  }
+
+  &__heading {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 130%;
+    margin-bottom: 50px;
+    text-align: center;
+
+    span {
+      color: $green;
+    }
+
+    @media (max-width: 1200px) {
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
+  }
+
+  &__button {
+
+  }
+}

@@ -1,0 +1,48 @@
+@import "../theme";
+
+.exc {
+  &-wrapper {
+    padding: 150px 0;
+    background: url("static/ExclusivelyOn/bg.png") no-repeat center / cover;
+
+    @media (max-width: 1200px) {
+      padding: 50px 0;
+    }
+  }
+
+  &-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    color: $green;
+
+    @media (max-width: 1200px) {
+      margin-bottom: 12px;
+      font-size: 14px;
+    }
+
+    &__img {
+      margin-left: 20px;
+
+      @media (max-width: 1200px) {
+        margin-left: 10px;
+        width: 127px;
+      }
+    }
+  }
+
+  &-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+
+    @media (max-width: 1200px) {
+      margin-top: 24px;
+    }
+  }
+}

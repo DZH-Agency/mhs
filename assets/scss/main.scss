@@ -1,0 +1,36 @@
+@import "theme";
+@import "reset";
+@import "common";
+
+.container {
+  max-width: 1232px;
+  padding: 0 16px;
+  margin: 0 auto;
+
+  @media (max-width: 1200px) {
+    max-width: none;
+    margin: unset;
+  }
+}
+
+html {
+  overflow-x: hidden;
+  background-color: $main-black;
+  scroll-behavior: smooth;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 1200px) {
+  .desktop-only {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1201px) {
+  .mobile-only {
+    display: none !important;
+  }
+}

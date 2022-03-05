@@ -1,0 +1,98 @@
+@import "../theme";
+
+.society-wrapper {
+  margin-top: 60px;
+  padding-bottom: 130px;
+
+  @media (max-width: 1200px) {
+    padding-bottom: 50px;
+    margin-top: 32px;
+  }
+}
+
+.society {
+  display: grid;
+  grid-column-gap: 60px;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  z-index: 1;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr;
+  }
+
+  &__btn {
+    @media (max-width: 1200px) {
+      width: 100%;
+    }
+  }
+
+  &-cards {
+    padding-top: 40px;
+
+    @media (max-width: 1200px) {
+      margin-bottom: 24px;
+    }
+
+    &::after {
+      content: '';
+      z-index: -1;
+      position: absolute;
+      width: 35%;
+      height: 100%;
+      top: 50%;
+      left: 25%;
+      transform: translate(-50%, -50%) rotate(21deg);
+      background: linear-gradient(180deg, rgba(0, 167, 157, 0.5) 0%, rgba(140, 65, 206, 0.5) 100%);
+      filter: blur(150px);
+      border-radius: 35%;
+    }
+
+    &__img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  &-content {
+    &__heading {
+      font-weight: bold;
+      font-size: 68px;
+      line-height: 130%;
+      text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      margin-bottom: 24px;
+
+      @media (max-width: 1200px) {
+        font-size: 40px;
+      }
+    }
+
+    &__text {
+      margin-bottom: 24px;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 130%;
+
+      a {
+        color: $pink;
+      }
+
+      @media (max-width: 1200px) {
+        font-size: 18px;
+      }
+    }
+
+    &__note {
+      margin-bottom: 50px;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 130%;
+      opacity: .5;
+
+      @media (max-width: 1200px) {
+        font-size: 14px;
+        margin-bottom: 36px;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import "../theme";
+
+.join-wrapper {
+  padding: 100px 0;
+
+  @media (max-width: 1200px) {
+    padding: 50px 0;
+  }
+}
+
+.join {
+
+  &__text {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: $grey;
+
+    @media (max-width: 1200px) {
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__link {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 130%;
+    border-bottom: 1px solid;
+    border-image-source: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
+    border-image-slice: 1;
+
+    @media (max-width: 1200px) {
+      font-size: 36px;
+    }
+  }
+}

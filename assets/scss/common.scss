@@ -1,0 +1,60 @@
+.text-purple-gradient {
+  color: transparent;
+  background: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
+  -webkit-background-clip: text;
+}
+
+.hyperlink {
+  @extend .text-purple-gradient;
+
+  &:hover {
+    @extend .text-purple-gradient;
+    border-bottom: 1px solid;
+    border-image-source: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
+    border-image-slice: 1;
+  }
+}
+
+.btn {
+  position: relative;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 130%;
+  z-index: 1;
+  border: 1px solid rgba(140, 65, 206, 1);
+  padding: 24px 80px;
+  border-radius: 82px;
+
+  &:hover {
+    @extend .text-purple-gradient
+  }
+
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 93px;
+    height: 100%;
+    filter: blur(40px);
+  }
+
+  &::after {
+    top: -10px;
+    right: 0;
+    background: rgba(0, 167, 157, 0.4);;
+  }
+
+  &::before {
+    top: 10px;
+    left: 0;
+    background: rgba(140, 65, 206, 0.4);
+  }
+
+  &.sm {
+    padding: 16px 60px;
+  }
+
+  &.vsm {
+    padding: 12px 40px;
+  }
+}
