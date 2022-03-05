@@ -37,6 +37,7 @@
               :key="link.title"
               :href="link.href"
               v-for="link in $options.menuItems"
+              @click="isOpened = false"
             >
               {{ link.title }}
             </a>
