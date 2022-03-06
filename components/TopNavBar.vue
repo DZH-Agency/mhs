@@ -47,9 +47,6 @@
               <img src="/TopNavBar/discord.svg" alt="discord">
             </a>
             <a href="#" target="_blank">
-              <img src="/TopNavBar/instagram.svg" alt="instagram">
-            </a>
-            <a href="#" target="_blank">
               <img src="/TopNavBar/twitter.svg" alt="twitter">
             </a>
           </div>

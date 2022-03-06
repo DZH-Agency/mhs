@@ -18,7 +18,6 @@
               </div>
               <div class="footer-top-social">
                 <a href="#" target="_blank" class="footer-top-social__item twitter"/>
-                <a href="#" target="_blank" class="footer-top-social__item instagram"/>
                 <a href="#" target="_blank" class="footer-top-social__item discord"/>
               </div>
             </div>

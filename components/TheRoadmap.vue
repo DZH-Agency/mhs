@@ -50,7 +50,7 @@
            <div class="big-point"></div>
            <div class="rd-point__heading" data-aos="fade-right">25%</div>
            <div class="rd-point__text" data-aos="fade-right">
-             2,500 Mad Hares have been placed aside. 14 Mad Hares belong to PsychoKitty holders with a trait called "Tattoo with bunny". The remaining 2,486 out of 2,500 will be airdropped to people who hold pairs of <a href="https://crypto.com/nft/collection/faa3d8da88f9ee2f25267e895db71471" target="_blank">PsychoKitties</a> and <a href="https://crypto.com/nft/collection/69d0601d6d4ecd0ea670835645d47b0d" target="_blank">PsychoMollies</a>  . If there are more pairs than 2486, winners will be chosen via a special sweepstakes round. TOP10 pair holders will automatically get a Mad Hare.
+             2,500 Mad Hares have been placed aside. 14 Mad Hares belong to PsychoKitty holders with a trait called "Tattoo with bunny". The remaining 2,486 out of 2,500 will be airdropped to people who hold pairs of <a href="https://crypto.com/nft/collection/faa3d8da88f9ee2f25267e895db71471" target="_blank">PsychoKitties</a> and <a href="https://crypto.com/nft/collection/69d0601d6d4ecd0ea670835645d47b0d" target="_blank">PsychoMollies</a>. If there are more pairs than 2486, winners will be chosen via a special sweepstakes round. TOP10 pair holders will automatically get a Mad Hare.
            </div>
          </div>
          <div class="rd-point">
