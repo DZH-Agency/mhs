@@ -15,7 +15,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/logo.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { 'data-n-head': 'ssr', rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Urbanist:400,600,700' }
     ]
   },
