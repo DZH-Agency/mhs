@@ -135,15 +135,18 @@
        <img class="rd-mobile__card" data-aos="fade-up" src="/TheRoadmap/card-right-mobile.png" alt="card"/>
        <div class="rd-point">
          <div class="small-point"></div>
-         <div class="rd-point__heading" data-aos="fade-up">2022 Q2/Q3</div>
+         <div class="rd-point__heading" data-aos="fade-up">2022 Q3/Q4</div>
          <div class="rd-point__text" data-aos="fade-up">
-           Massive collaboration with the PsychoKitties team to create something special and unique the NFT world has NEVER seen before.
+           Massive collaboration with the PsychoKitties to create something special and unique the NFT world has NEVER seen before.
            <br>
            <br>
            TOP10 and surprise sweepstakes winners can win custom Mad Hare PFPs with traits of their own choosing.
            <br>
            <br>
-           And lastly, Mad Hare holders can expect at least 1 surprise airdrop before the year is over.
+           Mad Hare holders can expect at least 1 surprise airdrop before the year is over.
+           <br>
+           <br>
+           … and finally, a game? 😉
          </div>
        </div>
      </div>
