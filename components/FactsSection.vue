@@ -15,7 +15,7 @@
           <div class="facts-block__fact" :class="{active: activeAnswerIndex === 2}">
             <div class="facts-block__question">How much does a Mad Hare cost?</div>
             <the-accordion :is-opened="activeAnswerIndex === 2" class="facts-block__answer">
-              <span>200</span>
+              <span>TBA</span>
             </the-accordion>
             <div class="facts-block__toggle" @click="toggleAnswer(2)" :class="{opened: activeAnswerIndex === 2}"/>
           </div>
