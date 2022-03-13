@@ -43,7 +43,7 @@
              Mad Hare holders can expect at least 1 surprise airdrop before the year is over.
              <br>
              <br>
-             … and finally, a game? 😉
+             … and other perks that come along during our journey.
            </div>
          </div>
        </div>
@@ -149,7 +149,7 @@
            Mad Hare holders can expect at least 1 surprise airdrop before the year is over.
            <br>
            <br>
-           … and finally, a game? 😉
+           … and other perks that come along during our journey.
          </div>
        </div>
      </div>

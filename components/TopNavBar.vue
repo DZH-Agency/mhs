@@ -43,10 +43,10 @@
             </a>
           </div>
           <div class="navbar-mobile-social">
-            <a href="#" target="_blank">
+            <a href="https://discord.gg/madharesociety" target="_blank">
               <img src="/TopNavBar/discord.svg" alt="discord">
             </a>
-            <a href="#" target="_blank">
+            <a href="https://twitter.com/MadHareSociety" target="_blank">
               <img src="/TopNavBar/twitter.svg" alt="twitter">
             </a>
           </div>
