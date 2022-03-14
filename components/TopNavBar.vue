@@ -12,13 +12,22 @@
           >
             {{ link.title }}
           </a>
-          <a
-            class="navbar-menu-desktop__item"
-            href="#"
+          <div
+            class="navbar-menu-desktop__item socials"
           >
             Socials
-            <span class="circle"></span>
-          </a>
+            <div class="circle"></div>
+            <div class="popup">
+              <a href="https://twitter.com/MadHareSociety" target="_blank" class="popup-item">
+                <div class="popup-item__icon twitter"></div>
+                Twitter
+              </a>
+              <a href="https://discord.gg/madharesociety" target="_blank" class="popup-item">
+                <div class="popup-item__icon discord"></div>
+                Discord
+              </a>
+            </div>
+          </div>
         </div>
         <div @click="isOpened = !isOpened" class="navbar__burger mobile-only" :class="{opened: isOpened}">
             <div></div>
