@@ -32,7 +32,7 @@
          </div>
          <div class="rd-point">
            <div class="small-point"></div>
-           <div class="rd-point__heading" data-aos="fade-right">2022 Q3/Q4</div>
+           <div class="rd-point__heading" data-aos="fade-right">2022 Q3 - 2023 Q1</div>
            <div class="rd-point__text" data-aos="fade-right">
              Massive collaboration with the PsychoKitties to create something special and unique the NFT world has NEVER seen before.
              <br>
@@ -43,7 +43,10 @@
              Mad Hare holders can expect at least 1 surprise airdrop before the year is over.
              <br>
              <br>
-             … and other perks that come along during our journey.
+             Hidden Staking (you'll learn more about it in due time).
+             <br>
+             <br>
+             … and a P2E game.
            </div>
          </div>
        </div>
@@ -138,7 +141,7 @@
        <img class="rd-mobile__card" data-aos="fade-up" src="/TheRoadmap/card-right-mobile.png" alt="card"/>
        <div class="rd-point">
          <div class="small-point"></div>
-         <div class="rd-point__heading" data-aos="fade-up">2022 Q3/Q4</div>
+         <div class="rd-point__heading" data-aos="fade-up">2022 Q3 - 2023 Q1</div>
          <div class="rd-point__text" data-aos="fade-up">
            Massive collaboration with the PsychoKitties to create something special and unique the NFT world has NEVER seen before.
            <br>
@@ -149,7 +152,10 @@
            Mad Hare holders can expect at least 1 surprise airdrop before the year is over.
            <br>
            <br>
-           … and other perks that come along during our journey.
+           Hidden Staking (you'll learn more about it in due time).
+           <br>
+           <br>
+           … and a P2E game.
          </div>
        </div>
      </div>
