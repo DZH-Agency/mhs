@@ -78,7 +78,7 @@
            <span class="text-purple-gradient">Roadmap</span>
          </h2>
          <div class="rd-right-cards">
-           <img data-aos="fade-right" src="/TheRoadmap/cards-right.png" alt="cards" class="rd-left-cards__item">
+           <img data-aos="fade-right" src="/TheRoadmap/card-right.png" alt="cards" class="rd-left-cards__item">
          </div>
        </div>
      </div>
@@ -104,7 +104,7 @@
            TOP5 Discord Invite contest winners will receive a custom Mad Hare PFP according to the winner's desired traits.
          </div>
        </div>
-       <img class="rd-mobile__card" data-aos="fade-up" src="/TheRoadmap/card-left-2-mobile.png" alt="card"/>
+       <img class="rd-mobile__card no-padding" data-aos="fade-up" src="/TheRoadmap/card-left-2-mobile.png" alt="card"/>
        <div class="rd-point">
          <div class="small-point"></div>
          <div class="rd-point__heading" data-aos="fade-up">100% - 7,500 Mad Hares sold in Public Sale</div>
