@@ -61,7 +61,7 @@
          </div>
          <div class="rd-point">
            <div class="small-point"></div>
-           <div class="rd-point__heading" data-aos="fade-right">75% - 5,000 Mad Hares sold in Public Sale</div>
+           <div class="rd-point__heading" data-aos="fade-right">75% - 5,625 Mad Hares sold in Public Sale</div>
            <div class="rd-point__text" data-aos="fade-right">
              TOP5 Discord Invite contest winners will receive a custom Mad Hare PFP according to the winner's desired traits.
            </div>
@@ -99,7 +99,7 @@
        <img class="rd-mobile__card" data-aos="fade-up" src="/TheRoadmap/card-left-1-mobile.png" alt="card"/>
        <div class="rd-point">
          <div class="small-point"></div>
-         <div class="rd-point__heading" data-aos="fade-up">75% - 5,000 Mad Hares sold in Public Sale</div>
+         <div class="rd-point__heading" data-aos="fade-up">75% - 5,625 Mad Hares sold in Public Sale</div>
          <div class="rd-point__text" data-aos="fade-up">
            TOP5 Discord Invite contest winners will receive a custom Mad Hare PFP according to the winner's desired traits.
          </div>
@@ -138,7 +138,9 @@
            Release commercial use rights to Mad Hare Society holders - monetize your NFTs worldwide. (more info in FAQ)
          </div>
        </div>
-       <img class="rd-mobile__card" data-aos="fade-up" src="/TheRoadmap/card-right-mobile.png" alt="card"/>
+       <div class="rd-mobile-card-wrapper">
+         <img class="rd-mobile__card" data-aos="fade-up" src="/TheRoadmap/card-right-mobile.png" alt="card"/>
+       </div>
        <div class="rd-point">
          <div class="small-point"></div>
          <div class="rd-point__heading" data-aos="fade-up">2022 Q3 - 2023 Q1</div>
