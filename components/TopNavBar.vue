@@ -2,7 +2,7 @@
   <div class="navbar-wrapper" :class="{opened: isOpened}">
     <div class="container">
       <div class="navbar">
-        <img src="/TopNavBar/navbar-logo.png" alt="logo" class="navbar__logo">
+        <img src="/logo.png" alt="logo" class="navbar__logo">
         <div class="navbar-menu-desktop desktop-only">
           <a
             class="navbar-menu-desktop__item"

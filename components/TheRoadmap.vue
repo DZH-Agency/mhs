@@ -104,10 +104,10 @@
            TOP5 Discord Invite contest winners will receive a custom Mad Hare PFP according to the winner's desired traits.
          </div>
        </div>
-       <img class="rd-mobile__card no-padding" data-aos="fade-up" src="/TheRoadmap/card-left-2-mobile.png" alt="card"/>
        <div class="rd-point">
          <div class="small-point"></div>
          <div class="rd-point__heading" data-aos="fade-up">100% - 7,500 Mad Hares sold in Public Sale</div>
+         <img class="rd-mobile__card no-padding" data-aos="fade-up" src="/TheRoadmap/card-left-2-mobile.png" alt="card"/>
          <div class="rd-point__text" data-aos="fade-up">
            10% of all sales and secondary sales royalties will be donated to Veteran organizations monthly. Furthermore, we will buy up 100 Mad Hares from the floor for future giveaways and contests.
          </div>
