@@ -78,8 +78,10 @@
       position: absolute;
       right: 0;
       top: 0;
+      transform: translateX(40%);
 
       @media (max-width: 1200px) {
+        transform: none;
         img {
           width: 72px;
         }
