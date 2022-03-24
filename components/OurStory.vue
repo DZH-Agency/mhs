@@ -10,7 +10,7 @@
             <p class="story__text">
               It's the year 3419 in Rozkazan, known as the most notorious fortress on an ice-covered planet called Abanleor, which imprisons vicious, disturbed and dangerous modified creatures behind bars for the safety of the Milky Way Galaxy.
             </p>
-            <img src="/OurStory/iceberg.svg" alt="iceberg" class="story-top-left__img">
+            <img src="/OurStory/iceberg.png" alt="iceberg" class="story-top-left__img">
             <p class="story__text">
               Most known villains, called the Mad Hares, were captured within the last 3 centuries and placed in the darkest, most guarded rooms of the facility.
               <br>

@@ -8,8 +8,7 @@
            <span class="text-purple-gradient">Roadmap</span>
          </h2>
          <div class="rd-left-cards">
-           <img data-aos="fade-right" src="/TheRoadmap/card-left-1.png" alt="card" class="rd-left-cards__item">
-           <img data-aos="fade-right" src="/TheRoadmap/card-left-2.png" alt="card" class="rd-left-cards__item">
+           <img data-aos="fade-right" src="/TheRoadmap/card-left.png" alt="card" class="rd-left-cards__item">
          </div>
          <div class="rd-point">
            <div class="big-point"></div>
