@@ -43,13 +43,13 @@ export default {
     AOS.init();
   },
   mounted() {
-    const targetDate = new Date(Date.UTC(2022, 3, 15, 20))
-    targetDate.setHours(targetDate.getHours() - 8 + new Date().getTimezoneOffset() / 60)
+    const targetDate = new Date(Date.UTC(2022, 3, 15, 13))
+    targetDate.setHours(targetDate.getHours() + 2 + new Date().getTimezoneOffset() / 60)
     this.$options.targetDate = targetDate
   
     setInterval(() => {
       const today = new Date(new Date().getTime() + new Date().getTimezoneOffset() * 60 * 1000 + new Date().getTimezoneOffset() / 60 * 1000)
-      today.setHours(today.getHours() - 8)
+      today.setHours(today.getHours() + 2)
       
       let diffInSeconds = Math.floor((this.$options.targetDate - today) / 1000);
       if (diffInSeconds <= 0) {

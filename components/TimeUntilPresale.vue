@@ -15,7 +15,7 @@
           <template #footer>
             <div class="presale-block">
               <a href="#" target="_blank" class="btn sm presale__button">
-                View Drop
+                View Drop (soon)
               </a>
             </div>
           </template>

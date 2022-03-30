@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Mad Hare Society | Exclusively on TBA',
+    title: 'Mad Hare Society | Exclusively on Crypto.com/NFT',
     htmlAttrs: {
       lang: 'en'
     },
@@ -18,6 +18,18 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { 'data-n-head': 'ssr', rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Urbanist:400,600,700' }
+    ],
+    script: [
+      {
+        hid: 'facebook-pixel-code',
+        innerHTML: '!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version=\'2.0\';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,\'script\',\'https://connect.facebook.net/en_US/fbevents.js\');fbq(\'init\', \'844032102956173\');fbq(\'track\', \'PageView\');'
+      }
+    ],
+    noscript: [
+      {
+        hid: 'facebook-pixel-code-noscript',
+        innerHTML: '<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=844032102956173&ev=PageView&noscript=1" />'
+      }
     ]
   },
 

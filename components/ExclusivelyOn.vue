@@ -6,14 +6,14 @@
           <template #header>
             <div class="exc-header">
               Exclusively on
-<!--              <img class="exc-header__img" src="/ExclusivelyOn/crypto-com-nft.png" alt="logo">-->
+              <img class="exc-header__img" src="/ExclusivelyOn/crypto-com-nft.png" alt="logo">
             </div>
           </template>
           
           <template #footer>
             <div class="exc-footer">
               <button class="btn sm">
-                View Drop
+                View Drop (soon)
               </button>
             </div>
           </template>

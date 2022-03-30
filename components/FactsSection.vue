@@ -15,7 +15,7 @@
           <div class="facts-block__fact" :class="{active: activeAnswerIndex === 2}">
             <div class="facts-block__question">How much does a Mad Hare cost?</div>
             <the-accordion :is-opened="activeAnswerIndex === 2" class="facts-block__answer">
-              <span>TBA</span>
+              <span>$200</span>
             </the-accordion>
             <div class="facts-block__toggle" @click="toggleAnswer(2)" :class="{opened: activeAnswerIndex === 2}"/>
           </div>
@@ -55,18 +55,17 @@
             </div>
             <the-accordion :is-opened="activeAnswerIndex === 5" class="facts-block__answer">
               <span>
-                TBA
-<!--                Mad Hares can be purchased exclusively on the Crypto.com/NFT platform. The featured drop will take place on 14th of April.-->
-<!--                <br>-->
-<!--                <br>-->
-<!--                To navigate to the Featured Drop simply click on "View Drop" in the second section of this page.-->
-<!--                <br>-->
-<!--                <br>-->
-<!--                The timer on this page will indicate the date and time of the Featured Drop. Since we are using Crypto.com NFT's queue system (<a-->
-<!--                href="https://help.crypto.com/en/articles/5074395-buying-and-selling" target="_blank" class="hyperlink">What is the queue system?</a>), we advise to queue up early so you won't miss your chance to get a queue number.-->
-<!--                <br>-->
-<!--                <br>-->
-<!--                The Featured drop will offer 10,000 Made Hares. Each Mad Hare will have a fixed price and will get you 1 random collectible from the “Mad Hare Society” collection. There's a purchasing limit of 5 Mad Hares per person.-->
+                Mad Hares can be purchased exclusively on the Crypto.com/NFT platform. The featured drop will take place on 15th of April.
+                <br>
+                <br>
+                To navigate to the Featured Drop simply click on "View Drop" in the second section of this page.
+                <br>
+                <br>
+                The timer on this page will indicate the date and time of the Featured Drop. Since we are using Crypto.com NFT's queue system (<a
+                href="https://help.crypto.com/en/articles/5074395-buying-and-selling" target="_blank" class="hyperlink">What is the queue system?</a>), we advise to queue up early so you won't miss your chance to get a queue number.
+                <br>
+                <br>
+                The Featured drop will offer 10,000 Made Hares. Each Mad Hare will have a fixed price and will get you 1 random collectible from the “Mad Hare Society” collection.
               </span>
             </the-accordion>
             <div class="facts-block__toggle" @click="toggleAnswer(5)" :class="{opened: activeAnswerIndex === 5}"/>

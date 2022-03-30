@@ -21,14 +21,6 @@
                 <a href="https://discord.gg/madharesociety " target="_blank" class="footer-top-social__item discord"/>
               </div>
             </div>
-            <div class="footer-privacy-links mobile-only">
-              <a href="#" target="_blank" class="footer-privacy-links__link">
-                Privacy Policy
-              </a>
-              <a href="#" target="_blank" class="footer-privacy-links__link">
-                Cookies
-              </a>
-            </div>
           </div>
         </div>
       </div>
@@ -38,14 +30,6 @@
         <div class="footer-privacy">
           <div class="footer-privacy__text">
             2022, All Rights Reserved
-          </div>
-          <div class="footer-privacy-links desktop-only">
-            <a href="#" target="_blank" class="footer-privacy-links__link">
-              Privacy Policy
-            </a>
-            <a href="#" target="_blank" class="footer-privacy-links__link">
-              Cookies
-            </a>
           </div>
         </div>
       </div>

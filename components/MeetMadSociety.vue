@@ -19,7 +19,7 @@
             <span class="text-purple-gradient">Note:</span> <i>"PsychoKitties: The New Era" had over 80,000 people in the buying queue, so act fast when the drop goes live!</i>
           </p>
           <button class="btn sm society__btn">
-            View Drop
+            View Drop (soon)
           </button>
         </div>
       </div>
