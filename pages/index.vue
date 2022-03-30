@@ -43,7 +43,7 @@ export default {
     AOS.init();
   },
   mounted() {
-    const targetDate = new Date(Date.UTC(2022, 3, 14, 24))
+    const targetDate = new Date(Date.UTC(2022, 3, 15, 20))
     targetDate.setHours(targetDate.getHours() - 8 + new Date().getTimezoneOffset() / 60)
     this.$options.targetDate = targetDate
   

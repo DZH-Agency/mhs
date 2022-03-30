@@ -60,13 +60,6 @@
          </div>
          <div class="rd-point">
            <div class="small-point"></div>
-           <div class="rd-point__heading" data-aos="fade-right">75% - 5,625 Mad Hares sold in Public Sale</div>
-           <div class="rd-point__text" data-aos="fade-right">
-             TOP5 Discord Invite contest winners will receive a custom Mad Hare PFP according to the winner's desired traits.
-           </div>
-         </div>
-         <div class="rd-point">
-           <div class="small-point"></div>
            <div class="rd-point__heading" data-aos="fade-right">100% - 7,500 Mad Hares sold in Public Sale</div>
            <div class="rd-point__text" data-aos="fade-right">
              10% of all sales and secondary sales royalties will be donated to Veteran organizations every 3 months. Furthermore, we will buy up 100 Mad Hares from the floor for future giveaways and contests.
@@ -96,13 +89,6 @@
          </div>
        </div>
        <img class="rd-mobile__card" data-aos="fade-up" src="/TheRoadmap/card-left-1-mobile.png" alt="card"/>
-       <div class="rd-point">
-         <div class="small-point"></div>
-         <div class="rd-point__heading" data-aos="fade-up">75% - 5,625 Mad Hares sold in Public Sale</div>
-         <div class="rd-point__text" data-aos="fade-up">
-           TOP5 Discord Invite contest winners will receive a custom Mad Hare PFP according to the winner's desired traits.
-         </div>
-       </div>
        <div class="rd-point">
          <div class="small-point"></div>
          <div class="rd-point__heading" data-aos="fade-up">100% - 7,500 Mad Hares sold in Public Sale</div>
