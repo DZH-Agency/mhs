@@ -62,7 +62,7 @@
            <div class="small-point"></div>
            <div class="rd-point__heading" data-aos="fade-right">100% - 7,500 Mad Hares sold in Public Sale</div>
            <div class="rd-point__text" data-aos="fade-right">
-             10% of all sales and secondary sales royalties will be donated to Veteran organizations every 3 months. Furthermore, we will buy up 100 Mad Hares from the floor for future giveaways and contests.
+             10% of all initial sales will be donated to Veteran organizations. We will also have fundraisers in the form of auctions every 3 months. Furthermore, we will buy up 100 Mad Hares from the floor for future giveaways and contests.
            </div>
          </div>
          <h2 class="rd__heading" data-aos="fade-right">
@@ -94,7 +94,7 @@
          <div class="rd-point__heading" data-aos="fade-up">100% - 7,500 Mad Hares sold in Public Sale</div>
          <img class="rd-mobile__card no-padding" data-aos="fade-up" src="/TheRoadmap/card-left-2-mobile.png" alt="card"/>
          <div class="rd-point__text" data-aos="fade-up">
-           10% of all sales and secondary sales royalties will be donated to Veteran organizations every 3 months. Furthermore, we will buy up 100 Mad Hares from the floor for future giveaways and contests.
+           10% of all initial sales will be donated to Veteran organizations. We will also have fundraisers in the form of auctions every 3 months. Furthermore, we will buy up 100 Mad Hares from the floor for future giveaways and contests.
          </div>
        </div>
   
