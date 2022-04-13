@@ -12,9 +12,9 @@
           
           <template #footer>
             <div class="exc-footer">
-              <button class="btn sm">
-                View Drop (soon)
-              </button>
+              <a href="https://crypto.com/nft/drops-event/0f43502c4af20b094dfb43f515f8d301" target="_blank" class="btn sm">
+                View Drop
+              </a>
             </div>
           </template>
         </the-countdown>
