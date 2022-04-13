@@ -16,8 +16,8 @@
             </div>
             <ul class="tnc-about-list">
               <li>These Terms govern any access or use of the website at <a class="hyperlink"
-                                                                            href="http://www.madharesociety.com/#"
-                                                                            target="_blank">http://www.madharesociety.com/#</a>
+                                                                            href="https://www.madharesociety.com/#"
+                                                                            target="_blank">https://www.madharesociety.com/#</a>
                 and any other website and marketplace operated or made available by and for Mad Hare Society
                 (hereinafter the <b>“Site”</b>) as well as your use of Genius Arts LLC’s (hereinafter the <b>“DaRealGenius”</b>)
                 Mad Hare Society NFT project, and products and services associated to it including but not limited to
