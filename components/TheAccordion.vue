@@ -36,8 +36,6 @@ export default {
   methods: {
     getTotalHeight() {
       return this.$slots.default.reduce((acc, node) => {
-        console.log(node)
-        console.log(node.elm?.offsetHeight, 'elm')
         return acc + (node.elm?.offsetHeight ?? 0)
       }, 0)
     },

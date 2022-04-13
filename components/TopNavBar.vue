@@ -4,14 +4,14 @@
       <div class="navbar">
         <img src="/logo.png" alt="logo" class="navbar__logo">
         <div class="navbar-menu-desktop desktop-only">
-          <a
+          <nuxt-link
             class="navbar-menu-desktop__item"
             :key="link.title"
-            :href="link.href"
+            :to="link.href"
             v-for="link in $options.menuItems"
           >
             {{ link.title }}
-          </a>
+          </nuxt-link>
           <div
             class="navbar-menu-desktop__item socials"
           >
@@ -41,15 +41,15 @@
       <div class="container navbar-mobile-container mobile-only" :class="{opened: isOpened}">
         <div class="navbar-mobile">
           <div class="navbar-mobile-menu">
-            <a
+            <nuxt-link
               class="navbar-mobile-menu__item"
               :key="link.title"
-              :href="link.href"
+              :to="link.href"
               v-for="link in $options.menuItems"
               @click="isOpened = false"
             >
               {{ link.title }}
-            </a>
+            </nuxt-link>
           </div>
           <div class="navbar-mobile-social">
             <a href="https://discord.gg/madharesociety" target="_blank">
@@ -73,6 +73,9 @@ import constants from '@/constants.js'
 export default {
   name: 'TopNavBar',
   menuItems: constants.NAVBAR_MENU_ITEMS,
+  props: {
+  
+  },
   data() {
     return {
       isOpened: false

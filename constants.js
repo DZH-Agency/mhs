@@ -1,9 +1,9 @@
 export default {
   NAVBAR_MENU_ITEMS: [
-    { title: 'Home', href: '#' },
-    { title: 'Our Story', href: '#story' },
-    { title: 'Roadmap', href: '#roadmap' },
-    { title: 'Artist', href: '#artist' },
-    { title: 'FAQ', href: '#faq' },
+    { title: 'Home', href: {path: '/#'} },
+    { title: 'Our Story', href: {path: '/#story'} },
+    { title: 'Roadmap', href: {path: '/#roadmap'} },
+    { title: 'Artist', href: {path: '/#artist'} },
+    { title: 'FAQ', href: {path: '/#faq'} },
   ]
 }
