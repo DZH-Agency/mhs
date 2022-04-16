@@ -18,8 +18,8 @@
           <p class="society-content__note">
             <span class="text-purple-gradient">Note:</span> <i>"PsychoKitties: The New Era" had over 80,000 people in the buying queue, so act fast when the drop goes live!</i>
           </p>
-          <a href="https://crypto.com/nft/drops-event/0f43502c4af20b094dfb43f515f8d301" target="_blank" class="btn sm society__btn">
-            View Drop
+          <a href="https://crypto.com/nft/collection/41a371f626f43473ca087f0f36f06299" target="_blank" class="btn sm society__btn">
+            View Collection
           </a>
         </div>
       </div>

@@ -73,7 +73,7 @@ Mad Hare Society/DaRealGenius retains all rights necessary to exploit any Mad Ha
                 Mad Hares can be purchased exclusively on the Crypto.com/NFT platform. The featured drop will take place on 15th of April.
                 <br>
                 <br>
-                To navigate to the Featured Drop simply click on "View Drop" in the second section of this page.
+                To navigate to the Featured Drop simply click on "View Collection" in the second section of this page.
                 <br>
                 <br>
                 The timer on this page will indicate the date and time of the Featured Drop. Since we are using Crypto.com NFT's queue system (<a

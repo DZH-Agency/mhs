@@ -14,8 +14,8 @@
           
           <template #footer>
             <div class="presale-block">
-              <a href="https://crypto.com/nft/drops-event/0f43502c4af20b094dfb43f515f8d301" target="_blank" class="btn sm presale__button">
-                View Drop
+              <a href="https://crypto.com/nft/collection/41a371f626f43473ca087f0f36f06299" target="_blank" class="btn sm presale__button">
+                View Collection
               </a>
             </div>
           </template>
