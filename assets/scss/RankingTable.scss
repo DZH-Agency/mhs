@@ -1,0 +1,303 @@
+@import "~@/assets/scss/theme.scss";
+@import "~@/assets/scss/common.scss";
+
+.table {
+  display: flex;
+  flex-direction: column;
+
+  &-wrapper {
+    margin-top: 60px;
+    padding-bottom: 200px;
+
+    @media (max-width: 1200px) {
+      padding-bottom: 100px;
+      margin-top: 32px;
+    }
+  }
+
+  &-top {
+    padding: 25px 0 50px 0;
+    text-align: center;
+    position: relative;
+
+    @media (max-width: 1200px) {
+      padding: 10px 0 20px 0;
+      margin-bottom: 100px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 70%;
+      height: 50%;
+      border-radius: 30%;
+      background: linear-gradient(180deg, rgba(0, 167, 157, 0.5) 0%, rgba(140, 65, 206, 0.5) 100%);
+      filter: blur(70px);
+    }
+
+    &__heading {
+      margin-bottom: 24px;
+      font-weight: 700;
+      font-size: 68px;
+      line-height: 130%;
+
+      @media (max-width: 1200px) {
+        font-size: 40px;
+      }
+    }
+
+    &__subtext {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 130%;
+
+      @media (max-width: 1200px) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  &-search {
+    margin-bottom: 50px;
+    align-self: center;
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+    border-radius: 82px;
+    background-color: $main-black;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+
+    @media (max-width: 1200px) {
+      display: none;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: -1px;
+      border-radius: 82px;
+      z-index: -1;
+      background: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
+    }
+
+    &__input {
+      height: 55px;
+      width: 100%;
+      padding: 16px 55px 16px 32px;
+      border-radius: 82px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 130%;
+
+      &::placeholder {
+        color: rgba($main-white, .5);
+      }
+    }
+
+    &__button {
+      position: absolute;
+      right: -1px;
+      top: -1px;
+      bottom: -1px;
+      width: 57px;
+      border-radius: 63px;
+      background: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
+
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        mask: url("static/RankingTable/search.svg") no-repeat center;
+        background-color: $main-white;
+      }
+    }
+  }
+
+  &-sort {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(180px, auto));
+    grid-column-gap: 20px;
+    z-index: 1;
+    margin-bottom: 100px;
+
+    @media (max-width: 1200px) {
+      margin-bottom: 50px;
+      grid-column-gap: 16px;
+      grid-template-columns: repeat(2, minmax(0, 180px));
+    }
+
+    &__item {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      border-radius: 82px;
+      padding: 12px 32px;
+      color: #FDF7EA;
+      border: 1px solid transparent;
+      position: relative;
+      background: $main-black padding-box;
+
+      @media (max-width: 1200px) {
+
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        inset: -1px;
+        border-radius: 82px;
+        z-index: -1;
+        background: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
+      }
+
+      &.active {
+        background: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%) padding-box;
+      }
+    }
+  }
+
+  &-nfts {
+    margin-bottom: 100px;
+    display: grid;
+    justify-content: space-around;
+    grid-auto-rows: 1fr;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fill, 270px);
+
+    @media (max-width: 1200px) {
+      grid-template-columns: repeat(auto-fill, 200px);
+    }
+
+    @media (max-width: 650px) {
+      grid-gap: 15px;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 50px;
+    }
+
+    &-card {
+      z-index: 1;
+
+      &-img {
+        position: relative;
+        background: $main-black;
+        margin-bottom: 20px;
+        border-radius: 46px;
+
+        &__img {
+          max-width: 100%;
+          width: 100%;
+          border-radius: 46px;
+          object-fit: cover;
+          border: 1px solid #00A79D;
+        }
+      }
+
+      &__name {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 16px;
+
+        @media (max-width: 1200px) {
+
+        }
+      }
+
+      &__score {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+        color: rgba($main-white, .5);
+
+        @media (max-width: 1200px) {
+
+        }
+      }
+    }
+  }
+
+  &-paginator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__arrow {
+
+      img {
+        width: 64px;
+
+        @media (max-width: 1200px) {
+          width: 44px;
+        }
+
+        @media (max-width: 600px) {
+          width: 36px;
+        }
+      }
+
+      &.prev {
+        margin-right: 40px;
+
+        @media (max-width: 1200px) {
+          margin-right: 10px;
+        }
+      }
+
+      &.next {
+        margin-left: 20px;
+        transform: rotate(180deg);
+
+        @media (max-width: 1200px) {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    &__page {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 64px;
+      height: 64px;
+      margin-right: 20px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+
+      @media (max-width: 1200px) {
+        margin-right: 0;
+        min-width: 44px;
+        height: 44px;
+        font-size: 14px;
+        line-height: 19px;
+        flex-wrap: wrap;
+      }
+
+      @media (max-width: 600px) {
+        min-width: 20px;
+        height: 20px;
+      }
+
+      &:not(.dummy):hover, &.active {
+        color: transparent;
+        background: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
+        -webkit-background-clip: text;
+      }
+    }
+  }
+}
