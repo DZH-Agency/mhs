@@ -27,6 +27,7 @@
 
     &::after {
       content: "";
+      z-index: -1;
       position: absolute;
       left: 50%;
       top: 50%;
@@ -222,9 +223,22 @@
         font-size: 18px;
         line-height: 130%;
         color: rgba($main-white, .5);
+        margin-bottom: 10px;
 
         @media (max-width: 1200px) {
 
+        }
+      }
+
+      &__rank {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+        color: rgba($main-white, .5);
+
+        strong {
+          color: #00A79D;
+          font-weight: 700;
         }
       }
     }

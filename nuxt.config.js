@@ -42,6 +42,12 @@ export default {
   plugins: [
   ],
 
+  axios: {
+    credentials: true,
+    baseURL: 'https://api.madharesociety.com',
+    https: true
+  },
+
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
@@ -50,7 +56,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['portal-vue/nuxt'],
+  modules: ['portal-vue/nuxt', '@nuxtjs/axios',],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

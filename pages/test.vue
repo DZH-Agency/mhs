@@ -10,23 +10,26 @@
             <p class="table-top__subtext">Use the below table to find the ranking of Mad Hares.</p>
           </div>
           <div class="table-search">
-            <input type="text" placeholder="Search" class="table-search__input">
+            <input v-model="search" type="text" placeholder="Search" class="table-search__input">
             <button class="table-search__button"/>
           </div>
           <div class="table-sort">
-            <div class="table-sort__item active">Sort By Rarity</div>
-            <div class="table-sort__item">Sort By ID</div>
+            <div class="table-sort__item" :class="{active: sort === 'rarity'}" @click="sort = 'rarity'">Sort By Rarity</div>
+            <div class="table-sort__item" :class="{active: sort === 'id'}" @click="sort = 'id'">Sort By ID</div>
           </div>
           <div class="table-nfts">
-            <div class="table-nfts-card" v-for="_ in Array(12)">
+            <div class="table-nfts-card" v-for="item in items" :key="item.assetId">
               <div class="table-nfts-card-img">
-                <img src="https://placehold.jp/3d4070/ffffff/150x150.png" alt="" class="table-nfts-card-img__img">
+                <img :src="item.cover_url" alt="" class="table-nfts-card-img__img">
               </div>
               <div class="table-nfts-card__name">
-                Mad Hares #7912
+                {{ item.name }}
               </div>
               <div class="table-nfts-card__score">
-                Score: 16000
+                Score: {{ Number(item.Score) }}
+              </div>
+              <div class="table-nfts-card__rank">
+                Rank: <strong>{{ Number(item.rank) }}</strong> / 10000
               </div>
             </div>
           </div>
@@ -55,7 +58,7 @@
 </template>
 
 <script>
-import {fill} from 'lodash'
+import { debounce, fill } from 'lodash'
 
 export default {
   name: 'test',
@@ -65,7 +68,10 @@ export default {
       startPagesCount: 2,
       endPagesCount: 1,
       middlePagesOffset: 1,
-      currentPageNumber: 1
+      currentPageNumber: 1,
+      items: [],
+      sort: 'rarity',
+      search: '',
     }
   },
   computed: {
@@ -83,7 +89,38 @@ export default {
       return this._processPages(rawPages)
     }
   },
+  watch: {
+    async search() {
+      await this.debouncedSearch()
+    },
+    currentPageNumber() {
+      this.loadItems()
+    },
+    sort() {
+      this.loadItems()
+    },
+  },
+  async mounted() {
+    await this.loadItems()
+  },
   methods: {
+    debouncedSearch: debounce(async function() {
+      await this.loadItems()
+    }, 300),
+    async loadItems() {
+      const { data } = await this.$axios.get('/search/', {
+        params: {
+          page: this.currentPageNumber,
+          sort_by: this.sort,
+          sort: this.sort === 'rarity' ? 'DESC' : 'ASC',
+          collection: 'hare',
+          query: this.search
+        }
+      })
+
+      this.totalPagesCount = data.pagination.pages
+      this.items = data.results
+    },
     _getMiddlePages(startPages, endPages) {
       const middlePagesRawTemplate = fill(Array(this.middlePagesOffset * 2 + 1), null)
       const middlePagesTemplate = middlePagesRawTemplate.map((pageNumber, index) => {
