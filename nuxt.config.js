@@ -10,7 +10,7 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1' },
       { name: 'description', content: 'Mad Hare Society: The most anticipated drop of 2022. The Mad Hares journey has just begun. Should we be afraid?' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'facebook-domain-verification', content: 'za64ix2a8c7ekabon6j8vjpw36uxcf' },

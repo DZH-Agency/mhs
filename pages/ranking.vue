@@ -19,12 +19,12 @@
           </div>
           <div class="table-nfts">
             <div class="table-nfts-card" v-for="item in items" :key="item.assetId">
-              <div class="table-nfts-card-img">
+              <a :href="getNftLink(item)" target="_blank" class="table-nfts-card-img">
                 <img :src="item.cover_url" alt="" class="table-nfts-card-img__img">
-              </div>
-              <div class="table-nfts-card__name">
+              </a>
+              <a target="_blank" :href="getNftLink(item)" class="table-nfts-card__name">
                 {{ item.name }}
-              </div>
+              </a>
               <div class="table-nfts-card__score">
                 Score: {{ Number(item.Score) }}
               </div>
@@ -107,6 +107,9 @@ export default {
     debouncedSearch: debounce(async function() {
       await this.loadItems()
     }, 300),
+    getNftLink(item) {
+      return `https://crypto.com/nft/collection/41a371f626f43473ca087f0f36f06299?asset=${item.assetId}&edition=${item.defaultEditionId}&detail-page=MARKETPLACE`
+    },
     async loadItems() {
       const { data } = await this.$axios.get('/search/', {
         params: {
