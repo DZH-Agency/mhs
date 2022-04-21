@@ -1,3 +1,5 @@
+import constants from './constants.js'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -44,7 +46,7 @@ export default {
 
   axios: {
     credentials: true,
-    baseURL: 'https://api.madharesociety.com',
+    baseURL: constants.API_ROOT,
     https: true
   },
 
