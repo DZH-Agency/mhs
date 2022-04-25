@@ -80,7 +80,7 @@
       </div>
       <div class="vp-right__troubles">
         Having troubles with verification? Watch our video tutorial
-        <a href="#" target="_blank"><strong>HERE</strong></a>
+        <a href="https://youtube.com/watch?v=x8JrPCusOPI" target="_blank"><strong>HERE</strong></a>
       </div>
       <button @click="startVerifying" :disabled="isVerifyDisabled" class="vp-right__verify-btn">
         Verify
@@ -121,33 +121,23 @@ export default {
   },
   loaderPartsCount: 18,
   loaderInterval: null,
-  async asyncData ({ $axios }) {
-    let isUserAuthenticated = false
-    let username = ''
-    let discord = ''
-    
+  async mounted() {
     try {
-      const { data: user } = await $axios.get('/status')
-      username = user.cryptoUsername
-      discord = user.discordUsername
-      
-      isUserAuthenticated = true
-      
+      const { data: user } = await this.$axios.get('/status')
+      this.username = user.cryptoUsername
+      this.discord = user.discordUsername
+    
+      this.isUserAuthenticated = true
+    
       if (user.isHolder && user.isTwitterMatching) {
         try {
-          await $axios.get('/verify-holder')
+          await this.$axios.get('/verify-holder')
         } catch (e) {
           console.log(e)
         }
       }
     } catch (e) {
-      isUserAuthenticated = false
-    }
-    
-    return {
-      isUserAuthenticated,
-      username,
-      discord
+      this.isUserAuthenticated = false
     }
   },
   watch: {
