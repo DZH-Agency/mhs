@@ -10,6 +10,12 @@
             </div>
           </template>
           
+          <template #text>
+            <div class="exc__sold-out">
+              SOLD OUT IN 13 MINUTES
+            </div>
+          </template>
+          
           <template #footer>
             <div class="exc-footer">
               <a href="https://crypto.com/nft/collection/41a371f626f43473ca087f0f36f06299" target="_blank" class="btn sm">

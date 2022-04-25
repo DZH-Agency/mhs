@@ -3,13 +3,19 @@
     <div class="container">
       <div class="presale">
         <the-countdown :timer-date="timerDate">
-          <template #header>
-            <div class="presale-block">
-              <h2 class="presale__heading">
-                Time until <span>the biggest drop of 2022</span>
-              </h2>
+<!--          <template #header>-->
+<!--            <div class="presale-block">-->
+<!--              <h2 class="presale__heading">-->
+<!--                Time until <span>the biggest drop of 2022</span>-->
+<!--              </h2>-->
+<!--            </div>-->
+<!--            -->
+<!--          </template>-->
+  
+          <template #text>
+            <div class="presale__sold-out">
+              SOLD OUT IN <strong>13 MINUTES</strong>
             </div>
-            
           </template>
           
           <template #footer>

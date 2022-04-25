@@ -10,13 +10,28 @@
 
 .presale {
 
+  &__sold-out {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+
+    @media (max-width: 1200px) {
+      font-size: 32px;
+    }
+
+    strong {
+      color: $green;
+    }
+  }
+
   &-block {
     display: flex;
     align-items: center;
     justify-content: center;
 
     &:last-child {
-      margin-top: 50px;
 
       @media (max-width: 1200px) {
         margin-top: 25px;

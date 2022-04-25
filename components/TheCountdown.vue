@@ -2,7 +2,8 @@
   <div class="countdown">
     <slot name="header"></slot>
     <div class="countdown__time">
-      <span data-time="Days">{{ timerDate.days }}</span>:<span data-time="Hours">{{ timerDate.hours }}</span>:<span data-time="Minutes">{{ timerDate.minutes }}</span>:<span data-time="Seconds">{{ timerDate.seconds }}</span>
+      <slot name="text"></slot>
+<!--      <span data-time="Days">{{ timerDate.days }}</span>:<span data-time="Hours">{{ timerDate.hours }}</span>:<span data-time="Minutes">{{ timerDate.minutes }}</span>:<span data-time="Seconds">{{ timerDate.seconds }}</span>-->
     </div>
     <slot name="footer"></slot>
   </div>
