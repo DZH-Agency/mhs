@@ -6,7 +6,6 @@ export default {
     { title: 'Artist', href: {path: '/#artist'} },
     { title: 'FAQ', href: {path: '/#faq'} },
     { title: 'Ranking', href: {path: '/ranking'} },
-    { title: 'Holder Verification', href: {path: '/verification'} },
   ],
   API_ROOT: 'https://api.madharesociety.com'
 }
