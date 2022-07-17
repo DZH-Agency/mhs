@@ -14,7 +14,7 @@ export default {
   background: url("static/HiddenNFT/desktop.png") no-repeat center / 100% 100%;
   
   @media (max-width: 700px) {
-    background: url("static/HiddenNFT/mobile.png") no-repeat center bottom / 100% 100%;
+    background: url("static/HiddenNFT/mobile.jpg") no-repeat center bottom / 100% 100%;
   }
 }
 </style>
