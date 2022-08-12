@@ -23,6 +23,30 @@ html {
   }
 }
 
+.notification {
+  padding: 12px 36px 12px 12px;
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  line-height: 130%;
+  color: white;
+  background: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
+
+  a {
+    color: $pink;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  &__close {
+    position: absolute;
+    right: 16px;
+    top: 0;
+    font-size: 32px;
+    cursor: pointer;
+  }
+}
+
 @media (max-width: 1200px) {
   .desktop-only {
     display: none !important;
