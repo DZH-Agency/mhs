@@ -1,4 +1,4 @@
-# nuxt-bunny
+# madharesociety
 
 ## Build Setup
 

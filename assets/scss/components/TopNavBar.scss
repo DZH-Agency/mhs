@@ -30,6 +30,33 @@
     }
   }
 
+  &.mutation {
+
+    .navbar {
+
+      &-menu {
+
+        &-desktop {
+          margin-left: auto;
+
+          &__item {
+            margin-right: 48px;
+          }
+        }
+      }
+
+      &__mutation-link {
+        color: $pink;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration: underline;
+        text-transform: uppercase;
+      }
+    }
+
+  }
+
   &-menu {
     &-desktop {
       display: flex;
@@ -43,7 +70,7 @@
         align-items: center;
         color: #999999;
 
-        &:hover {
+        &:hover, &.nuxt-link-exact-active {
           @extend .text-purple-gradient;
         }
 
