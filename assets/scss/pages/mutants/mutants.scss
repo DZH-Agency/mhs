@@ -1,4 +1,5 @@
 @import "@/assets/scss/theme.scss";
+@import "@/assets/scss/common.scss";
 
 .small-point {
   width: 50px;
@@ -133,7 +134,7 @@
 
 .surprise-wrapper {
   position: relative;
-  padding-bottom: 80px;
+  padding-bottom: 120px;
 }
 
 .surprise {
@@ -151,6 +152,11 @@
 
     @media (max-width: 1200px) {
       font-size: 48px;
+    }
+
+    &.small {
+      font-size: 56px;
+      max-width: 460px;
     }
 
     &__subtext {
@@ -197,7 +203,10 @@
 
       @media (max-width: 1650px) {
         padding: 8px 20px;
-        //align-self: start;
+      }
+
+      @media (max-width: 1500px) {
+        margin-bottom: 50px;
       }
 
       &__smoke {
@@ -237,13 +246,12 @@
         top: 0;
         left: 18px;
         z-index: 1;
-        transform: translateY(-40px);
+        transform: rotateY(180deg) translateY(-40px);
       }
 
       &-head {
         background: #03A59E;
         border-radius: 34px 34px 0 0;
-
 
         .surprise-rating-table-column {
           font-weight: 700;
@@ -253,6 +261,7 @@
       }
 
       &-body {
+        background: rgba(0, 0, 0, .42);
         overflow: hidden;
         border-radius: 0 0 34px 34px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.36);
@@ -294,7 +303,6 @@
     z-index: -1;
     position: relative;
     background-color: $grey;
-    margin-bottom: 50px;
 
     &::after {
       @extend .small-point;
@@ -310,14 +318,14 @@
     position: absolute;
     mix-blend-mode: screen;
     left: 0;
-    top: 300px;
+    top: 200px;
   }
 
   &__rarity-cloud {
     position: absolute;
     mix-blend-mode: screen;
     right: 0;
-    bottom: -200px;
+    bottom: -250px;
   }
 
   &-skull-poison {
@@ -348,7 +356,7 @@
       position: absolute;
       right: 0;
       top: 0;
-      transform: translate(-5%, 0);
+      transform: translate(-20%, 0);
     }
   }
 
@@ -358,21 +366,25 @@
       padding-right: 100px;
 
       &:nth-child(1) {
-        margin-bottom: 40px;
+        margin-bottom: 0;
       }
       &:nth-child(2) {
-        margin-bottom: 40px;
+        margin-bottom: 53px;
       }
 
       &:nth-child(3) {
-        margin-bottom: 154px;
+        margin-bottom: 62px;
       }
 
       &:nth-child(4) {
-        margin-bottom: 74px;
+        margin-bottom: 59px;
       }
 
       &:nth-child(5) {
+        margin-bottom: 46px;
+      }
+
+      &:last-child {
         margin-bottom: 0;
       }
     }
@@ -420,7 +432,7 @@
   }
 
   &-right {
-    padding-top: 150px;
+    padding-top: 120px;
 
     > * {
       padding-left: 100px;
@@ -428,7 +440,7 @@
 
     .big-point, .small-point {
       left: 0;
-      transform: translate(-50%, -25%);
+      transform: translate(-50%, 0);
     }
 
     &-cards {
@@ -441,11 +453,11 @@
 
     & > * {
       &:nth-child(1) {
-        margin-bottom: 137px;
+        margin-bottom: 64px;
       }
 
       &:nth-child(2) {
-        margin-bottom: 124px;
+        margin-bottom: 64px;
       }
 
       &:nth-child(3) {
@@ -453,7 +465,15 @@
       }
 
       &:nth-child(4) {
+        margin-bottom: 64px;
+      }
 
+      &:nth-child(5) {
+        margin-bottom: 100px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
       }
     }
   }
@@ -487,7 +507,6 @@
       font-weight: 500;
       font-size: 18px;
       line-height: 130%;
-      color: $grey;
 
       @media (max-width: 1200px) {
         font-size: 16px;
@@ -499,10 +518,10 @@
     }
 
     &__big-text {
+      @extend .text-purple-gradient;
       font-weight: 600;
       font-size: 24px;
       line-height: 130%;
-      margin-top: 20px;
     }
   }
 
@@ -517,18 +536,37 @@
 
 .rewards-wrapper {
   position: relative;
-  padding-bottom: 232px;
+  padding-bottom: 40px;
 }
 
 .rewards {
-  display: grid;
-  grid-template-columns: 1fr 1px 1fr;
-  z-index: 1;
-  position: relative;
+
+  &__note {
+    background: rgba(255, 0, 255, 0.16);
+    border: 2px solid #FF006F;
+    border-radius: 26px;
+    padding: 24px 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+
+    strong {
+      font-weight: 700;
+      color: #FF006F;
+    }
+  }
+
+  &-rd {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 52px;
+  }
 
   &__light {
     position: absolute;
-    bottom: 0;
+    bottom: -100px;
     right: 0;
     mix-blend-mode: screen;
 
@@ -555,7 +593,7 @@
     z-index: -1;
     position: relative;
     background-color: $grey;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 
     &::after {
       @extend .small-point;
@@ -572,6 +610,10 @@
 
     > * {
       padding-right: 100px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
 
     .big-point, .small-point {
@@ -585,6 +627,10 @@
 
     > * {
       padding-left: 100px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
 
     .big-point, .small-point {
@@ -766,7 +812,7 @@
       z-index: -1;
       position: relative;
       background-color: $grey;
-      margin-bottom: 220px;
+      margin-bottom: 350px;
 
       &::after {
         @extend .small-point;
@@ -784,6 +830,7 @@
 
       &__main {
         width: 100%;
+        object-fit: cover;
       }
 
       &__decoration {
@@ -810,6 +857,7 @@
       }
 
       strong {
+        font-weight: 300;
         color: #fff;
       }
     }
@@ -864,7 +912,6 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 130%;
-        color: $grey;
 
         @media (max-width: 1200px) {
           font-size: 16px;

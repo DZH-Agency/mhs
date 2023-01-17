@@ -92,7 +92,6 @@
             </div>
             
             <div class="surprise-point">
-              <div class="big-point"></div>
               <p class="surprise-point__text">
                 After each Mad Hare has gone through the mutation process, the specific Mad Mutant will acquire the same
                 rarity score as the predecessor. Via Upgrade Packs you are now able to increase that score.
@@ -100,12 +99,15 @@
             </div>
             
             <div class="surprise-point">
-              <div class="small-point"></div>
               <p class="surprise-point__text">
                 The final score of your Mutant MH is locked after the “upgrade” period is over, which is scheduled to
                 happen 24 hours after the CDC drop ends or when the team closes the Mutation Site & notifies the
                 community.
               </p>
+            </div>
+            
+            <div class="surprise-point">
+              <div class="small-point"></div>
               <p class="surprise-point__big-text">
                 After the “upgrade” period is over, we will send NFTs to Crypto.com to airdrop within 7 days and expect
                 CDC to airdrop them within 1 month.
@@ -147,13 +149,17 @@
                 boost. (you'll see your rarity rankings and current rarity tier you belong to in real time via a
                 leaderboard)
               </p>
+            </div>
+            
+            <div class="surprise-point">
+              <div class="big-point"></div>
               <p class="surprise-point__big-text">
-                Each Upgrade Pack can be used ONCE! Do not buy them on secondary marketplace, because most NFTs there
-                are USED!
+                Each Upgrade Pack can be used ONCE, but you can use several Upgrade Packs on one Mad Mutant. Do not buy
+                Upgrade Packs on secondary marketplace, because most NFTs there are USED!
               </p>
             </div>
             
-            <h2 class="surprise-heading">
+            <h2 class="surprise-heading small">
               Why is rarity score so
               <span class="text-purple-gradient">
                 important this time?
@@ -193,27 +199,27 @@
                   <div class="surprise-rating-table-body">
                     <div class="surprise-rating-table-row">
                       <div class="surprise-rating-table-column">Mythical Rank</div>
-                      <div class="surprise-rating-table-column">0.10%</div>
+                      <div class="surprise-rating-table-column">0.10</div>
                       <div class="surprise-rating-table-column">10</div>
                     </div>
                     <div class="surprise-rating-table-row">
                       <div class="surprise-rating-table-column">Legendary Rank</div>
-                      <div class="surprise-rating-table-column">4.90%</div>
+                      <div class="surprise-rating-table-column">4.90</div>
                       <div class="surprise-rating-table-column">490</div>
                     </div>
                     <div class="surprise-rating-table-row">
                       <div class="surprise-rating-table-column">Epic Rank</div>
-                      <div class="surprise-rating-table-column">20.00%</div>
+                      <div class="surprise-rating-table-column">20.00</div>
                       <div class="surprise-rating-table-column">2000</div>
                     </div>
                     <div class="surprise-rating-table-row">
                       <div class="surprise-rating-table-column">Rare Rank</div>
-                      <div class="surprise-rating-table-column">25.00%</div>
+                      <div class="surprise-rating-table-column">25.00</div>
                       <div class="surprise-rating-table-column">2500</div>
                     </div>
                     <div class="surprise-rating-table-row">
                       <div class="surprise-rating-table-column">Common Rank</div>
-                      <div class="surprise-rating-table-column">50.00%</div>
+                      <div class="surprise-rating-table-column">50.00</div>
                       <div class="surprise-rating-table-column">5000</div>
                     </div>
                   </div>
@@ -233,133 +239,142 @@
       >
       <div class="container">
         <div class="rewards">
-          <div class="rewards-left">
-            <div class="rewards-point">
-              <div class="big-point"></div>
-              <h4 class="rewards-point__heading">
-                <span class="text-purple-gradient">Common Rank</span> will receive:
-              </h4>
-              <div class="rewards-point-list">
-                <div class="rewards-point-list__item">
-                  WL for all Future Mutant NFTs
+          <div class="rewards-rd">
+            <div class="rewards-left">
+              <div class="rewards-point">
+                <div class="big-point"></div>
+                <h4 class="rewards-point__heading">
+                  <span class="text-purple-gradient">Common Rank</span> will receive:
+                </h4>
+                <div class="rewards-point-list">
+                  <div class="rewards-point-list__item">
+                    WL for all Future Mutant NFTs
+                  </div>
+                  <div class="rewards-point-list__item">
+                    1 Mystery Boxes
+                  </div>
+                  <div class="rewards-point-list__item">
+                    1 Rare SFT
+                  </div>
                 </div>
-                <div class="rewards-point-list__item">
-                  1 Mystery Boxes
+              </div>
+              <div class="rewards-point">
+                <div class="small-point"></div>
+                <h4 class="rewards-point__heading">
+                  <span class="text-purple-gradient">Rare Rank</span> will receive:
+                </h4>
+                <div class="rewards-point-list">
+                  <div class="rewards-point-list__item">
+                    WL for all Future Mutant NFTs
+                  </div>
+                  <div class="rewards-point-list__item">
+                    2 Mystery Boxes
+                  </div>
+                  <div class="rewards-point-list__item">
+                    2 Rare SFT
+                  </div>
+                  <div class="rewards-point-list__item">
+                    1 Bundle of Crystals
+                  </div>
                 </div>
-                <div class="rewards-point-list__item">
-                  1 Rare SFT
+              </div>
+              <div class="rewards-point">
+                <div class="small-point"></div>
+                <h4 class="rewards-point__heading">
+                  <span class="text-purple-gradient">Epic Rank</span> will receive:
+                </h4>
+                <div class="rewards-point-list">
+                  <div class="rewards-point-list__item">
+                    WL for all Future Mutant NFTs
+                  </div>
+                  <div class="rewards-point-list__item">
+                    5 Mystery Boxes
+                  </div>
+                  <div class="rewards-point-list__item">
+                    3 Rare SFT + 1 Secret SFT
+                  </div>
+                  <div class="rewards-point-list__item">
+                    2 Bundles of Crystals
+                  </div>
+                  <div class="rewards-point-list__item">
+                    1 MH Cosmetic NFT Air-drop
+                  </div>
+                </div>
+              </div>
+              <div class="rewards-point">
+                <div class="big-point"></div>
+                <h4 class="rewards-point__heading">
+                  <span class="text-purple-gradient">Legendary Rank</span> will receive:
+                </h4>
+                <div class="rewards-point-list">
+                  <div class="rewards-point-list__item">
+                    WL for all Future Mutant NFTs <small>[ Discounted Rate ]</small>
+                  </div>
+                  <div class="rewards-point-list__item">
+                    10 Mystery Boxes
+                  </div>
+                  <div class="rewards-point-list__item">
+                    5 Rare SFT + 3 Secret SFT
+                  </div>
+                  <div class="rewards-point-list__item">
+                    5 Bundles of Crystals
+                  </div>
+                  <div class="rewards-point-list__item">
+                    5 MH Cosmetic NFT Air-drop
+                  </div>
+                </div>
+              </div>
+              <div class="rewards-point">
+                <h4 class="rewards-point__heading">
+                  <span class="text-purple-gradient">Mythical Rank</span> will receive:
+                </h4>
+                <div class="rewards-point-list">
+                  <div class="rewards-point-list__item">
+                    Name in the Credits of game under
+                  </div>
+                  <div class="rewards-point-list__item">
+                    "Mutant Squad"
+                  </div>
+                  <div class="rewards-point-list__item">
+                    1 Physical Mutant Statue collectible raffled
+                  </div>
+                  <div class="rewards-point-list__item">
+                    WL for all Future Mutant NFTs <small>[ Discounted Rate ]</small>
+                  </div>
+                  <div class="rewards-point-list__item">
+                    30 Mystery Boxes
+                  </div>
+                  <div class="rewards-point-list__item">
+                    10 Rare SFT + 5 Secret SFT
+                  </div>
+                  <div class="rewards-point-list__item">
+                    10 Bundles of Crystals
+                  </div>
+                  <div class="rewards-point-list__item">
+                    10 MH Cosmetic NFT Air-drop
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="rewards-point">
-              <div class="small-point"></div>
-              <h4 class="rewards-point__heading">
-                <span class="text-purple-gradient">Rare Rank</span> will receive:
-              </h4>
-              <div class="rewards-point-list">
-                <div class="rewards-point-list__item">
-                  WL for all Future Mutant NFTs
-                </div>
-                <div class="rewards-point-list__item">
-                  2 Mystery Boxes
-                </div>
-                <div class="rewards-point-list__item">
-                  2 Rare SFT
-                </div>
-                <div class="rewards-point-list__item">
-                  1 Bundle of Crystals
-                </div>
-              </div>
-            </div>
-            <div class="rewards-point">
-              <div class="small-point"></div>
-              <h4 class="rewards-point__heading">
-                <span class="text-purple-gradient">Epic Rank</span> will receive:
-              </h4>
-              <div class="rewards-point-list">
-                <div class="rewards-point-list__item">
-                  WL for all Future Mutant NFTs
-                </div>
-                <div class="rewards-point-list__item">
-                  5 Mystery Boxes
-                </div>
-                <div class="rewards-point-list__item">
-                  3 Rare SFT + 1 Secret SFT
-                </div>
-                <div class="rewards-point-list__item">
-                  2 Bundles of Crystals
-                </div>
-                <div class="rewards-point-list__item">
-                  1 MH Cosmetic NFT Air-drop
-                </div>
-              </div>
-            </div>
-            <div class="rewards-point">
-              <div class="big-point"></div>
-              <h4 class="rewards-point__heading">
-                <span class="text-purple-gradient">Legendary Rank</span> will receive:
-              </h4>
-              <div class="rewards-point-list">
-                <div class="rewards-point-list__item">
-                  WL for all Future Mutant NFTs <small>[ Discounted Rate ]</small>
-                </div>
-                <div class="rewards-point-list__item">
-                  10 Mystery Boxes
-                </div>
-                <div class="rewards-point-list__item">
-                  5 Rare SFT + 3 Secret SFT
-                </div>
-                <div class="rewards-point-list__item">
-                  5 Bundles of Crystals
-                </div>
-                <div class="rewards-point-list__item">
-                  5 MH Cosmetic NFT Air-drop
-                </div>
-              </div>
-            </div>
-            <div class="rewards-point">
-              <h4 class="rewards-point__heading">
-                <span class="text-purple-gradient">Mythical Rank</span> will receive:
-              </h4>
-              <div class="rewards-point-list">
-                <div class="rewards-point-list__item">
-                  Name in the Credits of game under
-                </div>
-                <div class="rewards-point-list__item">
-                  "Mutant Squad"
-                </div>
-                <div class="rewards-point-list__item">
-                  1 Physical Mutant Statue collectible raffled
-                </div>
-                <div class="rewards-point-list__item">
-                  WL for all Future Mutant NFTs <small>[ Discounted Rate ]</small>
-                </div>
-                <div class="rewards-point-list__item">
-                  30 Mystery Boxes
-                </div>
-                <div class="rewards-point-list__item">
-                  10 Rare SFT + 5 Secret SFT
-                </div>
-                <div class="rewards-point-list__item">
-                  10 Bundles of Crystals
-                </div>
-                <div class="rewards-point-list__item">
-                  10 MH Cosmetic NFT Air-drop
-                </div>
-              </div>
+            <div class="rewards__separator"></div>
+            <div class="rewards-right">
+              <h2 class="rewards__heading">
+                Rewards
+                <span class="text-purple-gradient">For Placement</span>
+              </h2>
             </div>
           </div>
-          <div class="rewards__separator"></div>
-          <div class="rewards-right">
-            <h2 class="rewards__heading">
-              Rewards
-              <span class="text-purple-gradient">For Placement</span>
-            </h2>
-          </div>
+          <p class="rewards__note">
+            <strong>IMPORTANT!</strong> Mystery boxes, SFTs, Crystals and MH Cosmetic NFTs will be airdropped once
+            Quantum Frenzy game is live in Q2. Physical Mutant Statue collectible will be raffled within 1 month after
+            the Mutation process has concluded. To receive your items, there will be a separate migration event before
+            the game goes live, where you'll be able to insert your Metamask Polygon address to a designated page on our
+            game website. Everybody will be notified several times in advance.
+          </p>
         </div>
       </div>
     </div>
-  
+    
     <div class="wrapper counter-wrapper">
       <div class="container">
         <div class="counter">
@@ -410,7 +425,7 @@
         </div>
       </div>
     </div>
-  
+    
     <div class="wrapper how-wrapper">
       <img
         src="/img/mutants/green-cloud-how-to.png"
@@ -427,32 +442,37 @@
             <div class="how-rd-left">
               
               <div class="how-rd-guide">
-                <img
-                  src="/img/mutants/guide.png"
-                  alt="guide"
+                <embed
+                  src="/img/mutants/guide.svg"
+                  type="image/svg+xml"
                   class="how-rd-guide__main"
                 >
-  
+                
                 <img
                   src="/img/mutants/decoration.png"
                   alt="decoration"
                   class="how-rd-guide__decoration"
                 >
               </div>
-  
+              
               <img
                 src="/img/mutants/cards.png"
                 alt="cards"
                 class="how-rd__cards"
               >
-              
+            
             </div>
             <div class="how-rd__separator"></div>
             <div class="how-rd-right">
               <div class="how-rd-point">
                 <div class="big-point top"></div>
                 <div class="how-rd-point__text">
-                  Head over to <a class="how-rd-point__link" href="https://mutation.madharesociety.com" target="_blank">https://mutation.madharesociety.com</a> (if the site requires password, then Mutation has not begun or there are updates being implemented - get up-to-date information in our Discord or Twitter)
+                  Head over to <a
+                  class="how-rd-point__link"
+                  href="https://mutation.madharesociety.com"
+                  target="_blank"
+                >https://mutation.madharesociety.com</a> (if the site requires password, then Mutation has not begun or
+                  there are updates being implemented - get up-to-date information in our Discord or Twitter)
                 </div>
               </div>
               <div class="how-rd-point">
@@ -461,26 +481,24 @@
               </div>
               <div class="how-rd-point">
                 <div class="small-point"></div>
-                <div class="how-rd-point__text">Select your Mad Hare which you wish to mutate (your Mad Hare must be in CDC wallet!)</div>
-              </div>
-              <div class="how-rd-point">
-                <div class="small-point"></div>
-                <h4 class="how-rd-point__heading">
-                  Reveal your Mutant Hare
-                </h4>
+                <div class="how-rd-point__text">Select your Mad Hare which you wish to mutate (your Mad Hare must be in
+                  CDC wallet!)
+                </div>
               </div>
               <div class="how-rd-point">
                 <div class="big-point"></div>
-                <div class="how-rd-point__text">
-                  (optional) use any available Upgrade NFTs you wish to apply (you can come back to your Mutant Hare to apply Upgrade NFTs later)
-                </div>
+                <h4 class="how-rd-point__heading">
+                  Reveal your Mutant Hare
+                </h4>
               </div>
               <div class="how-rd-point">
                 <h4 class="how-rd-point__heading text-purple-gradient">Rinse and repeat</h4>
               </div>
               
               <p class="how-rd__hint">
-                <span class="text-purple-gradient tip">TIP:</span> Share your Mad Mutant or screen-record your mutation process and tag <strong>@PsychoKittiesOG & @MadHareSociety</strong> on Twitter to have a chance at winning a custom Mutant Hare by <strong>@DaRealGenius</strong>!
+                <span class="text-purple-gradient tip">TIP:</span> Share your Mad Mutant or screen-record your mutation
+                process and tag <strong>@PsychoKittiesOG & @MadHareSociety</strong> on Twitter to have a chance at
+                winning a custom Mutant Hare by <strong>@DaRealGenius</strong>!
                 <br>
                 <span class="text-purple-gradient">(3 winners after mutation season ends)</span>
               </p>
@@ -489,7 +507,7 @@
         </div>
       </div>
     </div>
-  
+    
     <div class="wrapper footer-wrapper">
       <footer class="footer">
         <img
@@ -499,13 +517,21 @@
         >
         <div class="footer-text">
           <p class="footer-text__item">
-            Have questions? We have a dedicated channel for Madhare Mutants: <a class="text-purple-gradient" href="https://www.discord.gg/psychokitties" target="_blank">www.discord.gg/psychokitties</a>
+            Have questions? We have a dedicated channel for Madhare Mutants: <a
+            class="text-purple-gradient"
+            href="https://www.discord.gg/psychokitties"
+            target="_blank"
+          >www.discord.gg/psychokitties</a>
           </p>
           <p class="footer-text__item">
-            Be up to date with the latest Madhare Mutants news at <a class="text-purple-gradient" href="https://www.twitter.com/psychokittiesog" target="_blank">www.twitter.com/psychokittiesog</a>
+            Be up to date with the latest Madhare Mutants news at <a
+            class="text-purple-gradient"
+            href="https://www.twitter.com/psychokittiesog"
+            target="_blank"
+          >www.twitter.com/psychokittiesog</a>
           </p>
         </div>
-  
+        
         <img
           src="/img/mutants/footer-cloud-left.png"
           alt="cloud"
