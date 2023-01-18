@@ -128,7 +128,7 @@
             <div class="surprise-point">
               <div class="big-point"></div>
               <p class="surprise-point__text">
-                24 hours before we make the Mutation Site available, we'll launch a first-of-its-kind "Upgrade Packs"
+                Few hours before we make the Mutation Site available, we'll launch a first-of-its-kind "Upgrade Packs"
                 drop on Crypto.com/NFT that lasts for 3 days. The Upgrade NFTs are not required to mutate your Mad Hare,
                 but they will enhance your mutation experience and overall ranking. The pricing of Upgrade Packs ranges
                 from $5 to $130, depending on it's attributes.
@@ -193,34 +193,34 @@
                   
                   <div class="surprise-rating-table-row surprise-rating-table-head">
                     <div class="surprise-rating-table-column"></div>
-                    <div class="surprise-rating-table-column">Top %</div>
-                    <div class="surprise-rating-table-column">Top %</div>
+                    <div class="surprise-rating-table-column">%</div>
+                    <div class="surprise-rating-table-column">Numerical</div>
                   </div>
                   <div class="surprise-rating-table-body">
                     <div class="surprise-rating-table-row">
                       <div class="surprise-rating-table-column">Mythical Rank</div>
                       <div class="surprise-rating-table-column">0.10</div>
-                      <div class="surprise-rating-table-column">10</div>
+                      <div class="surprise-rating-table-column">1 - 10</div>
                     </div>
                     <div class="surprise-rating-table-row">
                       <div class="surprise-rating-table-column">Legendary Rank</div>
                       <div class="surprise-rating-table-column">4.90</div>
-                      <div class="surprise-rating-table-column">490</div>
+                      <div class="surprise-rating-table-column">11 - 500</div>
                     </div>
                     <div class="surprise-rating-table-row">
                       <div class="surprise-rating-table-column">Epic Rank</div>
                       <div class="surprise-rating-table-column">20.00</div>
-                      <div class="surprise-rating-table-column">2000</div>
+                      <div class="surprise-rating-table-column">501 - 2500</div>
                     </div>
                     <div class="surprise-rating-table-row">
                       <div class="surprise-rating-table-column">Rare Rank</div>
                       <div class="surprise-rating-table-column">25.00</div>
-                      <div class="surprise-rating-table-column">2500</div>
+                      <div class="surprise-rating-table-column">2501 - 5000</div>
                     </div>
                     <div class="surprise-rating-table-row">
                       <div class="surprise-rating-table-column">Common Rank</div>
                       <div class="surprise-rating-table-column">50.00</div>
-                      <div class="surprise-rating-table-column">5000</div>
+                      <div class="surprise-rating-table-column">5001 - 10000</div>
                     </div>
                   </div>
                 </div>
@@ -488,7 +488,7 @@
               <div class="how-rd-point">
                 <div class="big-point"></div>
                 <h4 class="how-rd-point__heading">
-                  Reveal your Mutant Hare
+                  Reveal your Mutant Hare & apply your Upgrade Packs (you can apply them until the mutation period ends)
                 </h4>
               </div>
               <div class="how-rd-point">
