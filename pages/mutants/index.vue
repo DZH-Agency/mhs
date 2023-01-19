@@ -1,7 +1,7 @@
 <template>
   <div class="mutants">
     
-    <div class="wrapper hero-wrapper">
+    <div v-if="false" class="wrapper hero-wrapper">
       <img
         alt="cloud"
         src="/img/mutants/green-cloud-hero.png"
@@ -9,7 +9,7 @@
       />
       <div class="container">
         <header class="hero">
-          <section class="hero-img">
+          <section class="hero-img desktop-only">
             <img
               src="/img/mutants/flask-mutants.png"
               alt="flask"
@@ -21,6 +21,13 @@
             <h1 class="hero-info__title">
               Welcome to the world's <span class="text-purple-gradient">most epic NFT mutation experience</span>
             </h1>
+            <div class="hero-info-img-mobile mobile-only">
+              <img
+                src="/img/mutants/flask-mutants.png"
+                alt="flask"
+                class="hero-info-img-mobile__img"
+              >
+            </div>
             <div class="hero-info-remember">
               <p class="hero-info-remember__text">
                 Key dates to remember:
@@ -70,7 +77,7 @@
         alt="cloud"
       >
       <div class="container">
-        <section class="surprise">
+        <section class="surprise desktop-only">
           <div class="surprise-left">
             <h2 class="surprise-heading">
               Surprise
@@ -228,10 +235,159 @@
             </div>
           </div>
         </section>
+        <section class="surprise-mobile mobile-only">
+          <h2 class="surprise-heading">
+            Surprise
+            <span class="text-purple-gradient">Announcement</span>
+            <small class="surprise-heading__subtext">(involves rewards)</small>
+          </h2>
+          <div class="surprise-point">
+            <div class="big-point"></div>
+            <p class="surprise-point__text">
+              Few hours before we make the Mutation Site available, we'll launch a first-of-its-kind "Upgrade Packs"
+              drop on Crypto.com/NFT that lasts for 3 days. The Upgrade NFTs are not required to mutate your Mad Hare,
+              but they will enhance your mutation experience and overall ranking. The pricing of Upgrade Packs ranges
+              from $5 to $130, depending on it's attributes.
+            </p>
+          </div>
+  
+          <div class="surprise-skull-poison">
+            <img
+              class="surprise-skull-poison__main-image"
+              src="/img/mutants/skull-poison.png"
+              alt="skull poison"
+            >
+            <img
+              class="surprise-skull-poison__mutant-badge"
+              src="/img/mutants/mad-mutant-badge.png"
+              alt="monster badge"
+            >
+          </div>
+          
+          <div class="surprise-point">
+            <div class="small-point"></div>
+            <p class="surprise-point__text">
+              The Upgrade Packs, if applied on your Mad Mutant, will unlock a special trait(s) that you can use to
+              enhance your Mad Mutant by switching out corresponding default traits and gain additional rarity score
+              points to your Mad Mutant.
+            </p>
+          </div>
+          <div class="surprise-point">
+            <div class="small-point"></div>
+            <p class="surprise-point__text">
+              You can also decide to apply your Upgrade Pack without swapping traits and just enjoy the rarity score
+              boost. (you'll see your rarity rankings and current rarity tier you belong to in real time via a
+              leaderboard)
+            </p>
+          </div>
+  
+          <div class="surprise-point">
+            <p class="surprise-point__big-text">
+              Each Upgrade Pack can be used ONCE, but you can use several Upgrade Packs on one Mad Mutant. Do not buy
+              Upgrade Packs on secondary marketplace, because most NFTs there are USED!
+            </p>
+          </div>
+  
+          <h2 class="surprise-heading">
+            Why is rarity score so
+            <span class="text-purple-gradient">
+                important this time?
+              </span>
+          </h2>
+  
+          <div class="surprise-point">
+            <div class="big-point"></div>
+            <p class="surprise-point__text">
+              After each Mad Hare has gone through the mutation process, the specific Mad Mutant will acquire the same
+              rarity score as the predecessor. Via Upgrade Packs you are now able to increase that score.
+            </p>
+          </div>
+  
+          <div class="surprise-point">
+            <div class="small-point"></div>
+            <p class="surprise-point__text">
+              The final score of your Mutant MH is locked after the “upgrade” period is over, which is scheduled to
+              happen 24 hours after the CDC drop ends or when the team closes the Mutation Site & notifies the
+              community.
+            </p>
+          </div>
+  
+          <div class="surprise-point">
+            <p class="surprise-point__big-text">
+              After the “upgrade” period is over, we will send NFTs to Crypto.com to airdrop within 7 days and expect
+              CDC to airdrop them within 1 month.
+            </p>
+          </div>
+  
+          <div class="surprise-point">
+            <p class="surprise-point__text">
+              Based on rarity score points, the created Mad Mutants will be positioned among 5 tiers. Each tier
+              corresponding to certain types of rewards.
+            </p>
+          </div>
+        </section>
+        <section class="surprise-rating mobile-only">
+          <h3 class="surprise-rating-heading">
+            Rarity score tiers for mutants:
+    
+            <img
+              src="/img/mutants/rarity-table-stars.svg"
+              alt="stars"
+              class="surprise-rating-heading__stars"
+            >
+    
+            <img
+              src="/img/mutants/rarity-table-smoke.svg"
+              alt="smoke"
+              class="surprise-rating-heading__smoke"
+            >
+          </h3>
+  
+          <div class="surprise-rating-table">
+            <img
+              class="surprise-rating-table__thing-image"
+              src="/img/mutants/rarity-table-thing.svg"
+              alt="thing"
+            >
+    
+            <div class="surprise-rating-table-row surprise-rating-table-head">
+              <div class="surprise-rating-table-column"></div>
+              <div class="surprise-rating-table-column">%</div>
+              <div class="surprise-rating-table-column">Numerical</div>
+            </div>
+            <div class="surprise-rating-table-body">
+              <div class="surprise-rating-table-row">
+                <div class="surprise-rating-table-column">Mythical Rank</div>
+                <div class="surprise-rating-table-column">0.10</div>
+                <div class="surprise-rating-table-column">1 - 10</div>
+              </div>
+              <div class="surprise-rating-table-row">
+                <div class="surprise-rating-table-column">Legendary Rank</div>
+                <div class="surprise-rating-table-column">4.90</div>
+                <div class="surprise-rating-table-column">11 - 500</div>
+              </div>
+              <div class="surprise-rating-table-row">
+                <div class="surprise-rating-table-column">Epic Rank</div>
+                <div class="surprise-rating-table-column">20.00</div>
+                <div class="surprise-rating-table-column">501 - 2500</div>
+              </div>
+              <div class="surprise-rating-table-row">
+                <div class="surprise-rating-table-column">Rare Rank</div>
+                <div class="surprise-rating-table-column">25.00</div>
+                <div class="surprise-rating-table-column">2501 - 5000</div>
+              </div>
+              <div class="surprise-rating-table-row">
+                <div class="surprise-rating-table-column">Common Rank</div>
+                <div class="surprise-rating-table-column">50.00</div>
+                <div class="surprise-rating-table-column">5001 - 10000</div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
     
-    <div class="wrapper rewards-wrapper">
+    <div v-if="false" class="wrapper rewards-wrapper">
       <img
         class="rewards__light"
         src="/img/mutants/rank-list.png"
@@ -375,7 +531,7 @@
       </div>
     </div>
     
-    <div class="wrapper counter-wrapper">
+    <div v-if="false" class="wrapper counter-wrapper">
       <div class="container">
         <div class="counter">
           <img
@@ -426,7 +582,7 @@
       </div>
     </div>
     
-    <div class="wrapper how-wrapper">
+    <div v-if="false" class="wrapper how-wrapper">
       <img
         src="/img/mutants/green-cloud-how-to.png"
         alt="cloud"
@@ -508,7 +664,7 @@
       </div>
     </div>
     
-    <div class="wrapper footer-wrapper">
+    <div v-if="false" class="wrapper footer-wrapper">
       <footer class="footer">
         <img
           src="/img/mutants/footer-cloud-left.png"

@@ -8,8 +8,8 @@
   background: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
 
   @media (max-width: 1200px) {
-    width: 25px;
-    height: 25px;
+    width: 39px;
+    height: 39px;
   }
 }
 
@@ -21,14 +21,18 @@
   background: #070707;
 
   @media (max-width: 1200px) {
-    width: 50px;
-    height: 50px;
+    width: 78px;
+    height: 78px;
   }
 }
 
 .hero-wrapper {
   position: relative;
   padding-bottom: 100px;
+
+  @media (max-width: 1200px) {
+    padding-bottom: 30px;
+  }
 }
 
 .hero {
@@ -36,16 +40,29 @@
   grid-template-columns: 1fr 647px;
   align-items: center;
 
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr;
+  }
+
   &__green-cloud {
     position: absolute;
     mix-blend-mode: screen;
     top: -100px;
     left: 0;
+    z-index: -1;
 
+    @media (max-width: 1200px) {
+      top: 50px;
+      max-width: 400px;
+    }
   }
 
   &-img {
     position: relative;
+
+    @media (max-width: 1200px) {
+
+    }
 
     &::before {
       position: absolute;
@@ -68,11 +85,37 @@
 
   &-info {
 
+    &-img-mobile {
+      position: relative;
+      max-width: 360px;
+      margin: 0 auto;
+
+      &::before {
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 50%;
+        width: 70%;
+        height: 70%;
+        border-radius: 40%;
+        z-index: -1;
+        background: linear-gradient(180deg, rgba(0, 167, 157, 0.5) 0%, rgba(140, 65, 206, 0.5) 100%);
+        filter: blur(55px);
+        transform: translate(-50%, -50%) rotate(21.07deg);
+      }
+    }
+
     &__title {
       font-weight: 700;
       font-size: 56px;
       line-height: 116%;
       margin-bottom: 24px;
+
+      @media (max-width: 1200px) {
+        font-size: 26px;
+        max-width: 330px;
+        margin-bottom: 0;
+      }
 
       span {
 
@@ -86,11 +129,19 @@
         font-size: 24px;
         line-height: 130%;
         margin-bottom: 12px;
+
+        @media (max-width: 1200px) {
+          font-size: 18px;
+        }
       }
 
       &-list {
         list-style: none;
         margin-bottom: 32px;
+
+        @media (max-width: 1200px) {
+          margin-bottom: 16px;
+        }
 
         &__item {
           position: relative;
@@ -98,6 +149,10 @@
           font-weight: 500;
           font-size: 24px;
           line-height: 130%;
+
+          @media (max-width: 1200px) {
+            font-size: 18px;
+          }
 
           &::before {
             content: "";
@@ -108,10 +163,18 @@
             height: 12px;
             border-radius: 50%;
             background: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
+
+            @media (max-width: 1200px) {
+
+            }
           }
 
           small {
             font-size: 18px;
+
+            @media (max-width: 1200px) {
+              font-size: 14px;
+            }
           }
         }
       }
@@ -122,6 +185,10 @@
       font-size: 24px;
       line-height: 130%;
       max-width: 570px;
+
+      @media (max-width: 1200px) {
+        font-size: 18px;
+      }
 
       &__link {
         color: $pink;
@@ -135,12 +202,56 @@
 .surprise-wrapper {
   position: relative;
   padding-bottom: 120px;
+
+  @media (max-width: 1200px) {
+    padding-bottom: 68px;
+  }
 }
 
 .surprise {
   display: grid;
   grid-template-columns: 1fr 1px 1fr;
   z-index: 1;
+
+  &-mobile {
+    display: grid;
+    grid-row-gap: 16px;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 24px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1px;
+      height: calc(100% - 80px);
+      background: $grey;
+    }
+
+    &::after {
+      @extend .small-point;
+      content: "";
+      position: absolute;
+      bottom: 80px;
+      left: 0;
+      transform: translate(-50%, 50%);
+    }
+
+    & > * {
+      padding-left: 30px;
+
+      &.surprise-point {
+        padding-left: 60px;
+      }
+    }
+
+    .big-point, .small-point {
+      left: 0;
+      transform: translate(-50%, 0);
+    }
+  }
 
   &-heading {
     display: flex;
@@ -151,7 +262,12 @@
     margin-bottom: 50px;
 
     @media (max-width: 1200px) {
-      font-size: 48px;
+      font-size: 36px;
+      margin-bottom: 0;
+
+      &:first-of-type {
+        margin-bottom: 16px;
+      }
     }
 
     &.small {
@@ -165,12 +281,21 @@
       line-height: 130%;
       color: #fff;
       margin-top: 10px;
+
+      @media (max-width: 1200px) {
+        margin-top: 8px;
+        font-size: 18px;
+      }
     }
   }
 
   &-rating {
     height: 303px;
     position: relative;
+
+    @media (max-width: 1200px) {
+
+    }
 
     &-box {
       position: absolute;
@@ -209,6 +334,21 @@
         margin-bottom: 50px;
       }
 
+      @media (max-width: 1200px) {
+        font-size: 18px;
+        column-gap: 6px;
+        padding: 8px 0;
+        flex-wrap: wrap;
+        row-gap: 8px;
+      }
+
+      &__stars {
+
+        @media (max-width: 1200px) {
+          width: 77px;
+        }
+      }
+
       &__smoke {
         position: absolute;
         z-index: -1;
@@ -219,6 +359,10 @@
         @media (max-width: 1650px) {
           width: 100px;
         }
+
+        @media (max-width: 1200px) {
+          display: none;
+        }
       }
     }
 
@@ -226,6 +370,10 @@
       width: 100%;
       border-radius: 34px;
       position: relative;
+
+      @media (max-width: 1200px) {
+
+      }
 
       &::before {
         position: absolute;
@@ -247,6 +395,10 @@
         left: 18px;
         z-index: 1;
         transform: rotateY(180deg) translateY(-40px);
+
+        @media (max-width: 1200px) {
+          transform: translateY(-40px);
+        }
       }
 
       &-head {
@@ -257,6 +409,10 @@
           font-weight: 700;
           font-size: 16px;
           line-height: 130%;
+
+          @media (max-width: 1200px) {
+
+          }
         }
       }
 
@@ -275,6 +431,10 @@
 
         &:not(:last-child) {
           border-bottom: 1px solid rgba(255, 255, 255, 0.36);
+        }
+
+        @media (max-width: 1200px) {
+          grid-template-columns: 4fr 3fr 3fr;
         }
       }
 
@@ -319,6 +479,11 @@
     mix-blend-mode: screen;
     left: 0;
     top: 200px;
+    z-index: -1;
+
+    @media (max-width: 1200px) {
+      top: 450px;
+    }
   }
 
   &__rarity-cloud {
@@ -326,23 +491,48 @@
     mix-blend-mode: screen;
     right: 0;
     bottom: -250px;
+    z-index: -1;
+
+    @media (max-width: 1200px) {
+      bottom: -100px;
+    }
+  }
+
+  &__top-cloud {
+    position: absolute;
+    mix-blend-mode: screen;
+    top: -300px;
+    right: 0;
+    z-index: -1;
+
+    @media (max-width: 1200px) {
+
+    }
   }
 
   &-skull-poison {
     position: relative;
     margin-bottom: 40px;
     min-height: 800px;
+    align-self: flex-start;
+
+    @media (max-width: 1200px) {
+      min-height: 350px;
+      height: 350px;
+      max-width: 300px;
+      left: -35px;
+    }
 
     &::before {
       position: absolute;
       content: "";
-      top: 30%;
-      left: 30%;
+      top: 10%;
+      left: 50%;
       width: 40%;
       height: 70%;
       border-radius: 40%;
       z-index: -1;
-      background: linear-gradient(180deg, rgba(0, 167, 157, 0.3) 0%, rgba(140, 65, 206, 0.3) 100%);
+      background: linear-gradient(180deg, rgba(0, 167, 157, 0.5) 0%, rgba(140, 65, 206, 0.5) 100%);
       filter: blur(55px);
       transform: translate(-50%, -50%) rotate(21.07deg);
     }
@@ -350,6 +540,11 @@
     &__main-image {
       object-fit: cover;
       width: 100%;
+
+      @media (max-width: 1200px) {
+        height: 100%;
+        width: auto;
+      }
     }
 
     &__mutant-badge {
@@ -357,6 +552,11 @@
       right: 0;
       top: 0;
       transform: translate(-20%, 0);
+
+      @media (max-width: 1200px) {
+        width: 65px;
+        transform: translateX(40%);
+      }
     }
   }
 
@@ -368,6 +568,7 @@
       &:nth-child(1) {
         margin-bottom: 0;
       }
+
       &:nth-child(2) {
         margin-bottom: 53px;
       }
@@ -484,6 +685,7 @@
 
     @media (max-width: 1200px) {
       margin-bottom: 0;
+      max-width: 310px;
     }
 
     .big-point, .small-point {
@@ -522,14 +724,11 @@
       font-weight: 600;
       font-size: 24px;
       line-height: 130%;
-    }
-  }
 
-  &__top-cloud {
-    position: absolute;
-    mix-blend-mode: screen;
-    top: -300px;
-    right: 0;
+      @media (max-width: 1200px) {
+        font-size: 18px;
+      }
+    }
   }
 
 }
@@ -791,6 +990,7 @@
     left: 0;
     bottom: 0;
     mix-blend-mode: screen;
+    z-index: -1;
   }
 
   &__title {
@@ -954,6 +1154,7 @@
   }
 
   &__cloud {
+    z-index: -1;
 
     &.right {
       transform: rotateY(180deg);
