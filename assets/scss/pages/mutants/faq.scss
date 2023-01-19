@@ -1,0 +1,82 @@
+.faq-wrapper {
+  margin-top: 100px;
+}
+
+.faq {
+
+  &__cloud {
+    position: absolute;
+    top: 0;
+    right: 0;
+    mix-blend-mode: screen;
+    z-index: -1;
+  }
+
+  &__small-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #999;
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 130%;
+    margin-bottom: 100px;
+  }
+
+  &-items {
+    display: flex;
+    flex-direction: column;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      padding: 50px 0;
+      border-top: 1px solid #999;
+
+      &-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__title {
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 130%;
+        }
+
+        &__toggle {
+          width: 28px;
+          height: 28px;
+          cursor: pointer;
+          background: url("static/img/plus.svg") no-repeat center / contain;
+
+          &.active {
+            background-image: url("static/img/minus.svg");
+          }
+        }
+      }
+
+      &-info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5em;
+        padding-top: 25px;
+
+        ::v-deep * {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 130%;
+          color: #999;
+        }
+      }
+    }
+  }
+
+  &__bottom-img {
+    mix-blend-mode: screen;
+  }
+}

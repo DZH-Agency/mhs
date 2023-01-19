@@ -9,6 +9,7 @@
     top: 0;
     right: 0;
     mix-blend-mode: screen;
+    z-index: -1;
   }
 
   &__title {
@@ -58,13 +59,22 @@
           width: 28px;
           height: 28px;
           cursor: pointer;
+
+          background: url("static/img/plus.svg") no-repeat center / contain;
+
+          @at-root .tos-items-item.active .tos-items-item-header__toggle {
+            background-image: url("static/img/minus.svg");
+          }
         }
       }
 
       &-info {
-        padding-top: 25px;
+        transition: max-height .25s, padding .25s;
+        padding-top: 0;
         display: grid;
         row-gap: 1.5em;
+        max-height: 0;
+        overflow: hidden;
 
         &.big-gap {
           row-gap: 3em;

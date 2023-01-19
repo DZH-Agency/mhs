@@ -549,7 +549,11 @@
           <div class="tos-contacts">
             <div class="tos-contacts-item">
               If you have any questions, you can join our Discord channels at
-              <a class="tos-contacts-item-link" href="https://www.discord.gg/psychokitties" target="_blank">
+              <a
+                class="tos-contacts-item-link"
+                href="https://www.discord.gg/psychokitties"
+                target="_blank"
+              >
                 <img
                   class="tos-contacts-item-link__icon"
                   src="/img/terms-of-service/discord.svg"
@@ -559,7 +563,11 @@
             </div>
             <div class="tos-contacts-item">
               You can see up-to-date news at
-              <a class="tos-contacts-item-link" href="https://twitter.com/MadHareSociety" target="_blank">
+              <a
+                class="tos-contacts-item-link"
+                href="https://twitter.com/MadHareSociety"
+                target="_blank"
+              >
                 <img
                   class="tos-contacts-item-link__icon"
                   src="/img/terms-of-service/twitter.svg"
@@ -577,7 +585,7 @@
         <div class="footer">
           <img
             class="footer__img"
-            src="/img/terms-of-service/bottom-img.png"
+            src="/img/bottom-img.png"
             alt="preview"
           >
         </div>
@@ -587,7 +595,38 @@
 </template>
 
 <script>
-
+export default {
+  name: 'TermsOfService',
+  mounted() {
+    const elements = document.querySelectorAll('.tos-items-item')
+    
+    elements.forEach(this.createAccordion)
+  },
+  methods: {
+    createAccordion(element) {
+      const toggler = element.querySelector('.tos-items-item-header__toggle')
+      const info = element.querySelector('.tos-items-item-info')
+      
+      toggler.addEventListener('click', () => {
+        element.classList.toggle('active')
+        
+        const isOpened = element.classList.contains('active')
+        
+        const infoHeight = info.scrollHeight || 0
+  
+        if (isOpened) {
+          info.style.maxHeight = infoHeight + 'px'
+          info.style.paddingTop = '25px'
+        } else {
+          info.style.removeProperty('max-height')
+          info.style.removeProperty('padding-top')
+        }
+        
+        
+      })
+    }
+  }
+}
 </script>
 
 <style
