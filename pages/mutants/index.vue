@@ -60,7 +60,7 @@
       </div>
     </div>
     
-    <div class="wrapper surprise-wrapper">
+    <div v-if="false" class="wrapper surprise-wrapper">
       <img
         src="/img/mutants/green-cloud-surprise-top.png"
         alt="cloud"
@@ -387,7 +387,7 @@
       </div>
     </div>
     
-    <div v-if="false" class="wrapper rewards-wrapper">
+    <div class="wrapper rewards-wrapper">
       <img
         class="rewards__light"
         src="/img/mutants/rank-list.png"
@@ -395,7 +395,7 @@
       >
       <div class="container">
         <div class="rewards">
-          <div class="rewards-rd">
+          <div class="rewards-rd desktop-only">
             <div class="rewards-left">
               <div class="rewards-point">
                 <div class="big-point"></div>
@@ -518,6 +518,126 @@
                 Rewards
                 <span class="text-purple-gradient">For Placement</span>
               </h2>
+            </div>
+          </div>
+          <div class="rewards-rd-mobile mobile-only">
+            <h2 class="rewards__heading">
+              Rewards
+              <span class="text-purple-gradient">For Placement</span>
+            </h2>
+            <div class="rewards-point">
+              <div class="big-point"></div>
+              <h4 class="rewards-point__heading">
+                <span class="text-purple-gradient">Common Rank</span> will receive:
+              </h4>
+              <div class="rewards-point-list">
+                <div class="rewards-point-list__item">
+                  WL for all Future Mutant NFTs
+                </div>
+                <div class="rewards-point-list__item">
+                  1 Mystery Boxes
+                </div>
+                <div class="rewards-point-list__item">
+                  1 Rare SFT
+                </div>
+              </div>
+            </div>
+            <div class="rewards-point">
+              <div class="small-point"></div>
+              <h4 class="rewards-point__heading">
+                <span class="text-purple-gradient">Rare Rank</span> will receive:
+              </h4>
+              <div class="rewards-point-list">
+                <div class="rewards-point-list__item">
+                  WL for all Future Mutant NFTs
+                </div>
+                <div class="rewards-point-list__item">
+                  2 Mystery Boxes
+                </div>
+                <div class="rewards-point-list__item">
+                  2 Rare SFT
+                </div>
+                <div class="rewards-point-list__item">
+                  1 Bundle of Crystals
+                </div>
+              </div>
+            </div>
+            <div class="rewards-point">
+              <div class="small-point"></div>
+              <h4 class="rewards-point__heading">
+                <span class="text-purple-gradient">Epic Rank</span> will receive:
+              </h4>
+              <div class="rewards-point-list">
+                <div class="rewards-point-list__item">
+                  WL for all Future Mutant NFTs
+                </div>
+                <div class="rewards-point-list__item">
+                  5 Mystery Boxes
+                </div>
+                <div class="rewards-point-list__item">
+                  3 Rare SFT + 1 Secret SFT
+                </div>
+                <div class="rewards-point-list__item">
+                  2 Bundles of Crystals
+                </div>
+                <div class="rewards-point-list__item">
+                  1 MH Cosmetic NFT Air-drop
+                </div>
+              </div>
+            </div>
+            <div class="rewards-point">
+              <div class="big-point"></div>
+              <h4 class="rewards-point__heading">
+                <span class="text-purple-gradient">Legendary Rank</span> will receive:
+              </h4>
+              <div class="rewards-point-list">
+                <div class="rewards-point-list__item">
+                  WL for all Future Mutant NFTs <small>[ Discounted Rate ]</small>
+                </div>
+                <div class="rewards-point-list__item">
+                  10 Mystery Boxes
+                </div>
+                <div class="rewards-point-list__item">
+                  5 Rare SFT + 3 Secret SFT
+                </div>
+                <div class="rewards-point-list__item">
+                  5 Bundles of Crystals
+                </div>
+                <div class="rewards-point-list__item">
+                  5 MH Cosmetic NFT Air-drop
+                </div>
+              </div>
+            </div>
+            <div class="rewards-point">
+              <h4 class="rewards-point__heading">
+                <span class="text-purple-gradient">Mythical Rank</span> will receive:
+              </h4>
+              <div class="rewards-point-list">
+                <div class="rewards-point-list__item">
+                  Name in the Credits of game under
+                </div>
+                <div class="rewards-point-list__item">
+                  "Mutant Squad"
+                </div>
+                <div class="rewards-point-list__item">
+                  1 Physical Mutant Statue collectible raffled
+                </div>
+                <div class="rewards-point-list__item">
+                  WL for all Future Mutant NFTs <small>[ Discounted Rate ]</small>
+                </div>
+                <div class="rewards-point-list__item">
+                  30 Mystery Boxes
+                </div>
+                <div class="rewards-point-list__item">
+                  10 Rare SFT + 5 Secret SFT
+                </div>
+                <div class="rewards-point-list__item">
+                  10 Bundles of Crystals
+                </div>
+                <div class="rewards-point-list__item">
+                  10 MH Cosmetic NFT Air-drop
+                </div>
+              </div>
             </div>
           </div>
           <p class="rewards__note">
