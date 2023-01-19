@@ -24,13 +24,21 @@ html {
 }
 
 .notification {
-  padding: 12px 36px 12px 12px;
   position: relative;
   text-align: center;
   font-size: 18px;
   line-height: 130%;
   color: white;
   background: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
+  max-height: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: max-height .3s, padding .3s;
+
+  &.opened {
+    padding: 12px 36px 12px 12px;
+    max-height: 300px;
+  }
 
   a {
     color: $pink;

@@ -15,7 +15,9 @@
         </div>
         
         <a href="#" target="_blank" class="navbar__mutation-link">
-          Mutation site (locked)
+          Mutation site
+          <br class="mobile-only">
+          (locked)
         </a>
         
         <div @click="isOpened = !isOpened" class="navbar__burger mobile-only" :class="{opened: isOpened}">
@@ -35,19 +37,19 @@
               :key="link.title"
               :to="link.href"
               v-for="link in $options.menuItems"
-              @click="isOpened = false"
+              @click.native="isOpened = false"
             >
               {{ link.title }}
             </nuxt-link>
           </div>
-<!--          <div class="navbar-mobile-social">-->
-<!--            <a href="https://discord.gg/madharesociety" target="_blank">-->
-<!--              <img src="/TopNavBar/discord.svg" alt="discord">-->
-<!--            </a>-->
-<!--            <a href="https://twitter.com/MadHareSociety" target="_blank">-->
-<!--              <img src="/TopNavBar/twitter.svg" alt="twitter">-->
-<!--            </a>-->
-<!--          </div>-->
+          <div class="navbar-mobile-social">
+            <a href="https://discord.gg/madharesociety" target="_blank">
+              <img src="/TopNavBar/discord.svg" alt="discord">
+            </a>
+            <a href="https://twitter.com/MadHareSociety" target="_blank">
+              <img src="/TopNavBar/twitter.svg" alt="twitter">
+            </a>
+          </div>
         </div>
       </div>
     </portal>

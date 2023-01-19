@@ -1,6 +1,6 @@
 <template>
   <div class="navbar-wrapper" :class="{opened: isOpened}">
-    <div class="notification" v-if="displayNotification">
+    <div class="notification" v-if="displayNotification" :class="{opened: !isOpened}">
       BREEDING STARTS ON 19TH OF AUGUST. FOR MORE INFO <a target="_blank" href="https://psychokitties.io/breeding/">CLICK HERE</a>
       <button @click="displayNotification = false" class="notification__close">&times;</button>
     </div>
