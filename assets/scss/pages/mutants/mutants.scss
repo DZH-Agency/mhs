@@ -53,7 +53,8 @@
 
     @media (max-width: 1200px) {
       top: 50px;
-      max-width: 400px;
+      width: 400%;
+      max-width: 100%;
     }
   }
 
@@ -115,6 +116,7 @@
         font-size: 26px;
         max-width: 330px;
         margin-bottom: 0;
+        margin-right: 0;
       }
 
       span {
@@ -974,6 +976,10 @@
 .counter-wrapper {
   padding: 120px 0;
   background: url("static/img/mutants/countdown/countdown-bg.png") no-repeat center / cover;
+
+  @media (max-width: 1200px) {
+    padding: 50px 30px;
+  }
 }
 
 .counter {
@@ -984,24 +990,50 @@
   border: 1px solid #FFFFFF;
   backdrop-filter: blur(7px);
 
+  @media (max-width: 1200px) {
+    padding: 20px;
+    border-radius: 16px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
   &__image {
 
     &-thing {
       position: absolute;
       top: -42px;
       left: 35px;
+
+      @media (max-width: 1200px) {
+        transform: rotateY(180deg);
+        left: 5px;
+        top: -34px;
+        width: 60px;
+      }
     }
 
     &-flask {
       position: absolute;
       bottom: -194px;
       left: -238px;
+
+      @media (max-width: 1200px) {
+        width: 127px;
+        left: -50px;
+        bottom: -56px;
+      }
     }
 
     &-skull {
       position: absolute;
       top: -66px;
       right: -62px;
+
+      @media (max-width: 1200px) {
+        width: 53px;
+        top: -27px;
+        right: -21px;
+      }
     }
 
     &-badge {
@@ -1012,6 +1044,13 @@
       @media (max-width: 1600px) {
         left: 90%;
       }
+
+      @media (max-width: 1200px) {
+        width: 47px;
+        left: unset;
+        right: -42px;
+        bottom: -27px;
+      }
     }
   }
 
@@ -1021,6 +1060,11 @@
     line-height: 130%;
     margin-bottom: 32px;
     text-align: center;
+
+    @media (max-width: 1200px) {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
   }
 
   &-timer {
@@ -1028,6 +1072,12 @@
     grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
     column-gap: 24px;
     align-items: center;
+
+    @media (max-width: 1200px) {
+      grid-template-columns: 1fr 10px 1fr;
+      gap: 14px;
+      justify-items: center;
+    }
 
     &-item {
       display: flex;
@@ -1037,16 +1087,39 @@
       border-radius: 26px;
       padding: 8px 0 16px 0;
 
+      @media (max-width: 1200px) {
+        padding: 0;
+        width: 74px;
+        height: 72px;
+        border-radius: 6px;
+        justify-self: end;
+
+
+      }
+
+      &:nth-child(3), &:nth-child(7) {
+        justify-self: start;
+      }
+
       &__value {
         font-weight: 500;
         font-size: 120px;
         line-height: 130%;
+
+        @media (max-width: 1200px) {
+          font-size: 49px;
+          line-height: 1;
+        }
       }
 
       &__name {
         font-weight: 600;
         font-size: 18px;
         line-height: 130%;
+
+        @media (max-width: 1200px) {
+          font-size: 14px;
+        }
       }
     }
 
@@ -1054,6 +1127,11 @@
       font-weight: 500;
       font-size: 120px;
       line-height: 130%;
+
+      @media (max-width: 1200px) {
+        font-size: 49px;
+        line-height: 1;
+      }
     }
   }
 }
@@ -1062,6 +1140,25 @@
   position: relative;
   padding-top: 115px;
   margin-bottom: 50px;
+
+  @media (max-width: 1200px) {
+    padding-top: 53px;
+    margin-bottom: 0;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      width: 200px;
+      height: 350px;
+      background: linear-gradient(180deg, rgba(0, 167, 157, 0.5) 0%, rgba(140, 65, 206, 0.5) 100%);
+      filter: blur(75px);
+      transform: rotate(21.07deg);
+      border-radius: 30%;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
 }
 
 .how {
@@ -1072,6 +1169,10 @@
     bottom: 0;
     mix-blend-mode: screen;
     z-index: -1;
+
+    @media (max-width: 1200px) {
+      bottom: 250px;
+    }
   }
 
   &__title {
@@ -1081,6 +1182,10 @@
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 32px;
+
+    @media (max-width: 1200px) {
+      font-size: 36px;
+    }
   }
 
   &-rd {
@@ -1109,6 +1214,11 @@
       position: relative;
       margin-bottom: 40px;
 
+      @media (max-width: 1200px) {
+        max-width: 300px;
+        margin-bottom: 0;
+      }
+
       &__main {
         width: 100%;
         object-fit: cover;
@@ -1118,11 +1228,19 @@
         position: absolute;
         left: -40px;
         top: -270px;
+
+        @media (max-width: 1200px) {
+          top: -46px;
+          left: 20px;
+        }
       }
     }
 
     &__cards {
 
+      @media (max-width: 1200px) {
+        width: 100%;
+      }
     }
 
     &__hint {
@@ -1132,6 +1250,12 @@
       color: $grey;
       font-style: italic;
       padding-left: 0 !important;
+
+      @media (max-width: 1200px) {
+        font-size: 16px;
+        max-width: 343px;
+        margin: 0 auto;
+      }
 
       .tip {
         font-style: normal;
@@ -1187,6 +1311,14 @@
         font-weight: 600;
         font-size: 24px;
         line-height: 130%;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        @media (max-width: 1200px) {
+          font-size: 18px;
+        }
       }
 
       &__text {
@@ -1205,10 +1337,57 @@
 
     }
   }
+
+  &-rd-mobile {
+    display: grid;
+    grid-row-gap: 32px;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 32px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1px;
+      height: calc(100% - 10px);
+      background: $grey;
+    }
+
+    &::after {
+      @extend .small-point;
+      content: "";
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      transform: translate(-50%, 50%);
+    }
+
+    & > * {
+      padding-left: 27px;
+      max-width: 310px;
+
+      &.how-rd-point {
+        padding-left: 59px;
+        margin-bottom: 0;
+      }
+    }
+
+    .big-point, .small-point {
+      left: 0;
+      top: 50% !important;
+      transform: translate(-50%, -50%);
+    }
+  }
 }
 
 .footer-wrapper {
   padding: 0 60px 60px 60px;
+
+  @media (max-width: 1200px) {
+    padding: 32px 0;
+  }
 }
 
 .footer {
@@ -1216,6 +1395,10 @@
   display: grid;
   align-items: center;
   grid-template-columns: auto 1fr auto;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr;
+  }
 
   &-text {
     display: flex;
@@ -1225,17 +1408,30 @@
     max-width: 996px;
     margin: 0 auto;
 
+    @media (max-width: 1200px) {
+      row-gap: 34px;
+      max-width: 346px;
+    }
+
     &__item {
       text-align: center;
       font-weight: 400;
       font-size: 36px;
       line-height: 130%;
       color: #fff;
+
+      @media (max-width: 1200px) {
+        font-size: 20px;
+      }
     }
   }
 
   &__cloud {
     z-index: -1;
+
+    @media (max-width: 1200px) {
+      display: none;
+    }
 
     &.right {
       transform: rotateY(180deg);

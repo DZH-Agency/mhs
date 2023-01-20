@@ -1,7 +1,7 @@
 <template>
   <div class="mutants">
     
-    <div v-if="false" class="wrapper hero-wrapper">
+    <div class="wrapper hero-wrapper">
       <img
         alt="cloud"
         src="/img/mutants/green-cloud-hero.png"
@@ -60,7 +60,7 @@
       </div>
     </div>
     
-    <div v-if="false" class="wrapper surprise-wrapper">
+    <div class="wrapper surprise-wrapper">
       <img
         src="/img/mutants/green-cloud-surprise-top.png"
         alt="cloud"
@@ -651,7 +651,7 @@
       </div>
     </div>
     
-    <div v-if="false" class="wrapper counter-wrapper">
+    <div class="wrapper counter-wrapper">
       <div class="container">
         <div class="counter">
           <img
@@ -687,7 +687,7 @@
               <div class="counter-timer-item__value">09</div>
               <div class="counter-timer-item__name">hours</div>
             </div>
-            <div class="counter-timer__semicolon">:</div>
+            <div class="counter-timer__semicolon desktop-only">:</div>
             <div class="counter-timer-item">
               <div class="counter-timer-item__value">02</div>
               <div class="counter-timer-item__name">minutes</div>
@@ -702,7 +702,7 @@
       </div>
     </div>
     
-    <div v-if="false" class="wrapper how-wrapper">
+    <div class="wrapper how-wrapper">
       <img
         src="/img/mutants/green-cloud-how-to.png"
         alt="cloud"
@@ -714,7 +714,7 @@
             HOW TO <span class="text-purple-gradient">MUTATE</span>
           </h2>
           
-          <div class="how-rd">
+          <div class="how-rd desktop-only">
             <div class="how-rd-left">
               
               <div class="how-rd-guide">
@@ -780,11 +780,76 @@
               </p>
             </div>
           </div>
+          
+          <div class="how-rd-mobile mobile-only">
+            <div class="how-rd-guide">
+              <embed
+                src="/img/mutants/guide.svg"
+                type="image/svg+xml"
+                class="how-rd-guide__main"
+              >
+  
+              <picture>
+                <source srcset="/img/mutants/decoration-mobile.svg" media="(max-width: 1200px)">
+                <img
+                  src="/img/mutants/decoration.png"
+                  alt="decoration"
+                  class="how-rd-guide__decoration"
+                >
+              </picture>
+            </div>
+  
+            <div class="how-rd-point">
+              <div class="big-point top"></div>
+              <div class="how-rd-point__text">
+                Head over to <a
+                class="how-rd-point__link"
+                href="https://mutation.madharesociety.com"
+                target="_blank"
+              >https://mutation.madharesociety.com</a> (if the site requires password, then Mutation has not begun or
+                there are updates being implemented - get up-to-date information in our Discord or Twitter)
+              </div>
+            </div>
+            <div class="how-rd-point">
+              <div class="small-point"></div>
+              <div class="how-rd-point__text">Verify your wallet according to instructions</div>
+            </div>
+            <div class="how-rd-point">
+              <div class="small-point"></div>
+              <div class="how-rd-point__text">Select your Mad Hare which you wish to mutate (your Mad Hare must be in
+                CDC wallet!)
+              </div>
+            </div>
+            <div class="how-rd-point">
+              <div class="big-point"></div>
+              <h4 class="how-rd-point__heading">
+                Reveal your Mutant Hare & apply your Upgrade Packs (you can apply them until the mutation period ends)
+              </h4>
+            </div>
+  
+            <img
+              src="/img/mutants/cards.png"
+              alt="cards"
+              class="how-rd__cards"
+            >
+  
+            <div class="how-rd-point">
+              <h4 class="how-rd-point__heading text-purple-gradient">Rinse and repeat</h4>
+            </div>
+          </div>
+          
+          <p class="how-rd__hint mobile-only">
+            <span class="text-purple-gradient tip">TIP:</span> Share your Mad Mutant or screen-record your mutation
+            process and tag <strong>@PsychoKittiesOG & @MadHareSociety</strong> on Twitter to have a chance at
+            winning a custom Mutant Hare by <strong>@DaRealGenius</strong>!
+            <br>
+            <span class="text-purple-gradient">(3 winners after mutation season ends)</span>
+          </p>
         </div>
       </div>
     </div>
     
-    <div v-if="false" class="wrapper footer-wrapper">
+    <div class="wrapper footer-wrapper">
       <footer class="footer">
         <img
           src="/img/mutants/footer-cloud-left.png"
