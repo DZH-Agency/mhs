@@ -13,7 +13,7 @@
             <br>
             FOR AIRDROP OF <span class="text-purple-gradient">MAD MUTANT NFT</span>
           </h1>
-          
+
           <div class="tos-text">
             <p>
               These Terms of Service govern the Airdrop of Mad Mutant NFTs and related events and transactions between
@@ -25,7 +25,7 @@
               <a
                 href="https://madharesociety.com/terms-and-conditions#"
                 target="_blank"
-                class="text-purple-gradient"
+                class="hyperlink"
               >https://madharesociety.com/terms-and-conditions#</a>, which are hereby incorporated by reference.
             </p>
             <p>
@@ -35,21 +35,21 @@
               Conditions published on the website of Crypto.com - <a
               href="https://crypto.com/nft/terms"
               target="_blank"
-              class="text-purple-gradient"
+              class="hyperlink"
             >https://crypto.com/nft/terms</a>, which are incorporated
               herein by reference. If you do not wish to abide by any of these terms, you may not purchase Trait NFT or
               Mad Mutant NFT.
             </p>
           </div>
-          
+
           <div class="tos-items">
             <div class="tos-items-item">
               <header class="tos-items-item-header">
                 <h3 class="tos-items-item-header__title">DEFINITIONS</h3>
-                
+
                 <button class="tos-items-item-header__toggle"></button>
               </header>
-              
+
               <main class="tos-items-item-info">
                 <p class="tos-items-item-info__text">
                   <span class="white-text">Mad Mutant NFT(s)</span> - new NFTs that can be revealed for holders of Mad
@@ -62,14 +62,14 @@
                 </p>
               </main>
             </div>
-            
+
             <div class="tos-items-item">
               <header class="tos-items-item-header">
                 <h3 class="tos-items-item-header__title">TRAIT PACKAGES</h3>
-                
+
                 <button class="tos-items-item-header__toggle"></button>
               </header>
-              
+
               <main class="tos-items-item-info">
                 <p class="tos-items-item-info__text">
                   Before the Mad Mutant NFT is airdropped, we will conduct a three-day “add-on” drop on Crypto.com in
@@ -249,27 +249,27 @@
                   The reveal of Mad Mutant NFT will be available at <a
                   target="_blank"
                   href="https://mutant.madharesociety.com/"
-                  class="text-purple-gradient"
+                  class="hyperlink"
                 >https://mutant.madharesociety.com/</a>.
                 </p>
               </main>
             </div>
-            
+
             <div class="tos-items-item">
               <header class="tos-items-item-header">
                 <h3 class="tos-items-item-header__title">REWARDS</h3>
-                
+
                 <button class="tos-items-item-header__toggle"></button>
               </header>
-              
+
               <main class="tos-items-item-info big-gap">
                 <p class="tos-items-item-info__text white">
                   Rewards will be distributed as per rarity score tier of each Mad Mutant NFT.
                   <br>
                   There are following rarity score tiers for Mad Mutant NFTs:
-                
+
                 </p>
-                
+
                 <div class="tos-items-item-info-list">
                   <div class="tos-items-item-info-list__item">
                     Mythical Rank: up to 0.10%, numerical 1 - 10
@@ -287,7 +287,7 @@
                     Common Rank: up to 50.00%, numerical 5001 - 10000
                   </div>
                 </div>
-                
+
                 <div class="tos-items-item-info-grid">
                   <p class="tos-items-item-info__text bold">Common Rank will be rewarded with:</p>
                   <div class="tos-items-item-info-list">
@@ -296,15 +296,15 @@
                     </div>
                     <div class="tos-items-item-info-list__item">
                       1 Mystery Box
-                    
+
                     </div>
                     <div class="tos-items-item-info-list__item">
                       1 Rare SFT
-                    
+
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="tos-items-item-info-grid">
                   <p class="tos-items-item-info__text bold">Rare Rank will be rewarded with:</p>
                   <div class="tos-items-item-info-list">
@@ -319,7 +319,7 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="tos-items-item-info-grid">
                   <p class="tos-items-item-info__text bold">Epic Rank will be rewarded with:</p>
                   <div class="tos-items-item-info-list">
@@ -340,7 +340,7 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="tos-items-item-info-grid">
                   <p class="tos-items-item-info__text bold">Legendary Rank will be rewarded with:</p>
                   <div class="tos-items-item-info-list">
@@ -360,11 +360,11 @@
                     </div>
                     <div class="tos-items-item-info-list__item">
                       5 MH Cosmetic NFT Air-drop
-                    
+
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="tos-items-item-info-grid">
                   <p class="tos-items-item-info__text bold">Common Rank will be rewarded with:</p>
                   <div class="tos-items-item-info-list">
@@ -395,14 +395,14 @@
                 </div>
               </main>
             </div>
-            
+
             <div class="tos-items-item">
               <header class="tos-items-item-header">
                 <h3 class="tos-items-item-header__title">DISCLAIMER</h3>
-                
+
                 <button class="tos-items-item-header__toggle"></button>
               </header>
-              
+
               <main class="tos-items-item-info">
                 <p class="tos-items-item-info__text">
                   Please note that we, Genius Arts LLC, are able to control only the process of sending NFTs to
@@ -420,14 +420,14 @@
                 </p>
               </main>
             </div>
-            
+
             <div class="tos-items-item">
               <header class="tos-items-item-header">
                 <h3 class="tos-items-item-header__title">OWNERSHIP OF REWARDS</h3>
-                
+
                 <button class="tos-items-item-header__toggle"></button>
               </header>
-              
+
               <main class="tos-items-item-info">
                 <p class="tos-items-item-info__text">
                   Notwithstanding anything contrary, you are not entitled to monetize or otherwise commercialize any of
@@ -446,14 +446,14 @@
                 </p>
               </main>
             </div>
-            
+
             <div class="tos-items-item">
               <header class="tos-items-item-header">
                 <h3 class="tos-items-item-header__title">RIGHTS GRANTED AND RESTRICTIONS</h3>
-                
+
                 <button class="tos-items-item-header__toggle"></button>
               </header>
-              
+
               <main class="tos-items-item-info">
                 <p class="tos-items-item-info__text">Mad Mutant NFT is an NFT with its Art on the Crypto.org blockchain.
                   When you purchase Mad Mutant NFT, we grant you the rights you have been granted for Mad Hare Society
@@ -512,14 +512,14 @@
                   executed by MHS or Genius Arts LLC.</p>
               </main>
             </div>
-            
+
             <div class="tos-items-item">
               <header class="tos-items-item-header">
                 <h3 class="tos-items-item-header__title">CONSENT</h3>
-                
+
                 <button class="tos-items-item-header__toggle"></button>
               </header>
-              
+
               <main class="tos-items-item-info">
                 <p class="tos-items-item-info__text">
                   By purchasing or holding Trait NFT and/or Mad Mutant NFT, you consent to the foregoing Terms of
@@ -529,7 +529,7 @@
                   <a
                     href="https://madharesociety.com/terms-and-conditions#"
                     target="_blank"
-                    class="text-purple-gradient"
+                    class="hyperlink"
                   >https://madharesociety.com/terms-and-conditions#</a>
                 </p>
                 <p class="tos-items-item-info__text">
@@ -539,13 +539,13 @@
                   <a
                     href="https://crypto.com/nft/terms"
                     target="_blank"
-                    class="text-purple-gradient"
+                    class="hyperlink"
                   >https://crypto.com/nft/terms</a>
                 </p>
               </main>
             </div>
           </div>
-          
+
           <div class="tos-contacts">
             <div class="tos-contacts-item">
               If you have any questions, you can join our Discord channels at
@@ -579,7 +579,7 @@
         </main>
       </div>
     </div>
-    
+
     <div class="wrapper footer-wrapper">
       <div class="container">
         <div class="footer">
@@ -599,30 +599,30 @@ export default {
   name: 'TermsOfService',
   mounted() {
     const elements = document.querySelectorAll('.tos-items-item')
-    
+
     elements.forEach(this.createAccordion)
   },
   methods: {
     createAccordion(element) {
       const toggler = element.querySelector('.tos-items-item-header__toggle')
       const info = element.querySelector('.tos-items-item-info')
-      
+
       toggler.addEventListener('click', () => {
         element.classList.toggle('active')
-        
+
         const isOpened = element.classList.contains('active')
-        
+
         const infoHeight = info.scrollHeight || 0
-  
+
         if (isOpened) {
-          info.style.maxHeight = infoHeight + 'px'
+          info.style.maxHeight = infoHeight + 25 + 'px'
           info.style.paddingTop = '25px'
         } else {
           info.style.removeProperty('max-height')
           info.style.removeProperty('padding-top')
         }
-        
-        
+
+
       })
     }
   }

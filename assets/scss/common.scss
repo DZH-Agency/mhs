@@ -8,18 +8,14 @@
   @extend .text-purple-gradient;
   position: relative;
 
-  &:hover {
-    @extend .text-purple-gradient;
-
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: -1px;
-      background-image: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
-      height: 1px;
-    }
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1px;
+    background-image: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
+    height: 1px;
   }
 }
 
