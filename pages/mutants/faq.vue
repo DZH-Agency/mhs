@@ -58,7 +58,7 @@ export default {
     {
       title: 'When will I be able to mutate my MH?',
       content: `
-        <p>We expect mutation to happen from 25th of February to 29th of February.</p>
+        <p>Mutation period will happen from 27th of February to 3rd of March.</p>
       `,
     },
     {
@@ -73,12 +73,12 @@ export default {
         <p>Yes, mutating any of your Mad Hares is a free process.</p>
       `,
     },
-    {
-      title: 'Can non-participants or "passive holders" be airdropped basic corresponding mutants without participating in the "reveal" process on the website?',
-      content: `
-        <p>Yes. Few hours after the Mutation Period ends and Mutation website is shut down, we’ll be taking a snapshot of holders who hold Mad Hares that were not mutated. Those holders will still receive corresponding Mad Mutants together with the rest of the people who participated in the Mutation Event.</p>
-      `,
-    },
+    // {
+    //   title: 'Can non-participants or "passive holders" be airdropped basic corresponding mutants without participating in the "reveal" process on the website?',
+    //   content: `
+    //     <p>Yes. Few hours after the Mutation Period ends and Mutation website is shut down, we’ll be taking a snapshot of holders who hold Mad Hares that were not mutated. Those holders will still receive corresponding Mad Mutants together with the rest of the people who participated in the Mutation Event.</p>
+    //   `,
+    // },
     {
       title: 'How many times can I mutate each Mad Hare and how many times can I upgrade my Mad Mutant?',
       content: `

@@ -1,6 +1,6 @@
 <template>
   <div class="mutants">
-    
+
     <div class="wrapper hero-wrapper">
       <img
         alt="cloud"
@@ -16,7 +16,7 @@
               class="hero__img"
             >
           </section>
-          
+
           <section class="hero-info">
             <h1 class="hero-info__title">
               Welcome to the world's <span class="text-purple-gradient">most epic NFT mutation experience</span>
@@ -34,18 +34,18 @@
               </p>
               <ul class="hero-info-remember-list">
                 <li class="hero-info-remember-list__item">
-                  Mutation Window: 25-29 of February
+                  Mutation Window: 02.27 - 03.03
                   <br>
                   <small>
                     (goes live after tests are done with Upgrade Packs)
                   </small>
                 </li>
                 <li class="hero-info-remember-list__item">
-                  CDC's Upgrade Packs drop: 25-28 of February
+                  CDC's Upgrade Packs drop: 02.27 - 03.02
                 </li>
               </ul>
             </div>
-            
+
             <p class="hero-info-description">
               Each Mad Hare can be mutated once. In light of the faulty airdrop of Mutant Potions, you will ONLY need
               your Mad Hare to mutate - no Potions are needed. There will be a
@@ -59,7 +59,7 @@
         </header>
       </div>
     </div>
-    
+
     <div class="wrapper surprise-wrapper">
       <img
         src="/img/mutants/green-cloud-surprise-top.png"
@@ -84,7 +84,7 @@
               <span class="text-purple-gradient">Announcement</span>
               <small class="surprise-heading__subtext">(involves rewards)</small>
             </h2>
-            
+
             <div class="surprise-skull-poison">
               <img
                 class="surprise-skull-poison__main-image"
@@ -97,14 +97,14 @@
                 alt="monster badge"
               >
             </div>
-            
+
             <div class="surprise-point">
               <p class="surprise-point__text">
                 After each Mad Hare has gone through the mutation process, the specific Mad Mutant will acquire the same
                 rarity score as the predecessor. Via Upgrade Packs you are now able to increase that score.
               </p>
             </div>
-            
+
             <div class="surprise-point">
               <p class="surprise-point__text">
                 The final score of your Mutant MH is locked after the “upgrade” period is over, which is scheduled to
@@ -112,7 +112,7 @@
                 community.
               </p>
             </div>
-            
+
             <div class="surprise-point">
               <div class="small-point"></div>
               <p class="surprise-point__big-text">
@@ -120,7 +120,7 @@
                 CDC to airdrop them within 1 month.
               </p>
             </div>
-            
+
             <div class="surprise-point">
               <p class="surprise-point__text">
                 Based on rarity score points, the created Mad Mutants will be positioned among 5 tiers. Each tier
@@ -128,9 +128,9 @@
               </p>
             </div>
           </div>
-          
+
           <div class="surprise__separator" />
-          
+
           <div class="surprise-right">
             <div class="surprise-point">
               <div class="big-point"></div>
@@ -157,7 +157,7 @@
                 leaderboard)
               </p>
             </div>
-            
+
             <div class="surprise-point">
               <div class="big-point"></div>
               <p class="surprise-point__big-text">
@@ -165,39 +165,39 @@
                 Upgrade Packs on secondary marketplace, because most NFTs there are USED!
               </p>
             </div>
-            
+
             <h2 class="surprise-heading small">
               Why is rarity score so
               <span class="text-purple-gradient">
                 important this time?
               </span>
             </h2>
-            
+
             <div class="surprise-rating">
               <div class="surprise-rating-box">
                 <h3 class="surprise-rating-heading">
                   Rarity score tiers for mutants:
-                  
+
                   <img
                     src="/img/mutants/rarity-table-stars.svg"
                     alt="stars"
                     class="surprise-rating-heading__stars"
                   >
-                  
+
                   <img
                     src="/img/mutants/rarity-table-smoke.svg"
                     alt="smoke"
                     class="surprise-rating-heading__smoke"
                   >
                 </h3>
-                
+
                 <div class="surprise-rating-table">
                   <img
                     class="surprise-rating-table__thing-image"
                     src="/img/mutants/rarity-table-thing.svg"
                     alt="thing"
                   >
-                  
+
                   <div class="surprise-rating-table-row surprise-rating-table-head">
                     <div class="surprise-rating-table-column"></div>
                     <div class="surprise-rating-table-column">%</div>
@@ -250,7 +250,7 @@
               from $5 to $130, depending on it's attributes.
             </p>
           </div>
-  
+
           <div class="surprise-skull-poison">
             <img
               class="surprise-skull-poison__main-image"
@@ -263,7 +263,7 @@
               alt="monster badge"
             >
           </div>
-          
+
           <div class="surprise-point">
             <div class="small-point"></div>
             <p class="surprise-point__text">
@@ -280,21 +280,21 @@
               leaderboard)
             </p>
           </div>
-  
+
           <div class="surprise-point">
             <p class="surprise-point__big-text">
               Each Upgrade Pack can be used ONCE, but you can use several Upgrade Packs on one Mad Mutant. Do not buy
               Upgrade Packs on secondary marketplace, because most NFTs there are USED!
             </p>
           </div>
-  
+
           <h2 class="surprise-heading">
             Why is rarity score so
             <span class="text-purple-gradient">
                 important this time?
               </span>
           </h2>
-  
+
           <div class="surprise-point">
             <div class="big-point"></div>
             <p class="surprise-point__text">
@@ -302,7 +302,7 @@
               rarity score as the predecessor. Via Upgrade Packs you are now able to increase that score.
             </p>
           </div>
-  
+
           <div class="surprise-point">
             <div class="small-point"></div>
             <p class="surprise-point__text">
@@ -311,14 +311,14 @@
               community.
             </p>
           </div>
-  
+
           <div class="surprise-point">
             <p class="surprise-point__big-text">
               After the “upgrade” period is over, we will send NFTs to Crypto.com to airdrop within 7 days and expect
               CDC to airdrop them within 1 month.
             </p>
           </div>
-  
+
           <div class="surprise-point">
             <p class="surprise-point__text">
               Based on rarity score points, the created Mad Mutants will be positioned among 5 tiers. Each tier
@@ -329,27 +329,27 @@
         <section class="surprise-rating mobile-only">
           <h3 class="surprise-rating-heading">
             Rarity score tiers for mutants:
-    
+
             <img
               src="/img/mutants/rarity-table-stars.svg"
               alt="stars"
               class="surprise-rating-heading__stars"
             >
-    
+
             <img
               src="/img/mutants/rarity-table-smoke.svg"
               alt="smoke"
               class="surprise-rating-heading__smoke"
             >
           </h3>
-  
+
           <div class="surprise-rating-table">
             <img
               class="surprise-rating-table__thing-image"
               src="/img/mutants/rarity-table-thing.svg"
               alt="thing"
             >
-    
+
             <div class="surprise-rating-table-row surprise-rating-table-head">
               <div class="surprise-rating-table-column"></div>
               <div class="surprise-rating-table-column">%</div>
@@ -386,7 +386,7 @@
         </section>
       </div>
     </div>
-    
+
     <div class="wrapper rewards-wrapper">
       <img
         class="rewards__light"
@@ -650,7 +650,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="wrapper counter-wrapper">
       <div class="container">
         <div class="counter">
@@ -674,9 +674,9 @@
             alt="badge"
             class="counter__image-badge"
           >
-          
+
           <h2 class="counter__heading">Mutation site goes LIVE in:</h2>
-          
+
           <div class="counter-timer">
             <div class="counter-timer-item">
               <div class="counter-timer-item__value">02</div>
@@ -701,7 +701,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="wrapper how-wrapper">
       <img
         src="/img/mutants/green-cloud-how-to.png"
@@ -713,30 +713,30 @@
           <h2 class="how__title">
             HOW TO <span class="text-purple-gradient">MUTATE</span>
           </h2>
-          
+
           <div class="how-rd desktop-only">
             <div class="how-rd-left">
-              
+
               <div class="how-rd-guide">
                 <embed
                   src="/img/mutants/guide.svg"
                   type="image/svg+xml"
                   class="how-rd-guide__main"
                 >
-                
+
                 <img
                   src="/img/mutants/decoration.png"
                   alt="decoration"
                   class="how-rd-guide__decoration"
                 >
               </div>
-              
+
               <img
                 src="/img/mutants/cards.png"
                 alt="cards"
                 class="how-rd__cards"
               >
-            
+
             </div>
             <div class="how-rd__separator"></div>
             <div class="how-rd-right">
@@ -770,7 +770,7 @@
               <div class="how-rd-point">
                 <h4 class="how-rd-point__heading text-purple-gradient">Rinse and repeat</h4>
               </div>
-              
+
               <p class="how-rd__hint">
                 <span class="text-purple-gradient tip">TIP:</span> Share your Mad Mutant or screen-record your mutation
                 process and tag <strong>@PsychoKittiesOG & @MadHareSociety</strong> on Twitter to have a chance at
@@ -780,7 +780,7 @@
               </p>
             </div>
           </div>
-          
+
           <div class="how-rd-mobile mobile-only">
             <div class="how-rd-guide">
               <embed
@@ -788,7 +788,7 @@
                 type="image/svg+xml"
                 class="how-rd-guide__main"
               >
-  
+
               <picture>
                 <source srcset="/img/mutants/decoration-mobile.svg" media="(max-width: 1200px)">
                 <img
@@ -798,7 +798,7 @@
                 >
               </picture>
             </div>
-  
+
             <div class="how-rd-point">
               <div class="big-point top"></div>
               <div class="how-rd-point__text">
@@ -826,18 +826,18 @@
                 Reveal your Mutant Hare & apply your Upgrade Packs (you can apply them until the mutation period ends)
               </h4>
             </div>
-  
+
             <img
               src="/img/mutants/cards.png"
               alt="cards"
               class="how-rd__cards"
             >
-  
+
             <div class="how-rd-point">
               <h4 class="how-rd-point__heading text-purple-gradient">Rinse and repeat</h4>
             </div>
           </div>
-          
+
           <p class="how-rd__hint mobile-only">
             <span class="text-purple-gradient tip">TIP:</span> Share your Mad Mutant or screen-record your mutation
             process and tag <strong>@PsychoKittiesOG & @MadHareSociety</strong> on Twitter to have a chance at
@@ -848,7 +848,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="wrapper footer-wrapper">
       <footer class="footer">
         <img
@@ -872,7 +872,7 @@
           >www.twitter.com/psychokittiesog</a>
           </p>
         </div>
-        
+
         <img
           src="/img/mutants/footer-cloud-left.png"
           alt="cloud"
