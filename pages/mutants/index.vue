@@ -679,22 +679,22 @@
 
           <div class="counter-timer">
             <div class="counter-timer-item">
-              <div class="counter-timer-item__value">02</div>
+              <div class="counter-timer-item__value">{{ timerDate.days }}</div>
               <div class="counter-timer-item__name">days</div>
             </div>
             <div class="counter-timer__semicolon">:</div>
             <div class="counter-timer-item">
-              <div class="counter-timer-item__value">09</div>
+              <div class="counter-timer-item__value">{{ timerDate.hours }}</div>
               <div class="counter-timer-item__name">hours</div>
             </div>
             <div class="counter-timer__semicolon desktop-only">:</div>
             <div class="counter-timer-item">
-              <div class="counter-timer-item__value">02</div>
+              <div class="counter-timer-item__value">{{ timerDate.minutes }}</div>
               <div class="counter-timer-item__name">minutes</div>
             </div>
             <div class="counter-timer__semicolon">:</div>
             <div class="counter-timer-item">
-              <div class="counter-timer-item__value">02</div>
+              <div class="counter-timer-item__value">{{ timerDate.seconds }}</div>
               <div class="counter-timer-item__name">seconds</div>
             </div>
           </div>
@@ -886,6 +886,37 @@
 <script>
 export default {
   name: 'index',
+  targetDate: null,
+  data() {
+    return {
+      timerDate: {
+        days: '00',
+        hours: '00',
+        minutes: '00',
+        seconds: '00',
+      }
+    }
+  },
+  mounted() {
+    this.$options.targetDate = new Date(Date.UTC(2023, 1, 27, 18))
+
+    setInterval(() => {
+      const total = Date.parse(this.$options.targetDate) - Date.parse(new Date());
+      const days = Math.floor(total / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+      const mins = Math.floor((total / 1000 / 60) % 60);
+      const secs = Math.floor((total / 1000) % 60);
+
+      this.timerDate = {
+        days: String(days).padStart(2, '0'),
+        hours: String(hours).padStart(2, '0'),
+        minutes: String(mins).padStart(2, '0'),
+        seconds: String(secs).padStart(2, '0')
+      }
+    }, 1000)
+
+
+  }
 }
 </script>
 
