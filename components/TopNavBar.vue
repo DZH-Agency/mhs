@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-wrapper" :class="{opened: isOpened}">
     <div class="notification" v-if="displayNotification" :class="{opened: !isOpened}">
-      BREEDING STARTS ON 19TH OF AUGUST. FOR MORE INFO <a target="_blank" href="https://psychokitties.io/breeding/">CLICK HERE</a>
+      Mad Hares are about to mutate on 02.27. <a target="_blank" href="https://madharesociety.com/mutants">Click here</a> to learn more
       <button @click="displayNotification = false" class="notification__close">&times;</button>
     </div>
     <div class="container">
@@ -41,7 +41,7 @@
         </div>
       </div>
     </div>
-    
+
     <portal to="app">
       <div class="container navbar-mobile-container mobile-only" :class="{opened: isOpened}">
         <div class="navbar-mobile">
@@ -67,9 +67,9 @@
         </div>
       </div>
     </portal>
-    
+
   </div>
-  
+
 </template>
 
 <script>
@@ -79,7 +79,7 @@ export default {
   name: 'TopNavBar',
   menuItems: constants.NAVBAR_MENU_ITEMS,
   props: {
-  
+
   },
   data() {
     return {

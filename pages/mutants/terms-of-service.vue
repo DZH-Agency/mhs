@@ -366,7 +366,7 @@
                 </div>
 
                 <div class="tos-items-item-info-grid">
-                  <p class="tos-items-item-info__text bold">Common Rank will be rewarded with:</p>
+                  <p class="tos-items-item-info__text bold">Mythical Rank will be rewarded with:</p>
                   <div class="tos-items-item-info-list">
                     <div class="tos-items-item-info-list__item">
                       Name in the Credits of game under "Mutant Squad"
