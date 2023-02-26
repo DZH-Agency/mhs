@@ -34,14 +34,14 @@
               </p>
               <ul class="hero-info-remember-list">
                 <li class="hero-info-remember-list__item">
-                  Mutation Window: 02.27 - 03.03
+                  Mutation Window: 03.07 - 03.11
                   <br>
                   <small>
                     (goes live after tests are done with Upgrade Packs)
                   </small>
                 </li>
                 <li class="hero-info-remember-list__item">
-                  CDC's Upgrade Packs drop: 02.27 - 03.02
+                  CDC's Upgrade Packs drop: 03.07 - 03.11
                 </li>
               </ul>
             </div>
@@ -898,7 +898,7 @@ export default {
     }
   },
   mounted() {
-    this.$options.targetDate = new Date(Date.UTC(2023, 1, 27, 18))
+    this.$options.targetDate = new Date(Date.UTC(2023, 2, 7, 18))
 
     setInterval(() => {
       const total = Date.parse(this.$options.targetDate) - Date.parse(new Date());

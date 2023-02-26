@@ -56,9 +56,27 @@ export default {
       `,
     },
     {
+      title: 'How is the final rarity score calculated? ',
+      content: `
+        <p>Let's say that you have Mad Hare #7139. From the official ranking table we can see that the rarity score is 148.65 points. This means that your Mad Mutant will also receive the same exact rarity score after you've revealed your Mutant.</p>
+        <p>However, you can boost this rarity score by buying and applying Upgrade Packs to your Mad Mutant. Example:</p>
+        <p>Mad Mutant #7139 rarity score = 148.65</p>
+        <p>We are going to apply 2 Upgrade packs to the mutant:</p>
+        <p>1. Epic - Eyes Pack that gives you 400 additional score points. (Read <a href="https://madharesociety.com/mutants/terms-of-service" target="_blank">"Trait Packages"</a> to learn about the price of different packs)</p>
+        <p>2. Common - Nose Pack that gives you 25 additional score points.</p>
+        <p>Your Mad Mutant's rarity score is now = 148.65 + 400 + 25 = 573.65.</p>
+`,
+    },
+    {
+      title: 'Why can people buy boosts to rarity score if it should be tied to the traits of the character?',
+      content: `
+        <p>For the sake of simplifying the process and making it understandable to new members, it made more sense to operate with one key metric.</p>
+      `,
+    },
+    {
       title: 'When will I be able to mutate my MH?',
       content: `
-        <p>Mutation period will happen from 27th of February to 3rd of March.</p>
+        <p>Mutation period will happen from 7th to 11th of March.</p>
       `,
     },
     {
