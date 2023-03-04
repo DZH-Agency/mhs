@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-wrapper" :class="{opened: isOpened}">
     <div class="notification" v-if="displayNotification" :class="{opened: !isOpened}">
-      Mad Hares are about to mutate on 03.07. <a target="_blank" href="https://madharesociety.com/mutants">Click here</a> to learn more
+      Mad Hares are about to mutate on 03.15. <a target="_blank" href="https://madharesociety.com/mutants">Click here</a> to learn more
       <button @click="displayNotification = false" class="notification__close">&times;</button>
     </div>
     <div class="container">

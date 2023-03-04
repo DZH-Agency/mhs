@@ -76,7 +76,7 @@ export default {
     {
       title: 'When will I be able to mutate my MH?',
       content: `
-        <p>Mutation period will happen from 7th to 11th of March.</p>
+        <p>Mutation period will happen from 7th to 15th of March.</p>
       `,
     },
     {

@@ -34,14 +34,14 @@
               </p>
               <ul class="hero-info-remember-list">
                 <li class="hero-info-remember-list__item">
-                  Mutation Window: 03.07 - 03.11
+                  Mutation Window: 03.15 - 03.19
                   <br>
                   <small>
                     (goes live after tests are done with Upgrade Packs)
                   </small>
                 </li>
                 <li class="hero-info-remember-list__item">
-                  CDC's Upgrade Packs drop: 03.07 - 03.11
+                  CDC's Upgrade Packs drop: 03.15 - 03.18
                 </li>
               </ul>
             </div>
