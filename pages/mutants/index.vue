@@ -101,7 +101,7 @@
             <div class="surprise-point">
               <p class="surprise-point__text">
                 After each Mad Hare has gone through the mutation process, the specific Mad Mutant will acquire the same
-                rarity score as the predecessor. Via Upgrade Packs you are now able to increase that score.
+                Mutant Score as the predecessor. Via Upgrade Packs you are now able to increase that score.
               </p>
             </div>
 
@@ -123,7 +123,7 @@
 
             <div class="surprise-point">
               <p class="surprise-point__text">
-                Based on rarity score points, the created Mad Mutants will be positioned among 5 tiers. Each tier
+                Based on Mutant Score points, the created Mad Mutants will be positioned among 5 tiers. Each tier
                 corresponding to certain types of rewards.
               </p>
             </div>
@@ -137,7 +137,7 @@
               <p class="surprise-point__text">
                 Few hours before we make the Mutation Site available, we'll launch a first-of-its-kind "Upgrade Packs"
                 drop on Crypto.com/NFT that lasts for 3 days. The Upgrade NFTs are not required to mutate your Mad Hare,
-                but they will enhance your mutation experience and overall ranking. The pricing of Upgrade Packs ranges
+                but they will enhance your mutation experience and Overall Mutant Score (Mad Hare Mutant Score + points from applied Upgrade Packs = Mutant Score). The pricing of Upgrade Packs ranges
                 from $5 to $130, depending on it's attributes.
               </p>
             </div>
@@ -145,15 +145,15 @@
               <div class="small-point"></div>
               <p class="surprise-point__text">
                 The Upgrade Packs, if applied on your Mad Mutant, will unlock a special trait(s) that you can use to
-                enhance your Mad Mutant by switching out corresponding default traits and gain additional rarity score
+                enhance your Mad Mutant by switching out corresponding default traits and gain additional Mutant Score
                 points to your Mad Mutant.
               </p>
             </div>
             <div class="surprise-point">
               <div class="small-point"></div>
               <p class="surprise-point__text">
-                You can also decide to apply your Upgrade Pack without swapping traits and just enjoy the rarity score
-                boost. (you'll see your rarity rankings and current rarity tier you belong to in real time via a
+                You can also decide to apply your Upgrade Pack without swapping traits and just enjoy the Mutant Score
+                boost. (you'll see your rankings and current tier you belong to in real time via a
                 leaderboard)
               </p>
             </div>
@@ -167,7 +167,7 @@
             </div>
 
             <h2 class="surprise-heading small">
-              Why is rarity score so
+              Why is Mutant Score so
               <span class="text-purple-gradient">
                 important this time?
               </span>
@@ -176,7 +176,7 @@
             <div class="surprise-rating">
               <div class="surprise-rating-box">
                 <h3 class="surprise-rating-heading">
-                  Rarity score tiers for mutants:
+                  Mutant Score tiers for mutants:
 
                   <img
                     src="/img/mutants/rarity-table-stars.svg"
@@ -246,7 +246,7 @@
             <p class="surprise-point__text">
               Few hours before we make the Mutation Site available, we'll launch a first-of-its-kind "Upgrade Packs"
               drop on Crypto.com/NFT that lasts for 3 days. The Upgrade NFTs are not required to mutate your Mad Hare,
-              but they will enhance your mutation experience and overall ranking. The pricing of Upgrade Packs ranges
+              but they will enhance your mutation experience and Overall Mutant Score (Mad Hare Mutant Score + points from applied Upgrade Packs = Mutant Score). The pricing of Upgrade Packs ranges
               from $5 to $130, depending on it's attributes.
             </p>
           </div>
@@ -268,15 +268,15 @@
             <div class="small-point"></div>
             <p class="surprise-point__text">
               The Upgrade Packs, if applied on your Mad Mutant, will unlock a special trait(s) that you can use to
-              enhance your Mad Mutant by switching out corresponding default traits and gain additional rarity score
+              enhance your Mad Mutant by switching out corresponding default traits and gain additional Mutant Score
               points to your Mad Mutant.
             </p>
           </div>
           <div class="surprise-point">
             <div class="small-point"></div>
             <p class="surprise-point__text">
-              You can also decide to apply your Upgrade Pack without swapping traits and just enjoy the rarity score
-              boost. (you'll see your rarity rankings and current rarity tier you belong to in real time via a
+              You can also decide to apply your Upgrade Pack without swapping traits and just enjoy the Mutant Score
+              boost. (you'll see your rankings and current tier you belong to in real time via a
               leaderboard)
             </p>
           </div>
@@ -289,7 +289,7 @@
           </div>
 
           <h2 class="surprise-heading">
-            Why is rarity score so
+            Why is Mutant Score so
             <span class="text-purple-gradient">
                 important this time?
               </span>
@@ -299,7 +299,7 @@
             <div class="big-point"></div>
             <p class="surprise-point__text">
               After each Mad Hare has gone through the mutation process, the specific Mad Mutant will acquire the same
-              rarity score as the predecessor. Via Upgrade Packs you are now able to increase that score.
+              Mutant Score as the predecessor. Via Upgrade Packs you are now able to increase that score.
             </p>
           </div>
 
@@ -321,14 +321,14 @@
 
           <div class="surprise-point">
             <p class="surprise-point__text">
-              Based on rarity score points, the created Mad Mutants will be positioned among 5 tiers. Each tier
+              Based on Mutant Score points, the created Mad Mutants will be positioned among 5 tiers. Each tier
               corresponding to certain types of rewards.
             </p>
           </div>
         </section>
         <section class="surprise-rating mobile-only">
           <h3 class="surprise-rating-heading">
-            Rarity score tiers for mutants:
+            Mutant Score tiers for mutants:
 
             <img
               src="/img/mutants/rarity-table-stars.svg"
@@ -898,7 +898,7 @@ export default {
     }
   },
   mounted() {
-    this.$options.targetDate = new Date(Date.UTC(2023, 2, 7, 18))
+    this.$options.targetDate = new Date(Date.UTC(2023, 2, 15, 18))
 
     setInterval(() => {
       const total = Date.parse(this.$options.targetDate) - Date.parse(new Date());

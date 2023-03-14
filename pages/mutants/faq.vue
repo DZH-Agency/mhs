@@ -52,25 +52,26 @@ export default {
     {
       title: 'Will I be able to mutate my Mad Hare without an Upgrade Pack?',
       content: `
-        <p>Yes, mutations are free and your Mad Mutant will receive the same rarity score as your Mad Hare had.</p>
+        <p>Yes, mutations are free and your Mad Mutant will receive the same Mutant Score as your Mad Hare had.</p>
       `,
     },
     {
-      title: 'How is the final rarity score calculated? ',
+      title: 'How is the final Mutant Score calculated? ',
       content: `
-        <p>Let's say that you have Mad Hare #7139. From the official ranking table we can see that the rarity score is 148.65 points. This means that your Mad Mutant will also receive the same exact rarity score after you've revealed your Mutant.</p>
-        <p>However, you can boost this rarity score by buying and applying Upgrade Packs to your Mad Mutant. Example:</p>
-        <p>Mad Mutant #7139 rarity score = 148.65</p>
+        <p>Let's say that you have Mad Hare #7139. From the official ranking table we can see that the Mutant Score is 148.65 points. This means that your Mad Mutant will also receive the same exact Mutant Score after you've revealed your Mutant.</p>
+        <p>However, you can boost this Mutant Score by buying and applying Upgrade Packs to your Mad Mutant. Example:</p>
+        <p>Mad Mutant #7139 Mutant Score = 148.65</p>
         <p>We are going to apply 2 Upgrade packs to the mutant:</p>
         <p>1. Epic - Eyes Pack that gives you 400 additional score points. (Read <a href="https://madharesociety.com/mutants/terms-of-service" target="_blank">"Trait Packages"</a> to learn about the price of different packs)</p>
         <p>2. Common - Nose Pack that gives you 25 additional score points.</p>
-        <p>Your Mad Mutant's rarity score is now = 148.65 + 400 + 25 = 573.65.</p>
+        <p>Your Mad Mutant's Mutant Score is now = 148.65 + 400 + 25 = 573.65.</p>
 `,
     },
     {
-      title: 'Why can people buy boosts to rarity score if it should be tied to the traits of the character?',
+      title: 'How is the Mutant Score calculated by which the Mad Mutants will compete for game rewards? How will the rarity of my Mutant be calculated?',
       content: `
-        <p>For the sake of simplifying the process and making it understandable to new members, it made more sense to operate with one key metric.</p>
+        <p>We've decided to honor mutant rankings based on the score derived from traits & their rarities within the collection just like with our other collections. The mutant score that will determine your position within the game rewards competition will still be calculated by the following formula:</p>
+        <p>previous Mad Hare rarity score + points from applied upgrade packs = Mutant Score</p>
       `,
     },
     {
@@ -91,12 +92,24 @@ export default {
         <p>Yes, mutating any of your Mad Hares is a free process.</p>
       `,
     },
-    // {
-    //   title: 'Can non-participants or "passive holders" be airdropped basic corresponding mutants without participating in the "reveal" process on the website?',
-    //   content: `
-    //     <p>Yes. Few hours after the Mutation Period ends and Mutation website is shut down, we’ll be taking a snapshot of holders who hold Mad Hares that were not mutated. Those holders will still receive corresponding Mad Mutants together with the rest of the people who participated in the Mutation Event.</p>
-    //   `,
-    // },
+    {
+      title: 'Can non-participants or "passive holders" be airdropped basic corresponding mutants without participating in the "reveal" process on the website?',
+      content: `
+        <p>Yes. Few hours after the Mutation Period ends and Mutation website is shut down, we’ll be taking a snapshot of holders who hold Mad Hares that were not mutated. Those holders will still receive corresponding Mad Mutants together with the rest of the people who participated in the Mutation Event. The passively created Mad Mutants will also compete for in-game rewards & receive a Mutant Score that will just equal their original Mad Hare rarity score.</p>
+      `,
+    },
+    {
+      title: 'How many bonus points do I get if I purchased Mutation Potions?',
+      content: `
+        <p>Holders who purchased Mutation Potions and held them in their wallet until snapshot that was taken on 1PM ET (02/22/2023) will be credited points to their account that can be used on any of their mutants. Read Mutation Guide to learn about the final Money Spent On Mutation Potions to Point Cost ratios, by which Bonus Points were credited to your account.</p>
+      `,
+    },
+    {
+      title: 'If I sell my Mad Hare after mutating it, will I still receive my Mad Mutant?',
+      content: `
+        <p>Once you have mutated your Mad Hare, the corresponding Mad Mutant will be linked to your CDC profile and you will receive your mutant even if you sell your initial Mad Hare.</p>
+      `,
+    },
     {
       title: 'How many times can I mutate each Mad Hare and how many times can I upgrade my Mad Mutant?',
       content: `
@@ -134,15 +147,9 @@ export default {
       `,
     },
     {
-      title: 'How much impact do the upgrades have on rank? By how much will the rank increase?',
+      title: 'Will Mad Mutants mutant scores exactly match original Mad Hare scores before upgrades are applied?',
       content: `
-        <p>Depending on the Upgrade Pack purchased, the extra rarity score points will vary. For example 25 points will be roughly 5 USD, but a 800 point Upgrade Pack 130 USD. Pricings for different Upgrade Packs will be featured in the Terms & Service section of our Mutation site at <a href="https://www.madharesociety.com/mutants" target="_blank">www.madharesociety.com/mutants</a>.</p>
-      `,
-    },
-    {
-      title: 'Will Mad Mutants rarity scores exactly match original Mad Hare scores before upgrades are applied?',
-      content: `
-        <p>Yes. If you had a 5000 rarity score Mad Hare in past, then you will now have a 5000 rarity score Mad Mutant by default with corresponding traits.</p>
+        <p>Yes. If you had a 5000 rarity score Mad Hare in past, then you will now have a 5000 mutant score Mad Mutant by default with corresponding traits.</p>
       `,
     },
     {
