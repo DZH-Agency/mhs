@@ -1,0 +1,22 @@
+.guide {
+
+  &-wrapper {
+    margin-top: 60px;
+
+    @media (max-width: 1200px) {
+      margin-top: 20px;
+    }
+  }
+
+  &__cloud {
+    position: absolute;
+    top: 0;
+    right: 0;
+    mix-blend-mode: screen;
+    z-index: -1;
+  }
+
+  &__bottom-img {
+    mix-blend-mode: screen;
+  }
+}
