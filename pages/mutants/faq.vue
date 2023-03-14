@@ -58,8 +58,8 @@ export default {
     {
       title: 'How is the final Mutant Score calculated? ',
       content: `
-        <p>Let's say that you have Mad Hare #7139. From the official ranking table we can see that the Mutant Score is 148.65 points. This means that your Mad Mutant will also receive the same exact Mutant Score after you've revealed your Mutant.</p>
-        <p>However, you can boost this Mutant Score by buying and applying Upgrade Packs to your Mad Mutant. Example:</p>
+        <p>Let's say that you have Mad Hare #7139. From the official ranking table we can see that the Rarity Score is 148.65 points. This means that your Mad Mutant will also receive the same exact Mutant Score after you've revealed your Mutant.</p>
+        <p>However, you can boost this Rarity Score by buying and applying Upgrade Packs to your Mad Mutant. Example:</p>
         <p>Mad Mutant #7139 Mutant Score = 148.65</p>
         <p>We are going to apply 2 Upgrade packs to the mutant:</p>
         <p>1. Epic - Eyes Pack that gives you 400 additional score points. (Read <a href="https://madharesociety.com/mutants/terms-of-service" target="_blank">"Trait Packages"</a> to learn about the price of different packs)</p>
