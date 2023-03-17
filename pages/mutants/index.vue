@@ -902,6 +902,17 @@ export default {
 
     setInterval(() => {
       const total = Date.parse(this.$options.targetDate) - Date.parse(new Date());
+
+      if (total <= 0 ) {
+        this.timerDate = {
+          days: '00',
+          hours: '00',
+          minutes: '00',
+          seconds: '00',
+        }
+        return
+      }
+
       const days = Math.floor(total / (1000 * 60 * 60 * 24));
       const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
       const mins = Math.floor((total / 1000 / 60) % 60);

@@ -16,8 +16,6 @@
 
         <a href="https://mutation.madharesociety.com" target="_blank" class="navbar__mutation-link">
           Mutation site
-          <br class="mobile-only">
-          (locked)
         </a>
 
         <div @click="isOpened = !isOpened" class="navbar__burger mobile-only" :class="{opened: isOpened}">
