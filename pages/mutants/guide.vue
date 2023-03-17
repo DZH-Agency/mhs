@@ -201,7 +201,7 @@
 
               <div class="guide-blocks-item-section-text">
                 <p>
-                  - traits from ears, hat & eyes upgrade packs are NOT applicable, but point boosts will still apply
+                  - traits from ears & hat upgrade packs are NOT applicable, but point boosts will still apply
                 </p>
                 - traits from rest of the upgrade packs are applicable
                 <p></p>
@@ -225,7 +225,7 @@
 
               <div class="guide-blocks-item-section-text">
                 <p>
-                  - traits from ears, clothes, nose & hat upgrade packs are NOT applicable, but point boosts will still apply
+                  - traits from ears, clothes, nose, mouth & hat upgrade packs are NOT applicable, but point boosts will still apply
                 </p>
                 - traits from rest of the upgrade packs are applicable
                 <p></p>

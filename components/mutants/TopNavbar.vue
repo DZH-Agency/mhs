@@ -13,13 +13,13 @@
             {{ link.title }}
           </nuxt-link>
         </div>
-        
-        <a href="#" target="_blank" class="navbar__mutation-link">
+
+        <a href="https://mutation.madharesociety.com" target="_blank" class="navbar__mutation-link">
           Mutation site
           <br class="mobile-only">
           (locked)
         </a>
-        
+
         <div @click="isOpened = !isOpened" class="navbar__burger mobile-only" :class="{opened: isOpened}">
           <div></div>
           <div></div>
@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    
+
     <portal to="app">
       <div class="container navbar-mobile-container mobile-only" :class="{opened: isOpened}">
         <div class="navbar-mobile">
@@ -53,7 +53,7 @@
         </div>
       </div>
     </portal>
-  
+
   </div>
 
 </template>
@@ -65,7 +65,7 @@ export default {
   name: 'TopNavbar',
   menuItems: constants.MUTANTS_NAVBAR_MENU_ITEMS,
   props: {
-  
+
   },
   data() {
     return {

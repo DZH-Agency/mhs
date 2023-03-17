@@ -774,7 +774,7 @@
               <p class="how-rd__hint">
                 <span class="text-purple-gradient tip">TIP:</span> Share your Mad Mutant or screen-record your mutation
                 process and tag <strong>@PsychoKittiesOG & @MadHareSociety</strong> on Twitter to have a chance at
-                winning a custom Mutant Hare by <strong>@DaRealGenius</strong>!
+                winning a custom Mutant Hare by <strong>@elrealgenius</strong>!
                 <br>
                 <span class="text-purple-gradient">(3 winners after mutation season ends)</span>
               </p>
@@ -841,7 +841,7 @@
           <p class="how-rd__hint mobile-only">
             <span class="text-purple-gradient tip">TIP:</span> Share your Mad Mutant or screen-record your mutation
             process and tag <strong>@PsychoKittiesOG & @MadHareSociety</strong> on Twitter to have a chance at
-            winning a custom Mutant Hare by <strong>@DaRealGenius</strong>!
+            winning a custom Mutant Hare by <strong>@elrealgenius</strong>!
             <br>
             <span class="text-purple-gradient">(3 winners after mutation season ends)</span>
           </p>

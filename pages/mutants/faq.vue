@@ -75,12 +75,6 @@ export default {
       `,
     },
     {
-      title: 'When will I be able to mutate my MH?',
-      content: `
-        <p>Mutation period will happen from 7th to 15th of March.</p>
-      `,
-    },
-    {
       title: 'What NFTs do I need to mutate?',
       content: `
         <p>You'll only need one <a href="https://crypto.com/nft/collection/41a371f626f43473ca087f0f36f06299?tab=items" target="_blank">Mad Hare</a>.</p>
@@ -131,7 +125,7 @@ export default {
     {
       title: 'How many Upgrade Packs will there be in total? What happens if someone has a Mad Mutant with the same traits I\'m trying to create with my Upgrade Pack?',
       content: `
-        <p>There are 24 different Upgrade Packs, each pack features 1 surprise trait. This means there are 24 new traits. Our system will not allow duplicate Mad Mutants with the same combination of traits.</p>
+        <p>There are 24 different Upgrade Packs, each pack features 2 surprise traits. This means there are 48 new traits. Our system will not allow duplicate Mad Mutants with the same combination of traits.</p>
       `,
     },
     {
