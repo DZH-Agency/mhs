@@ -41,7 +41,7 @@
             </nuxt-link>
           </div>
           <div class="navbar-mobile-social">
-            <a href="https://discord.gg/madharesociety" target="_blank">
+            <a href="https://discord.gg/quantumfrenzy" target="_blank">
               <img src="/TopNavBar/discord.svg" alt="discord">
             </a>
             <a href="https://twitter.com/MadHareSociety" target="_blank">

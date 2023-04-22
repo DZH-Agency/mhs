@@ -18,7 +18,7 @@
               </div>
               <div class="footer-top-social">
                 <a href="https://twitter.com/MadHareSociety" target="_blank" class="footer-top-social__item twitter"/>
-                <a href="https://discord.gg/madharesociety " target="_blank" class="footer-top-social__item discord"/>
+                <a href="https://discord.gg/quantumfrenzy " target="_blank" class="footer-top-social__item discord"/>
               </div>
             </div>
             <div class="footer-privacy-links mobile-only">

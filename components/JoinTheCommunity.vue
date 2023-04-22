@@ -5,7 +5,7 @@
         <div class="join__text">
           Have any questions about the project? Join the discord for more information.
         </div>
-        <a href="https://discord.gg/madharesociety" target="_blank" class="hyperlink join__link">
+        <a href="https://discord.gg/quantumfrenzy" target="_blank" class="hyperlink join__link">
           Join the Community
         </a>
       </div>

@@ -860,9 +860,9 @@
           <p class="footer-text__item">
             Have questions? We have a dedicated channel for Madhare Mutants: <a
             class="text-purple-gradient"
-            href="https://www.discord.gg/psychokitties"
+            href="https://www.discord.gg/quantumfrenzy"
             target="_blank"
-          >www.discord.gg/psychokitties</a>
+          >www.discord.gg/quantumfrenzy</a>
           </p>
           <p class="footer-text__item">
             Be up to date with the latest Madhare Mutants news at <a

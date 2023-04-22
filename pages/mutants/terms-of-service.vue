@@ -551,7 +551,7 @@
               If you have any questions, you can join our Discord channels at
               <a
                 class="tos-contacts-item-link"
-                href="https://www.discord.gg/psychokitties"
+                href="https://www.discord.gg/quantumfrenzy"
                 target="_blank"
               >
                 <img
