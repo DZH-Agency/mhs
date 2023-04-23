@@ -1,12 +1,10 @@
 @import "../theme";
 
 .society-wrapper {
-  margin-top: 60px;
   padding-bottom: 130px;
 
   @media (max-width: 1200px) {
     padding-bottom: 50px;
-    margin-top: 32px;
   }
 }
 

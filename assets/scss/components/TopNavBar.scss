@@ -24,6 +24,7 @@
   justify-content: space-between;
 
   &__logo {
+    cursor: pointer;
     width: 140px;
     @media (max-width: 1200px) {
       width: 110px;

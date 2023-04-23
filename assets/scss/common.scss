@@ -29,8 +29,10 @@
   padding: 24px 80px;
   border-radius: 82px;
 
-  &:hover {
-    @extend .text-purple-gradient
+  &:not(:disabled) {
+    &:hover {
+      @extend .text-purple-gradient
+    }
   }
 
   &::before, &::after {
