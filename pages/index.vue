@@ -2,7 +2,7 @@
   <div>
     <portal-target name="app"/>
     <top-nav-bar/>
-    <email-subscribe />
+    <email-subscribe v-if="!isEmailSubscribed" />
     <meet-mad-society/>
     <exclusively-on :timer-date="timerDate"/>
     <div id="story">
@@ -37,13 +37,16 @@ export default {
         hours: '00',
         minutes: '00',
         seconds: '00',
-      }
+      },
+      isEmailSubscribed: true
     }
   },
   beforeMount() {
     AOS.init();
   },
   mounted() {
+    this.isEmailSubscribed = !!localStorage.getItem('email-subscribed')
+    
     const targetDate = new Date(Date.UTC(2022, 3, 15, 13))
     targetDate.setHours(targetDate.getHours() + 2 + new Date().getTimezoneOffset() / 60)
     this.$options.targetDate = targetDate
