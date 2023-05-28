@@ -46,3 +46,9 @@ export default {
 <style scoped lang="scss">
 @import "~@/assets/scss/components/TimeUntilPresale.scss";
 </style>
+
+<style>
+.presale .countdown__time {
+  margin-bottom: 0;
+}
+</style>
