@@ -49,6 +49,6 @@ export default {
 
 <style>
 .presale .countdown__time {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 </style>
