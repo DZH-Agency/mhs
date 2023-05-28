@@ -155,7 +155,7 @@ export default {
   ],
   data() {
     return {
-      selectedStory: this.$options.stories[2].title
+      selectedStory: this.$options.stories[0].title
     }
   },
 }
