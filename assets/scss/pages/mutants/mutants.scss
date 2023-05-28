@@ -1094,8 +1094,6 @@
         height: 72px;
         border-radius: 6px;
         justify-self: end;
-
-
       }
 
       &:nth-child(3), &:nth-child(7) {
@@ -1436,6 +1434,126 @@
 
     &.right {
       transform: rotateY(180deg);
+    }
+  }
+}
+
+.rd {
+
+  &-wrapper {
+    padding-bottom: 60px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 116%;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #FAFAFA;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+    @media (max-width: 1200px) {
+      font-size: 32px;
+      margin-bottom: 24px;
+    }
+  }
+
+  &-info {
+    display: grid;
+    row-gap: 12px;
+    padding: 16px 32px;
+    background: rgba(0, 0, 0, 0.46);
+    border: 1px solid #7DD800;
+    border-radius: 9px;
+
+    &__title {
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 130%;
+      text-transform: uppercase;
+      color: #FAFAFA;
+      text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+      @media (max-width: 1200px) {
+        font-size: 20px;
+      }
+    }
+
+    &__note {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+      color: #999999;
+    }
+
+    &-section {
+
+      &__title {
+        margin-bottom: 8px;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 130%;
+        color: #7DD800;
+
+        @media (max-width: 1200px) {
+          font-size: 19px;
+        }
+      }
+
+      &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: #FFFFFF;
+      }
+    }
+
+    &-table {
+      background: rgba(0, 0, 0, 0.42);
+      border-radius: 26px;
+      overflow: hidden;
+      border: 1px solid #8C41CE;
+      margin: 40px auto;
+      max-width: 700px;
+
+      &-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        &:first-child {
+          background: linear-gradient(260.39deg, #00A79D 0%, #8C41CE 96.71%);
+
+          & > * {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 100%;
+            text-align: center;
+            color: #FFFFFF;
+          }
+        }
+
+        &:not(:last-child) {
+          border-bottom: 1px solid #8C41CE;
+        }
+      }
+
+      &-col {
+        min-height: 51px;
+        padding: 4px 12px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
+        text-align: center;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:not(:last-child) {
+          border-right: 1px solid #8C41CE;
+        }
+      }
     }
   }
 }

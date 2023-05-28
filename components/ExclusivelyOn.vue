@@ -2,28 +2,30 @@
   <div class="exc-wrapper">
     <div class="container">
       <div class="exc">
-        <the-countdown :timer-date="timerDate">
-          <template #header>
-            <div class="exc-header">
-              Exclusively on
-              <img class="exc-header__img" src="/ExclusivelyOn/crypto-com-nft.png" alt="logo">
-            </div>
-          </template>
-          
-          <template #text>
-            <div class="exc__sold-out">
-              SOLD OUT IN 13 MINUTES
-            </div>
-          </template>
-          
-          <template #footer>
-            <div class="exc-footer">
-              <a href="https://crypto.com/nft/collection/41a371f626f43473ca087f0f36f06299" target="_blank" class="btn sm">
-                View Collection
-              </a>
-            </div>
-          </template>
-        </the-countdown>
+        <h2 class="exc__title">
+          Available on <img src="/img/crypto-com-logo.png" alt="crypto com" class="crypto-com-nft-image" /> & <img src="/img/opensea-logo.png" alt="opensea" class="opensea-image" />
+        </h2>
+        <section class="exc-items">
+          <section class="exc-items-item" v-for="nft in $options.nfts" :key="nft.title">
+            <img
+              :src="nft.logo"
+              alt="logo"
+              class="exc-items-item__logo"
+            >
+            <h3 class="exc-items-item__title" v-html="nft.title"></h3>
+            <p class="exc-items-item__text" v-html="nft.text"></p>
+            <section class="exc-items-item-buttons">
+              <a :href="nft.cryptoComLink" class="crypto-com-nft-image exc-items-item-buttons__button">Buy on <img
+                src="/img/crypto-com-logo.png"
+                alt="crypto com"
+              ></a>
+              <a :href="nft.openseaLink" class="opensea-image exc-items-item-buttons__button">Buy on <img
+                src="/img/opensea-logo.png"
+                alt="opensea"
+              ></a>
+            </section>
+          </section>
+        </section>
       </div>
     </div>
   </div>
@@ -32,12 +34,35 @@
 <script>
 export default {
   name: 'ExclusivelyOn',
-  props: {
-    timerDate: {
-      type: Object,
-      required: true
-    }
-  },
+  nfts: [
+    {
+      logo: require('/static/img/available-on/mhs.png'),
+      title: '$6.1M+ volume traded',
+      text: `
+      <strong>Utility:</strong> Playable character in Quantum Frenzy game, <a href="#" target="_blank">IP rights</a>, staking (under construction), exclusive <a href="#" target="_blank">Discord</a> channels. Expect more utility in future.
+      `,
+      cryptoComLink: '#',
+      openseaLink: '#'
+    },
+    {
+      logo: require('/static/img/available-on/mad.png'),
+      title: 'Mad Era 2033: Invasion of the Mutants',
+      text: `
+      <strong>Utility:</strong> Each Mad Mutant allows you to claim various game items and token vouchers before the final public launch of <a href="#" target="_blank">Quantum Frenzy</a>. Read more about rewards <a href="#" target="_blank">HERE</a>.
+      `,
+      cryptoComLink: '#',
+      openseaLink: '#'
+    },
+    {
+      logo: require('/static/img/available-on/gen-q.png'),
+      title: 'Generation Q: Elite Babies',
+      text: `
+      <strong>Utility:</strong> Unlock special <a href="#" target="_blank">Quantum Frenzy</a> game advantage to your playable Mad Hare character if you stake the whole family. (Baby’s real parents are in the NFT metadata).
+      `,
+      cryptoComLink: '#',
+      openseaLink: '#'
+    },
+  ]
 }
 </script>
 

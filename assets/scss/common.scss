@@ -71,3 +71,10 @@
     width: 127px;
   }
 }
+
+.opensea-image {
+  @media (max-width: 1200px) {
+    width: 100px;
+    margin-left: 10px;
+  }
+}

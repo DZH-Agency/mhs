@@ -19,7 +19,7 @@
 
           <section class="hero-info">
             <h1 class="hero-info__title">
-              Welcome to the world's <span class="text-purple-gradient">most epic NFT mutation experience</span>
+              Welcome to Mad Era 2033, <span class="text-purple-gradient">where each mutant stores exciting in-game rewards!</span>
             </h1>
             <div class="hero-info-img-mobile mobile-only">
               <img
@@ -28,39 +28,16 @@
                 class="hero-info-img-mobile__img"
               >
             </div>
-            <div class="hero-info-remember">
-              <p class="hero-info-remember__text">
-                Key dates to remember:
-              </p>
-              <ul class="hero-info-remember-list">
-                <li class="hero-info-remember-list__item">
-                  Mutation Window: 03.15 - 03.19
-                  <br>
-                  <small>
-                    (goes live after tests are done with Upgrade Packs)
-                  </small>
-                </li>
-                <li class="hero-info-remember-list__item">
-                  CDC's Upgrade Packs drop: 03.15 - 03.18
-                </li>
-              </ul>
-            </div>
 
             <p class="hero-info-description">
-              Each Mad Hare can be mutated once. In light of the faulty airdrop of Mutant Potions, you will ONLY need
-              your Mad Hare to mutate - no Potions are needed. There will be a
-              <a
-                class="hero-info-description__link"
-                href="https://mutation.madharesociety.com/unusedNFTs.html"
-                target="_blank"
-              >special website</a> to check if your Mad Hare has been mutated or not.
+              Each Mad Mutant features a Rewards Tier NFT metadata that determines the reward package you are eligible for & which can be claimed shortly before our game launch.
             </p>
           </section>
         </header>
       </div>
     </div>
 
-    <div class="wrapper surprise-wrapper">
+    <div class="wrapper surprise-wrapper" v-if="false">
       <img
         src="/img/mutants/green-cloud-surprise-top.png"
         alt="cloud"
@@ -515,8 +492,8 @@
             <div class="rewards__separator"></div>
             <div class="rewards-right">
               <h2 class="rewards__heading">
-                Rewards
-                <span class="text-purple-gradient">For Placement</span>
+                Reward packages based on
+                <span class="text-purple-gradient">reward tiers</span>
               </h2>
             </div>
           </div>
@@ -650,235 +627,150 @@
         </div>
       </div>
     </div>
-
-    <div class="wrapper counter-wrapper">
+    
+    <div class="wrapper rd-wrapper">
       <div class="container">
-        <div class="counter">
-          <img
-            src="/img/mutants/countdown/green-thing.png"
-            alt="thing"
-            class="counter__image-thing"
-          >
-          <img
-            src="/img/mutants/countdown/flask.png"
-            alt="flask"
-            class="counter__image-flask"
-          >
-          <img
-            src="/img/mutants/countdown/top-skull.png"
-            alt="skull"
-            class="counter__image-skull"
-          >
-          <img
-            src="/img/mutants/countdown/bottom-mm-badge.png"
-            alt="badge"
-            class="counter__image-badge"
-          >
-
-          <h2 class="counter__heading">Mutation site goes LIVE in:</h2>
-
-          <div class="counter-timer">
-            <div class="counter-timer-item">
-              <div class="counter-timer-item__value">{{ timerDate.days }}</div>
-              <div class="counter-timer-item__name">days</div>
-            </div>
-            <div class="counter-timer__semicolon">:</div>
-            <div class="counter-timer-item">
-              <div class="counter-timer-item__value">{{ timerDate.hours }}</div>
-              <div class="counter-timer-item__name">hours</div>
-            </div>
-            <div class="counter-timer__semicolon desktop-only">:</div>
-            <div class="counter-timer-item">
-              <div class="counter-timer-item__value">{{ timerDate.minutes }}</div>
-              <div class="counter-timer-item__name">minutes</div>
-            </div>
-            <div class="counter-timer__semicolon">:</div>
-            <div class="counter-timer-item">
-              <div class="counter-timer-item__value">{{ timerDate.seconds }}</div>
-              <div class="counter-timer-item__name">seconds</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="wrapper how-wrapper">
-      <img
-        src="/img/mutants/green-cloud-how-to.png"
-        alt="cloud"
-        class="how__cloud"
-      >
-      <div class="container">
-        <div class="how">
-          <h2 class="how__title">
-            HOW TO <span class="text-purple-gradient">MUTATE</span>
-          </h2>
-
-          <div class="how-rd desktop-only">
-            <div class="how-rd-left">
-
-              <div class="how-rd-guide">
-                <embed
-                  src="/img/mutants/guide.svg"
-                  type="image/svg+xml"
-                  class="how-rd-guide__main"
-                >
-
-                <img
-                  src="/img/mutants/decoration.png"
-                  alt="decoration"
-                  class="how-rd-guide__decoration"
-                >
-              </div>
-
-              <img
-                src="/img/mutants/cards.png"
-                alt="cards"
-                class="how-rd__cards"
-              >
-
-            </div>
-            <div class="how-rd__separator"></div>
-            <div class="how-rd-right">
-              <div class="how-rd-point">
-                <div class="big-point top"></div>
-                <div class="how-rd-point__text">
-                  Head over to <a
-                  class="how-rd-point__link"
-                  href="https://mutation.madharesociety.com"
-                  target="_blank"
-                >https://mutation.madharesociety.com</a> (if the site requires password, then Mutation has not begun or
-                  there are updates being implemented - get up-to-date information in our Discord or Twitter)
-                </div>
-              </div>
-              <div class="how-rd-point">
-                <div class="small-point"></div>
-                <div class="how-rd-point__text">Verify your wallet according to instructions</div>
-              </div>
-              <div class="how-rd-point">
-                <div class="small-point"></div>
-                <div class="how-rd-point__text">Select your Mad Hare which you wish to mutate (your Mad Hare must be in
-                  CDC wallet!)
-                </div>
-              </div>
-              <div class="how-rd-point">
-                <div class="big-point"></div>
-                <h4 class="how-rd-point__heading">
-                  Reveal your Mutant Hare & apply your Upgrade Packs (you can apply them until the mutation period ends)
-                </h4>
-              </div>
-              <div class="how-rd-point">
-                <h4 class="how-rd-point__heading text-purple-gradient">Rinse and repeat</h4>
-              </div>
-
-              <p class="how-rd__hint">
-                <span class="text-purple-gradient tip">TIP:</span> Share your Mad Mutant or screen-record your mutation
-                process and tag <strong>@PsychoKittiesOG & @MadHareSociety</strong> on Twitter to have a chance at
-                winning a custom Mutant Hare by <strong>@elrealgenius</strong>!
+        <section class="rd">
+          <h2 class="rd__title">In-depth reward descriptions</h2>
+          <section class="rd-info">
+            <h3 class="rd-info__title">Mutant Mad Hare Rewards & Descriptions</h3>
+            <p class="rd-info__note">Note: All of the following NFT rewards will be tradeable on the secondary NFT marketplace once they are claimed with the corresponding Mad Mutant. The claim period will be indefinite, which means once the designated page is published, you can claim your rewards any time you want thanks to Polygon smart contracts.</p>
+            <section class="rd-info-section">
+              <h4 class="rd-info-section__title">Cosmetic NFT (exclusive in-game wearable)</h4>
+              <p class="rd-info-section__text">
+                The "Mutant Metamorphosis" cosmetic item can be exclusively attained from the Mad Era mutation event.
                 <br>
-                <span class="text-purple-gradient">(3 winners after mutation season ends)</span>
+                <br>
+                Holders who achieve the coveted Mythical rank will be rewarded with 10 "Mutant Metamorphosis" cosmetic items, Legendary rank will receive five & Epic rank mutants will be granted only one.
+                <br>
+                <br>
+                To maintain the rarity and exclusivity of the "Mutant Metamorphosis" cosmetic item, only a total of 4,550 will ever be produced. This makes it a genuinely limited-edition cosmetic in the PsychoKitties & Mad Hare Society ecosystem.
+                <br>
+                <br>
+                If you’ve ever played Runescape, then you will certainly remember tradeable discontinued items such as Party Hats or Santa Hats. Latter appeared randomly on the ground all over RuneScape on 25 December 2002, when players could pick up as many as they wanted. Over time these ultra-rare cosmetics accrued significant value within the culture of the game.
+                <br>
+                <br>
+                Unlike the Santa Hat, the “Mutant Metamorphosis” cosmetic item will also grant a powerful in-game advantage!
               </p>
-            </div>
-          </div>
-
-          <div class="how-rd-mobile mobile-only">
-            <div class="how-rd-guide">
-              <embed
-                src="/img/mutants/guide.svg"
-                type="image/svg+xml"
-                class="how-rd-guide__main"
-              >
-
-              <picture>
-                <source srcset="/img/mutants/decoration-mobile.svg" media="(max-width: 1200px)">
-                <img
-                  src="/img/mutants/decoration.png"
-                  alt="decoration"
-                  class="how-rd-guide__decoration"
-                >
-              </picture>
-            </div>
-
-            <div class="how-rd-point">
-              <div class="big-point top"></div>
-              <div class="how-rd-point__text">
-                Head over to <a
-                class="how-rd-point__link"
-                href="https://mutation.madharesociety.com"
-                target="_blank"
-              >https://mutation.madharesociety.com</a> (if the site requires password, then Mutation has not begun or
-                there are updates being implemented - get up-to-date information in our Discord or Twitter)
+            </section>
+            <section class="rd-info-section">
+              <h4 class="rd-info-section__title">Mystery Box</h4>
+              <p class="rd-info-section__text">
+                Each Mutant Themed Mystery Box will contain only one of the 12 potential prizes available. The item's rarity determines the likelihood of obtaining it when opening the mystery box.
+                <br>
+                <br>
+                There are 7 cosmetic items available, making the chances of obtaining one of these items relatively high. However, there are only two Rare and one Epic cosmetic items, which are more challenging to obtain due to their rarity. Although these items are hard to attain within the game, they are not limited edition, like the “Mutant Metamorphosis” cosmetic item we discussed earlier.
+                <br>
+                <br>
+                Similarly, four game lobby decorations are available, including one Rare, two Epic, and one Mythical decoration. The probability of obtaining a Mythical decoration is considerably lower than acquiring a Rare decoration.
+                <br>
+                <br>
+                This feature adds an element of excitement and anticipation to each mystery box. It heightens the sense of surprise and satisfaction when obtaining a unique and exclusive item, which is rare and valuable.
+                <br>
+                <br>
+                Icing on the cake will be obtaining highly sought-after vouchers for $QTM (Quantum) Tokens - the on-chain cryptocurrency that powers our ecosystem.
+              </p>
+            </section>
+            <div class="rd-info-table">
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col">
+                  Mutant Mystery Box
+                  Item Name
+                </div>
+                <div class="rd-info-table-col">
+                  Probability
+                </div>
+                <div class="rd-info-table-col">
+                  Total Items
+                </div>
+              </div>
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col">QTM Voucher</div>
+                <div class="rd-info-table-col">0.50%</div>
+                <div class="rd-info-table-col">126</div>
+              </div>
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col">Cosmetic Item 1</div>
+                <div class="rd-info-table-col">15.00%</div>
+                <div class="rd-info-table-col">3780</div>
+              </div>
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col">Cosmetic Item 2</div>
+                <div class="rd-info-table-col">15.00%</div>
+                <div class="rd-info-table-col">3780</div>
+              </div>
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col">Cosmetic Item 3</div>
+                <div class="rd-info-table-col">15.00%</div>
+                <div class="rd-info-table-col">3780</div>
+              </div>
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col">Cosmetic Item 4</div>
+                <div class="rd-info-table-col">15.00%</div>
+                <div class="rd-info-table-col">3780</div>
+              </div>
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col">Cosmetic Item 5</div>
+                <div class="rd-info-table-col">8.00%</div>
+                <div class="rd-info-table-col">2016</div>
+              </div>
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col">Cosmetic Item 6</div>
+                <div class="rd-info-table-col">8.00%</div>
+                <div class="rd-info-table-col">2016</div>
+              </div>
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col">Cosmetic Item 7</div>
+                <div class="rd-info-table-col">5.00%</div>
+                <div class="rd-info-table-col">1260</div>
+              </div>
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col">Lobby Decorations 1</div>
+                <div class="rd-info-table-col">8.00%</div>
+                <div class="rd-info-table-col">2016</div>
+              </div>
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col">Lobby Decorations 2</div>
+                <div class="rd-info-table-col">5.00%</div>
+                <div class="rd-info-table-col">1260</div>
+              </div>
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col">Lobby Decorations 3</div>
+                <div class="rd-info-table-col">5.00%</div>
+                <div class="rd-info-table-col">1260</div>
+              </div>
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col">Lobby Decorations 4</div>
+                <div class="rd-info-table-col">0.50%</div>
+                <div class="rd-info-table-col">126</div>
+              </div>
+              <div class="rd-info-table-row">
+                <div class="rd-info-table-col"></div>
+                <div class="rd-info-table-col">100%</div>
+                <div class="rd-info-table-col">25200</div>
               </div>
             </div>
-            <div class="how-rd-point">
-              <div class="small-point"></div>
-              <div class="how-rd-point__text">Verify your wallet according to instructions</div>
-            </div>
-            <div class="how-rd-point">
-              <div class="small-point"></div>
-              <div class="how-rd-point__text">Select your Mad Hare which you wish to mutate (your Mad Hare must be in
-                CDC wallet!)
-              </div>
-            </div>
-            <div class="how-rd-point">
-              <div class="big-point"></div>
-              <h4 class="how-rd-point__heading">
-                Reveal your Mutant Hare & apply your Upgrade Packs (you can apply them until the mutation period ends)
-              </h4>
-            </div>
-
-            <img
-              src="/img/mutants/cards.png"
-              alt="cards"
-              class="how-rd__cards"
-            >
-
-            <div class="how-rd-point">
-              <h4 class="how-rd-point__heading text-purple-gradient">Rinse and repeat</h4>
-            </div>
-          </div>
-
-          <p class="how-rd__hint mobile-only">
-            <span class="text-purple-gradient tip">TIP:</span> Share your Mad Mutant or screen-record your mutation
-            process and tag <strong>@PsychoKittiesOG & @MadHareSociety</strong> on Twitter to have a chance at
-            winning a custom Mutant Hare by <strong>@elrealgenius</strong>!
-            <br>
-            <span class="text-purple-gradient">(3 winners after mutation season ends)</span>
-          </p>
-        </div>
+            <section class="rd-info-section">
+              <h4 class="rd-info-section__title">Rare & Secret SFTs</h4>
+              <p class="rd-info-section__text">
+                The Mutation event features exclusive consumable SFTs (Semi-Fungible Tokens). There will be five variations of Rare Consumable SFTs and three variations of Secret Consumable SFTs.
+                <br>
+                <br>
+                These SFTs can only be exclusively claimed by Mad Mutant holders and cannot be produced in the game nor purchased from in-game marketplace. However, you will still be able to sell them on the secondary marketplace to other players. By consuming these SFTs before or during a run, players will receive unique and exclusive properties that give them a distinct game advantage. Once used, they are burned forever.
+                <br>
+                <br>
+                These SFTs hold exclusive properties that offer a unique effect that surpasses those that can be crafted or purchased within the game. This gives players a rare and special advantage that cannot be obtained elsewhere.
+              </p>
+            </section>
+            <section class="rd-info-section">
+              <h4 class="rd-info-section__title">Crystal Bundle Vouchers</h4>
+              <p class="rd-info-section__text">
+                The Crystal Bundle Vouchers offer a large quantity of Crystals at a discounted price compared to individual purchases in the in-game store. These Crystal Vouchers can be sold to other players on the secondary marketplace. However, once the voucher is redeemed for Crystals, the Crystals can only be used for in-game purchases.
+              </p>
+            </section>
+          </section>
+        </section>
       </div>
-    </div>
-
-    <div class="wrapper footer-wrapper">
-      <footer class="footer">
-        <img
-          src="/img/mutants/footer-cloud-left.png"
-          alt="cloud"
-          class="footer__cloud"
-        >
-        <div class="footer-text">
-          <p class="footer-text__item">
-            Have questions? We have a dedicated channel for Madhare Mutants: <a
-            class="text-purple-gradient"
-            href="https://www.discord.gg/quantumfrenzy"
-            target="_blank"
-          >www.discord.gg/quantumfrenzy</a>
-          </p>
-          <p class="footer-text__item">
-            Be up to date with the latest Madhare Mutants news at <a
-            class="text-purple-gradient"
-            href="https://www.twitter.com/psychokittiesog"
-            target="_blank"
-          >www.twitter.com/psychokittiesog</a>
-          </p>
-        </div>
-
-        <img
-          src="/img/mutants/footer-cloud-left.png"
-          alt="cloud"
-          class="footer__cloud right"
-        >
-      </footer>
     </div>
   </div>
 </template>

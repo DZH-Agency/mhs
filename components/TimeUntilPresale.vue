@@ -18,13 +18,13 @@
             </div>
           </template>
           
-          <template #footer>
-            <div class="presale-block">
-              <a href="https://crypto.com/nft/collection/41a371f626f43473ca087f0f36f06299" target="_blank" class="btn sm presale__button">
-                View Collection
-              </a>
-            </div>
-          </template>
+<!--          <template #footer>-->
+<!--            <div class="presale-block">-->
+<!--              <a href="https://crypto.com/nft/collection/41a371f626f43473ca087f0f36f06299" target="_blank" class="btn sm presale__button">-->
+<!--                View Collection-->
+<!--              </a>-->
+<!--            </div>-->
+<!--          </template>-->
         </the-countdown>
       </div>
     </div>

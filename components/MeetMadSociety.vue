@@ -13,14 +13,11 @@
             Meet the <br> <span class="text-purple-gradient">Mad Hare Society.</span>
           </h2>
           <p class="society-content__text">
-            One of the most sought-after digital creators among Latin Music Artists and co-founder of <a href="https://crypto.com/nft/collection/faa3d8da88f9ee2f25267e895db71471" target="_blank">PsychoKitties</a> (the most traded artist collection on CDC/NFT) - DaRealGenius - unleashes his very own 10,000 unique avatar collectibles with over 245 traits, making Mad Hare Society the most sophisticated creative project on Crypto.com/NFT.
+            One of the most sought-after digital creators among Latin Music Artists and co-founder of <a href="https://crypto.com/nft/collection/faa3d8da88f9ee2f25267e895db71471" target="_blank">PsychoKitties</a> collections ($16.9M+ volume traded) - DaRealGenius - unleashed his very own 10,000 unique avatar collectibles with over 245 traits, making Mad Hare Society one of the most sophisticated creative projects in Web3.
           </p>
           <p class="society-content__note">
-            <span class="text-purple-gradient">Note:</span> <i>"PsychoKitties: The New Era" had over 80,000 people in the buying queue, so act fast when the drop goes live!</i>
+            <span class="text-purple-gradient">Note:</span> <i>"PsychoKitties: The New Era" had over 80,000 people in the buying queue, “Mad Hare Society” over 35,000.</i>
           </p>
-          <a href="https://crypto.com/nft/collection/41a371f626f43473ca087f0f36f06299" target="_blank" class="btn sm society__btn">
-            View Collection
-          </a>
         </div>
       </div>
     </div>

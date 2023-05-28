@@ -61,3 +61,7 @@
 
   }
 }
+
+::v-deep .countdown__time {
+  margin-bottom: 0;
+}

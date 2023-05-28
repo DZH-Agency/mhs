@@ -80,6 +80,7 @@
       flex-direction: column;
       margin-bottom: 70px;
       position: relative;
+      row-gap: 34px;
 
       &::after {
         content: '';
@@ -98,7 +99,7 @@
       &__item {
 
         &:first-child {
-          align-self: flex-start;
+          align-self: flex-end;
           width: 401px;
           max-width: 80%;
         }
@@ -125,7 +126,24 @@
     }
 
     &-cards {
+      display: flex;
+      flex-direction: column;
+      row-gap: 150px;
       position: relative;
+
+      &::after {
+        content: '';
+        z-index: -1;
+        position: absolute;
+        width: 60%;
+        height: 90%;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%) rotate(-21deg);
+        background: linear-gradient(180deg, rgba(0, 167, 157, 0.5) 0%, rgba(140, 65, 206, 0.5) 100%);
+        filter: blur(90px);
+        border-radius: 50%;
+      }
 
       > img {
         width: 100%;

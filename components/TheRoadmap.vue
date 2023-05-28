@@ -4,17 +4,18 @@
      <div class="rd desktop-only">
        <div class="rd-left">
          <h2 class="rd__heading" data-aos="fade-right">
-           Launch
+           Completed Launch
            <span class="text-purple-gradient">Roadmap</span>
          </h2>
          <div class="rd-left-cards">
-           <img data-aos="fade-right" src="/TheRoadmap/card-left.png" alt="card" class="rd-left-cards__item">
+           <img data-aos="fade-right" src="/TheRoadmap/two-pk.png" alt="card" class="rd-left-cards__item">
+           <img data-aos="fade-right" src="/TheRoadmap/donation.png" alt="card" class="rd-left-cards__item">
          </div>
          <div class="rd-point">
            <div class="big-point"></div>
            <div class="rd-point__heading" data-aos="fade-right">2022 Q2</div>
            <div class="rd-point__text" data-aos="fade-right">
-             Exclusive Discord channels - expect an overload of madness.
+             Executed exclusive Discord channels.
              <br>
              <br>
              - Mad Hares (must hold at least 1 Mad Hare)
@@ -26,26 +27,36 @@
              - Godly Hares (must hold at least 10 Mad Hares)
              <br>
              <br>
-             Release commercial use rights to Mad Hare Society holders - monetize your NFTs worldwide. (more info in FAQ)
+             Released commercial use rights to Mad Hare Society holders - monetize your NFTs worldwide. (more info in FAQ)
            </div>
          </div>
          <div class="rd-point">
            <div class="small-point"></div>
-           <div class="rd-point__heading" data-aos="fade-right">2022 Q3 - 2023 Q1</div>
+           <div class="rd-point__heading" data-aos="fade-right">2022 Q3 - 2023 Q2</div>
            <div class="rd-point__text" data-aos="fade-right">
-             Massive collaboration with the PsychoKitties to create something special and unique the NFT world has NEVER seen before.
+             Created the world’s first cross-project breeding event with the <a
+             href="https://www.psychokitties.io/"
+             target="_blank"
+           >PsychoKitties</a> project, where the babies either inherited the traits of their parents or were able to choose their desired baby traits in real-time!
              <br>
              <br>
-             TOP10 and surprise sweepstakes winners can win custom Mad Hare PFPs with traits of their own choosing.
+             Gave away and created custom Mad Hare PFPs with traits of holders own choosing.
              <br>
              <br>
-             Mad Hare holders can expect at least 1 surprise airdrop before the year is over.
+             Brought our holders an amazing free mutation experience coupled with an optional gamified upgrade mechanic. Latter allowed people to feature a new trait on their Mutant and earn additional points to compete for valuable game rewards. Read more about the rewards tied to each Mad Mutant HERE.
+           </div>
+         </div>
+         <div class="rd-point">
+           <div class="small-point"></div>
+           <div class="rd-point__heading" data-aos="fade-right">2023 Q2-Q4</div>
+           <div class="rd-point__text" data-aos="fade-right">
+             Get excited about our upcoming Interactive Comic Application that allows you to win rewards & puts the fate of the story in the community’s hands.
              <br>
              <br>
-             Hidden Staking (you'll learn more about it in due time).
+             We’ve been building our rogue-lite game since June 2022 & are delighted to be able to start testing it soon with our community before releasing it to the whole world!
              <br>
              <br>
-             … and a P2E game.
+             Make sure you are subscribed to our email list, so you won’t miss out on any important information such as key dates for our token launch & how to prepare, how to earn token vouchers by helping us test the game & more! Like they say, you snooze, you lose!
            </div>
          </div>
        </div>
@@ -55,14 +66,21 @@
            <div class="big-point"></div>
            <div class="rd-point__heading" data-aos="fade-right">25%</div>
            <div class="rd-point__text" data-aos="fade-right">
-             2,500 Mad Hares have been placed aside. 14 Mad Hares belong to PsychoKitty holders with a trait called "Tattoo with bunny". The remaining 2,486 out of 2,500 will be airdropped to people who hold pairs of <a href="https://crypto.com/nft/collection/faa3d8da88f9ee2f25267e895db71471" target="_blank">PsychoKitties</a> and <a href="https://crypto.com/nft/collection/69d0601d6d4ecd0ea670835645d47b0d" target="_blank">PsychoMollies</a>. If there are more pairs than 2486, winners will be chosen via a special sweepstakes round. TOP10 pair holders will automatically get a Mad Hare.
+             2,500 Mad Hares were placed aside. 14 Mad Hares belonged to <a>PsychoKitty</a> holders with a trait called "Tattoo with bunny". The remaining 2,486 out of 2,500 were airdropped to people who held pairs of <a href="https://crypto.com/nft/collection/faa3d8da88f9ee2f25267e895db71471" target="_blank">PsychoKitties</a> and <a href="https://crypto.com/nft/collection/69d0601d6d4ecd0ea670835645d47b0d" target="_blank">PsychoMollies</a>. TOP10 pair holders got a Mad Hare automatically.
+           </div>
+         </div>
+         <div class="rd-point">
+           <div class="small-point"></div>
+           <div class="rd-point__heading" data-aos="fade-right">75% - 5,000 Mad Hares sold in Public Sale</div>
+           <div class="rd-point__text" data-aos="fade-right">
+             TOP5 Discord Invite contest winners received a custom Mad Hare PFP according to the winner's desired traits.
            </div>
          </div>
          <div class="rd-point">
            <div class="small-point"></div>
            <div class="rd-point__heading" data-aos="fade-right">100% - 7,500 Mad Hares sold in Public Sale</div>
            <div class="rd-point__text" data-aos="fade-right">
-             10% of all initial sales will be donated to Veteran organizations. We will also have fundraisers in the form of auctions every 3 months. Furthermore, we will buy up 100 Mad Hares from the floor for future giveaways and contests.
+             10% of all initial sales - $150,000 was donated to Veteran organization called <a href="https://twitter.com/OpSecondChance/status/1549854277652385792" target="_blank">Operation Second Chance</a>. We also bought up 100 Mad Hares from the floor for future giveaways and contests.
            </div>
          </div>
          <h2 class="rd__heading" data-aos="fade-right">
@@ -70,31 +88,41 @@
            <span class="text-purple-gradient">Roadmap</span>
          </h2>
          <div class="rd-right-cards">
-           <img data-aos="fade-right" src="/TheRoadmap/card-right.png" alt="cards" class="rd-left-cards__item">
+           <img data-aos="fade-right" src="/TheRoadmap/two-pk-right-bot.png" alt="cards" class="rd-right-cards__item">
+           <img data-aos="fade-right" src="/TheRoadmap/small-ans.png" alt="cards" class="rd-right-cards__item">
          </div>
        </div>
      </div>
      <div class="rd-mobile mobile-only">
        <h2 class="rd__heading">
+         Completed
+         <br>
          Launch
          <br>
          <span class="text-purple-gradient" data-aos="fade-up">Roadmap</span>
        </h2>
        <div class="rd-point">
          <div class="big-point"></div>
-         <div class="rd-point__heading" data-aos="fade-up">25%</div>
-         <div class="rd-point__text" data-aos="fade-up">
-           2,500 Mad Hares have been placed aside. 14 Mad Hares belong to PsychoKitty holders with a trait called "Tattoo with bunny". The remaining 2,486 out of 2,500 will be airdropped to people who hold pairs of
-           <a href="https://crypto.com/nft/collection/faa3d8da88f9ee2f25267e895db71471" target="_blank">PsychoKitties</a> and <a href="https://crypto.com/nft/collection/69d0601d6d4ecd0ea670835645d47b0d" target="_blank">PsychoMollies</a>. If there are more pairs than 2486, winners will be chosen via a special sweepstakes round. TOP10 pair holders will automatically get a Mad Hare.
+         <div class="rd-point__heading" data-aos="fade-right">25%</div>
+         <div class="rd-point__text" data-aos="fade-right">
+           2,500 Mad Hares were placed aside. 14 Mad Hares belonged to <a>PsychoKitty</a> holders with a trait called "Tattoo with bunny". The remaining 2,486 out of 2,500 were airdropped to people who held pairs of <a href="https://crypto.com/nft/collection/faa3d8da88f9ee2f25267e895db71471" target="_blank">PsychoKitties</a> and <a href="https://crypto.com/nft/collection/69d0601d6d4ecd0ea670835645d47b0d" target="_blank">PsychoMollies</a>. TOP10 pair holders got a Mad Hare automatically.
          </div>
        </div>
        <img class="rd-mobile__card" data-aos="fade-up" src="/TheRoadmap/card-left-1-mobile.png" alt="card"/>
        <div class="rd-point">
          <div class="small-point"></div>
-         <div class="rd-point__heading" data-aos="fade-up">100% - 7,500 Mad Hares sold in Public Sale</div>
-         <img class="rd-mobile__card no-padding" data-aos="fade-up" src="/TheRoadmap/card-left-2-mobile.png" alt="card"/>
+         <div class="rd-point__heading" data-aos="fade-up">75% - 5,000 Mad Hares sold in Public Sale</div>
          <div class="rd-point__text" data-aos="fade-up">
-           10% of all initial sales will be donated to Veteran organizations. We will also have fundraisers in the form of auctions every 3 months. Furthermore, we will buy up 100 Mad Hares from the floor for future giveaways and contests.
+           TOP5 Discord Invite contest winners received a custom Mad Hare PFP according to the winner's desired traits.
+         </div>
+       </div>
+       
+       <div class="rd-point">
+         <div class="small-point"></div>
+         <div class="rd-point__heading" data-aos="fade-right">100% - 7,500 Mad Hares sold in Public Sale</div>
+         <img class="rd-mobile__card no-padding" data-aos="fade-up" src="/TheRoadmap/donation.png" alt="card"/>
+         <div class="rd-point__text" data-aos="fade-right">
+           10% of all initial sales - $150,000 was donated to Veteran organization called <a href="https://twitter.com/OpSecondChance/status/1549854277652385792" target="_blank">Operation Second Chance</a>. We also bought up 100 Mad Hares from the floor for future giveaways and contests.
          </div>
        </div>
   
@@ -108,7 +136,7 @@
          <div class="big-point"></div>
          <div class="rd-point__heading" data-aos="fade-up">2022 Q2</div>
          <div class="rd-point__text" data-aos="fade-up">
-           Exclusive Discord channels - expect an overload of madness.
+           Executed exclusive Discord channels.
            <br>
            <br>
            - Mad Hares (must hold at least 1 Mad Hare)
@@ -120,29 +148,42 @@
            - Godly Hares (must hold at least 10 Mad Hares)
            <br>
            <br>
-           Release commercial use rights to Mad Hare Society holders - monetize your NFTs worldwide. (more info in FAQ)
+           Released commercial use rights to Mad Hare Society holders - monetize your NFTs worldwide. (more info in FAQ)
          </div>
        </div>
        <div class="rd-mobile-card-wrapper">
-         <img class="rd-mobile__card" data-aos="fade-up" src="/TheRoadmap/card-right-mobile.png" alt="card"/>
+         <img class="rd-mobile__card" data-aos="fade-up" src="/TheRoadmap/two-pk-right-bot.png" alt="card"/>
        </div>
        <div class="rd-point">
          <div class="small-point"></div>
-         <div class="rd-point__heading" data-aos="fade-up">2022 Q3 - 2023 Q1</div>
+         <div class="rd-point__heading" data-aos="fade-up">2022 Q3 - 2023 Q2</div>
          <div class="rd-point__text" data-aos="fade-up">
-           Massive collaboration with the PsychoKitties to create something special and unique the NFT world has NEVER seen before.
+           Created the world’s first cross-project breeding event with the <a
+           href="https://www.psychokitties.io/"
+           target="_blank"
+         >PsychoKitties</a> project, where the babies either inherited the traits of their parents or were able to choose their desired baby traits in real-time!
            <br>
            <br>
-           TOP10 and surprise sweepstakes winners can win custom Mad Hare PFPs with traits of their own choosing.
+           Gave away and created custom Mad Hare PFPs with traits of holders own choosing.
            <br>
            <br>
-           Mad Hare holders can expect at least 1 surprise airdrop before the year is over.
+           Brought our holders an amazing free mutation experience coupled with an optional gamified upgrade mechanic. Latter allowed people to feature a new trait on their Mutant and earn additional points to compete for valuable game rewards. Read more about the rewards tied to each Mad Mutant HERE.
+         </div>
+       </div>
+       <div class="rd-mobile-card-wrapper">
+         <img class="rd-mobile__card" data-aos="fade-up" src="/TheRoadmap/small-ans.png" alt="card"/>
+       </div>
+       <div class="rd-point">
+         <div class="small-point"></div>
+         <div class="rd-point__heading" data-aos="fade-right">2023 Q2-Q4</div>
+         <div class="rd-point__text" data-aos="fade-right">
+           Get excited about our upcoming Interactive Comic Application that allows you to win rewards & puts the fate of the story in the community’s hands.
            <br>
            <br>
-           Hidden Staking (you'll learn more about it in due time).
+           We’ve been building our rogue-lite game since June 2022 & are delighted to be able to start testing it soon with our community before releasing it to the whole world!
            <br>
            <br>
-           … and a P2E game.
+           Make sure you are subscribed to our email list, so you won’t miss out on any important information such as key dates for our token launch & how to prepare, how to earn token vouchers by helping us test the game & more! Like they say, you snooze, you lose!
          </div>
        </div>
      </div>
