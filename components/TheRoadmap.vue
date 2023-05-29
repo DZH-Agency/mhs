@@ -43,7 +43,7 @@
              Gave away and created custom Mad Hare PFPs with traits of holders own choosing.
              <br>
              <br>
-             Brought our holders an amazing free mutation experience coupled with an optional gamified upgrade mechanic. Latter allowed people to feature a new trait on their Mutant and earn additional points to compete for valuable game rewards. Read more about the rewards tied to each Mad Mutant HERE.
+             Brought our holders an amazing free mutation experience coupled with an optional gamified upgrade mechanic. Latter allowed people to feature a new trait on their Mutant and earn additional points to compete for valuable game rewards. Read more about the rewards tied to each Mad Mutant <a href="/mutants" target="_blank">HERE</a>.
            </div>
          </div>
          <div class="rd-point">
@@ -167,7 +167,8 @@
            Gave away and created custom Mad Hare PFPs with traits of holders own choosing.
            <br>
            <br>
-           Brought our holders an amazing free mutation experience coupled with an optional gamified upgrade mechanic. Latter allowed people to feature a new trait on their Mutant and earn additional points to compete for valuable game rewards. Read more about the rewards tied to each Mad Mutant HERE.
+           Brought our holders an amazing free mutation experience coupled with an optional gamified upgrade mechanic. Latter allowed people to feature a new trait on their Mutant and earn additional points to compete for valuable game rewards. Read more about the rewards tied to each Mad Mutant
+           <a href="/mutants" target="_blank">HERE</a>.
          </div>
        </div>
        <div class="rd-mobile-card-wrapper">

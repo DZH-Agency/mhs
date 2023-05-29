@@ -2,7 +2,7 @@
   <div class="index-wrapper">
     <portal-target name="app"/>
     <top-nav-bar/>
-<!--    <email-subscribe v-if="!isEmailSubscribed" />-->
+    <email-subscribe v-if="!isEmailSubscribed" />
     <meet-mad-society/>
     <exclusively-on />
     <div id="story">

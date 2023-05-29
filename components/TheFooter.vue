@@ -34,7 +34,7 @@
       <div class="container">
         <div class="footer-privacy">
           <div class="footer-privacy__text">
-            2022, All Rights Reserved
+            {{ $options.year }}, All Rights Reserved
           </div>
           <div class="footer-privacy-links desktop-only">
             <nuxt-link :to="{path: '/terms-and-conditions#'}" class="footer-privacy-links__link">
@@ -52,7 +52,8 @@ import constants from '@/constants.js'
 
 export default {
   name: 'TheFooter',
-  menuItems: constants.NAVBAR_MENU_ITEMS
+  menuItems: constants.NAVBAR_MENU_ITEMS,
+  year: new Date().getFullYear()
 }
 </script>
 
