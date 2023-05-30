@@ -39,27 +39,27 @@ export default {
       logo: require('/static/img/available-on/mhs.png'),
       title: '$6.1M+ volume traded',
       text: `
-      <strong>Utility:</strong> Playable character in Quantum Frenzy game, <a href="/terms-and-conditions" target="_blank">IP rights</a>, staking (under construction), exclusive <a href="#" target="_blank">Discord</a> channels. Expect more utility in the future.
+      <strong>Utility:</strong> Playable character in Quantum Frenzy game, <a href="/terms-and-conditions" target="_blank">IP rights</a>, staking (under construction), exclusive <a href="https://discord.gg/quantumfrenzy" target="_blank">Discord</a> channels. Expect more utility in the future.
       `,
-      cryptoComLink: '#',
+      cryptoComLink: 'https://crypto.com/nft/collection/41a371f626f43473ca087f0f36f06299',
       openseaLink: 'https://opensea.io/collection/mad-hare-society-10'
     },
     {
       logo: require('/static/img/available-on/mad.png'),
       title: 'Mad Era 2033: Invasion of the Mutants',
       text: `
-      <strong>Utility:</strong> Each Mad Mutant allows you to claim various game items and token vouchers before the final public launch of <a href="#" target="_blank">Quantum Frenzy</a>. Read more about rewards <a href="/mutants" target="_blank">HERE</a>.
+      <strong>Utility:</strong> Each Mad Mutant allows you to claim various game items and token vouchers before the final public launch of <a href="https://quantumfrenzy.com/" target="_blank">Quantum Frenzy</a>. Read more about rewards <a href="/mutants" target="_blank">HERE</a>.
       `,
-      cryptoComLink: '',
+      cryptoComLink: 'https://crypto.com/nft/collection/0fe327472d86e172cc10e20ec9be9a5b',
       openseaLink: 'https://opensea.io/collection/mad-era-2033-invasion-of-the-mutants'
     },
     {
       logo: require('/static/img/available-on/gen-q.png'),
       title: 'Generation Q: Elite Babies',
       text: `
-      <strong>Utility:</strong> Unlock special <a href="#" target="_blank">Quantum Frenzy</a> game advantage to your playable Mad Hare character if you stake the whole family. (Baby’s real parents are in the NFT metadata).
+      <strong>Utility:</strong> Unlock special <a href="https://quantumfrenzy.com/" target="_blank">Quantum Frenzy</a> game advantage to your playable Mad Hare character if you stake the whole family. (Baby’s real parents are in the NFT metadata).
       `,
-      cryptoComLink: '#',
+      cryptoComLink: 'https://crypto.com/nft/collection/b8a462abcadfa08f1e678df15bbacc41',
       openseaLink: 'https://opensea.io/collection/generation-q-elite-babies'
     },
   ]
