@@ -39,7 +39,7 @@ export default {
       logo: require('/static/img/available-on/mhs.png'),
       title: '$6.1M+ volume traded',
       text: `
-      <strong>Utility:</strong> Playable character in Quantum Frenzy game, <a href="/terms-and-conditions" target="_blank">IP rights</a>, staking (under construction), exclusive <a href="https://discord.gg/quantumfrenzy" target="_blank">Discord</a> channels. Expect more utility in the future.
+      <strong>Utility:</strong> Playable character in Quantum Frenzy game, <a href="/terms-and-conditions" target="_blank">IP rights</a>, staking (under construction), exclusive <a href="https://discord.gg/quantumfrenzy" target="_blank">Discord</a> channels, secret utility (under construction).
       `,
       cryptoComLink: 'https://crypto.com/nft/collection/41a371f626f43473ca087f0f36f06299',
       openseaLink: 'https://opensea.io/collection/mad-hare-society-10'
