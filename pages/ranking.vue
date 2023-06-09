@@ -18,15 +18,15 @@
             <div class="table-sort__item" :class="{active: sort === 'id'}" @click="sort = 'id'">Sort By ID</div>
           </div>
           <div class="table-nfts">
-            <div class="table-nfts-card" v-for="item in items" :key="item.assetId">
+            <div class="table-nfts-card" v-for="item in items" :key="item.asset_id">
               <a :href="getNftLink(item)" target="_blank" class="table-nfts-card-img">
-                <img :src="item.cover_url" alt="" class="table-nfts-card-img__img">
+                <img :src="item.hare_img" alt="" class="table-nfts-card-img__img">
               </a>
               <a target="_blank" :href="getNftLink(item)" class="table-nfts-card__name">
-                {{ item.name }}
+                Mad Hare #{{ item.mutant_id }}
               </a>
               <div class="table-nfts-card__score">
-                Score: {{ Number(item.Score) }}
+                Score: {{ Number(item.score).toFixed(4) }}
               </div>
               <div class="table-nfts-card__rank">
                 Rank: <strong>{{ Number(item.rank) }}</strong> / 10000
@@ -64,7 +64,7 @@ export default {
   name: 'test',
   data() {
     return {
-      totalPagesCount: 32,
+      totalPagesCount: 10,
       startPagesCount: 2,
       endPagesCount: 1,
       middlePagesOffset: 1,
@@ -111,12 +111,11 @@ export default {
       return `https://crypto.com/nft/collection/41a371f626f43473ca087f0f36f06299?asset=${item.assetId}&edition=${item.defaultEditionId}&detail-page=MARKETPLACE`
     },
     async loadItems() {
-      const { data } = await this.$axios.get('/search/', {
+      const { data } = await this.$axios.get('/search', {
         params: {
           page: this.currentPageNumber,
           sort_by: this.sort,
           sort: this.sort === 'rarity' ? 'DESC' : 'ASC',
-          collection: 'hare',
           query: this.search
         }
       })

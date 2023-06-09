@@ -14,5 +14,5 @@ export default {
     { title: 'Terms of Service', href: {path: '/mutants/terms-of-service'} },
     { title: 'FAQ', href: {path: '/mutants/faq'} },
   ],
-  API_ROOT: 'https://api.madharesociety.com'
+  API_ROOT: 'https://x-api.madharesociety.com'
 }
