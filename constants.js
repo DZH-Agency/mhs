@@ -6,6 +6,7 @@ export default {
     { title: 'Artist', href: {path: '/#artist'} },
     { title: 'FAQ', href: {path: '/#faq'} },
     { title: 'Ranking', href: {path: '/ranking'} },
+    { title: 'Holder Rewards', href: {path: '/holder-rewards#'} },
     { title: 'Mutant Rewards', href: {path: '/mutants'} },
   ],
   MUTANTS_NAVBAR_MENU_ITEMS: [
